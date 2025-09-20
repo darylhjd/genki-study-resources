@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Vocabulary: Places and Time - Lesson 3 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Vocabulary: Places and Time - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Vocabulary: Places and Time - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Vocabulary: Places and Time - Lesson 3 | Genki Study Resources - 2nd Edition">
+    <title>Vocabulary: Places and Time - Lesson 3 | Genki Study Resources</title>
+    <meta name="title" content="Vocabulary: Places and Time - Lesson 3 | Genki Study Resources">
+    <meta name="twitter:title" content="Vocabulary: Places and Time - Lesson 3 | Genki Study Resources">
+    <meta property="og:title" content="Vocabulary: Places and Time - Lesson 3 | Genki Study Resources">
     <meta name="description" content="Drag the English expression to the Japanese expression that has the same meaning.">
     <meta property="og:description" content="Drag the English expression to the Japanese expression that has the same meaning.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 86, page 87, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 84, page 85, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,28 +70,32 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'drag',
-      info : Genki.lang.std_drag,
+      format : 'vocab',
+      type : ['drag', 'multi', 'writing', 'fill'],
+      info : [Genki.lang.std_drag, Genki.lang.vocab_multi, Genki.lang.vocab_writing, Genki.lang.vocab_fill],
       
       quizlet : {
+        // Places
         '家|いえ' : 'home; house',
         'うち' : 'home; house; my place',
         '学校|がっこう' : 'school',
-        '朝|あさ' : 'morning',
+        'カフェ' : 'cafe',
+        // Time
         '明日|あした' : 'tomorrow',
-        'いつ' : 'when',
         '今日|きょう' : 'today',
-        '～ごろ' : 'at about...',
+        '朝|あさ' : 'morning',
         '今晩|こんばん' : 'tonight',
+        '毎日|まいにち' : 'every day',
+        '毎晩|まいばん' : 'every night',
         '週末|しゅうまつ' : 'weekend',
         '土曜日|どようび' : 'Saturday',
         '日曜日|にちようび' : 'Sunday',
-        '毎日|まいにち' : 'every day',
-        '毎晩|まいばん' : 'every night'
+        'いつ' : 'when',
+        '～ごろ' : 'at about...'
       }
     });</script>
   </body>

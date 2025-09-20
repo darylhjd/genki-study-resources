@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: かかります - Lesson 10 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: かかります - Lesson 10 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: かかります - Lesson 10 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: かかります - Lesson 10 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Use the table below to figure out how long it takes to get from point A to point B and answer the questions using かかります.">
-    <meta property="og:description" content="Use the table below to figure out how long it takes to get from point A to point B and answer the questions using かかります.">
+    <title>Practice: どこかに／どこにも - Lesson 10 | Genki Study Resources</title>
+    <meta name="title" content="Practice: どこかに／どこにも - Lesson 10 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: どこかに／どこにも - Lesson 10 | Genki Study Resources">
+    <meta property="og:title" content="Practice: どこかに／どこにも - Lesson 10 | Genki Study Resources">
+    <meta name="description" content="Takeshi was sick yesterday. Mary did a lot of things without him. Answer the questions based on the chart below.">
+    <meta property="og:description" content="Takeshi was sick yesterday. Mary did a lot of things without him. Answer the questions based on the chart below.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 245, problem VII-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 246, problem VI-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,165 +70,256 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Use the table below to figure out how long it takes to get from point A to point B and answer the questions using かかります.<br><br>'+
-      '<table class="center">'+
-        '<tr style="font-weight:bold;">'+
-          '<td>Origin</td>'+
-          '<td>Destination</td>'+
-          '<td>Transportation</td>'+
-          '<td>Time to Destination</td>'+
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Takeshi was sick yesterday. Mary did a lot of things without him. Answer the questions based on the chart below.<br>{!GRI|Click here|l10-p6} to review どこかに/どこにも.<br><br>'+
+      '<table class="center" style="width:350px">'+
+        '<tr>'+
+          '<td></td>'+
+          '<td><strong>Mary</strong></td>'+
+          '<td><strong>Takeshi</strong></td>'+
         '</tr>'+
         
         '<tr>'+
-          '<td>うち</td>'+
-          '<td>駅</td>'+
-          '<td>自転車</td>'+
-          '<td>十分</td>'+
+          '<td>eat</td>'+
+          '<td>sushi and tempura</td>'+
+          '<td>nothing</td>'+
         '</tr>'+
         
         '<tr>'+
-          '<td>うち</td>'+
-          '<td>学校</td>'+
-          '<td>バス</td>'+
-          '<td>四十分</td>'+
+          '<td>drink</td>'+
+          '<td>green tea and coffee</td>'+
+          '<td>nothing</td>'+
         '</tr>'+
         
         '<tr>'+
-          '<td>うち</td>'+
-          '<td>バス停</td>'+
-          '<td>歩いて（あるいて）</td>'+
-          '<td>二十分</td>'+
+          '<td>go</td>'+
+          '<td>Osaka</td>'+
+          '<td>nowhere</td>'+
         '</tr>'+
         
         '<tr>'+
-          '<td>うち</td>'+
-          '<td>会社</td>'+
-          '<td>車</td>'+
-          '<td>一時間</td>'+
+          '<td>meet</td>'+
+          '<td>Robert</td>'+
+          '<td>nobody</td>'+
         '</tr>'+
         
         '<tr>'+
-          '<td>横浜（よこはま）</td>'+
-          '<td>東京</td>'+
-          '<td>電車</td>'+
-          '<td>三十分</td>'+
+          '<td>do</td>'+
+          '<td>watch a movie</td>'+
+          '<td>nothing</td>'+
         '</tr>'+
-        
-        '<tr>'+
-          '<td>会社</td>'+
-          '<td>デパート</td>'+
-          '<td>地下鉄（ちかてつ）</td>'+
-          '<td>十五分</td>'+
-        '</tr>'+
-        
-        '<tr>'+
-          '<td>名古屋（なごや）</td>'+
-          '<td>東京</td>'+
-          '<td>新幹線</td>'+
-          '<td>二時間</td>'+
-        '</tr>'+
-        
-        '<tr>'+
-          '<td>日本</td>'+
-          '<td>ハワイ</td>'+
-          '<td>飛行機（ひこうき）</td>'+
-          '<td>八時間</td>'+
-        '</tr>'+
-        
-        '<tr>'+
-          '<td>日本</td>'+
-          '<td>インドネシア</td>'+
-          '<td>船（ふね）</td>'+
-          '<td>一週間（いっしゅうかん）</td>'+
-        '</tr>'+
-      '</table>',
+      '</table>', 'Takeshi was sick yesterday. Mary did a lot of things without him. Answer the questions based on the chart below.<br>{!GRI|Click here|l10-p6} to review どこかに/どこにも.'],
 
       quizlet : [
-        {
-          question : 'うちから駅までどのぐらいかかりますか。',
-          answers : [
-            'Aうちから駅まで十分かかります。',
-            'うちから駅まで四十分かかります。',
-            'うちから駅まで三十分かかります。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'きのう、メアリーさんは<ruby>何<rt>なに</rt></ruby>か<ruby>食<rt>た</rt></ruby>べましたか。',
+            answers : [
+              'Aはい、すしと<ruby>天<rt>てん</rt></ruby>ぷらを<ruby>食<rt>た</rt></ruby>べました。',
+              'はい、お<ruby>茶<rt>ちゃ</rt></ruby>とコーヒーを<ruby>飲<rt>の</rt></ruby>みました。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>をも<ruby>食<rt>た</rt></ruby>べませんでした。'
+            ]
+          },
+
+          {
+            question : 'きのう、たけしさんは<ruby>何<rt>なに</rt></ruby>か<ruby>食<rt>た</rt></ruby>べましたか。',
+            answers : [
+              'Aいいえ、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>をも<ruby>食<rt>た</rt></ruby>べませんでした。',
+              'はい、すしと<ruby>天<rt>てん</rt></ruby>ぷらを<ruby>食<rt>た</rt></ruby>べました。',
+              'はい、お<ruby>茶<rt>ちゃ</rt></ruby>とコーヒーを<ruby>飲<rt>の</rt></ruby>みました。'
+            ]
+          },
+
+          {
+            question : 'きのう、メアリーさんは<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>みましたか。',
+            answers : [
+              'Aはい、お<ruby>茶<rt>ちゃ</rt></ruby>とコーヒーを<ruby>飲<rt>の</rt></ruby>みました。',
+              'はい、すしと<ruby>天<rt>てん</rt></ruby>ぷらを<ruby>食<rt>た</rt></ruby>べました。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>も<ruby>飲<rt>の</rt></ruby>みませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>をも<ruby>飲<rt>の</rt></ruby>みませんでした。'
+            ]
+          },
+
+          {
+            question : 'きのう、たけしさんは<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>みましたか。',
+            answers : [
+              'Aいいえ、<ruby>何<rt>なに</rt></ruby>も<ruby>飲<rt>の</rt></ruby>みませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>をも<ruby>飲<rt>の</rt></ruby>みませんでした。',
+              'はい、お<ruby>茶<rt>ちゃ</rt></ruby>とコーヒーを<ruby>飲<rt>の</rt></ruby>みました。',
+              'はい、オレンジジュースを<ruby>飲<rt>の</rt></ruby>みました。'
+            ]
+          },
+
+          {
+            question : 'きのう、メアリーさんはどこかに<ruby>行<rt>い</rt></ruby>きましたか。',
+            answers : [
+              'Aはい、<ruby>大阪<rt>おおさか</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。',
+              'はい、<ruby>大阪<rt>おおさか</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。',
+              'はい、<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。',
+              'はい、<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。'
+            ]
+          },
+
+          {
+            question : 'きのう、たけしさんはどこかに<ruby>行<rt>い</rt></ruby>きましたか。',
+            answers : [
+              'Aいいえ、どこにも<ruby>行<rt>い</rt></ruby>きませんでした。',
+              'いいえ、どこもに<ruby>行<rt>い</rt></ruby>きませんでした。',
+              'いいえ、どこに<ruby>行<rt>い</rt></ruby>きませんでした。',
+              'いいえ、どこも<ruby>行<rt>い</rt></ruby>きませんでした。'
+            ]
+          },
+
+          {
+            question : 'きのう、メアリーさんはだれかに<ruby>会<rt>あ</rt></ruby>いましたか。',
+            answers : [
+              'Aはい、ロバートさんに<ruby>会<rt>あ</rt></ruby>いました。',
+              'はい、ソラさんに<ruby>会<rt>あ</rt></ruby>いました。',
+              'はい、たけしさんに<ruby>会<rt>あ</rt></ruby>いました。',
+              'はい、けんさんに<ruby>会<rt>あ</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'きのう、たけしさんはだれかに<ruby>会<rt>あ</rt></ruby>いましたか。',
+            answers : [
+              'Aいいえ、だれにも<ruby>会<rt>あ</rt></ruby>いませんでした。',
+              'いいえ、だれもに<ruby>会<rt>あ</rt></ruby>いませんでした。',
+              'いいえ、だれに<ruby>会<rt>あ</rt></ruby>いませんでした。',
+              'いいえ、だれも<ruby>会<rt>あ</rt></ruby>いませんでした。'
+            ]
+          },
+
+          {
+            question : 'きのう、メアリーさんは<ruby>何<rt>なに</rt></ruby>かしましたか。',
+            answers : [
+              'Aはい、<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。',
+              'はい、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みました。',
+              'はい、<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しました。',
+              'はい、<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。'
+            ]
+          },
+
+          {
+            question : 'きのう、たけしさんは<ruby>何<rt>なに</rt></ruby>かしましたか。',
+            answers : [
+              'Aいいえ、<ruby>何<rt>なに</rt></ruby>もしませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>をもしませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>をしませんでした。',
+              'いいえ、<ruby>何<rt>なに</rt></ruby>もをしませんでした。'
+            ]
+          }
+        ],
         
-        {
-          question : 'うちから学校までどのぐらいかかりますか。',
-          answers : [
-            'Aうちから学校まで四十分かかります。',
-            'うちから学校まで三十分かかります。',
-            'うちから学校まで二十分かかります。'
-          ]
-        },
         
-        {
-          question : 'うちからバス停までどのぐらいかかりますか。',
-          answers : [
-            'Aうちからバス停まで二十分かかります。',
-            'うちからバス停まで三十分かかります。',
-            'うちからバス停まで十分かかります。'
-          ]
-        },
+        // WRITTEN
+        '<table class="table center" style="width:350px;margin:0 auto;">'+
+          '<tr>'+
+            '<td></td>'+
+            '<td><strong>Mary</strong></td>'+
+            '<td><strong>Takeshi</strong></td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>eat</td>'+
+            '<td>sushi and tempura</td>'+
+            '<td>nothing</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>drink</td>'+
+            '<td>green tea and coffee</td>'+
+            '<td>nothing</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>go</td>'+
+            '<td>Osaka</td>'+
+            '<td>nowhere</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>meet</td>'+
+            '<td>Robert</td>'+
+            '<td>nobody</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>do</td>'+
+            '<td>watch a movie</td>'+
+            '<td>nothing</td>'+
+          '</tr>'+
+        '</table><br>'+
         
-        {
-          question : 'うちから会社までどのぐらいかかりますか。',
-          answers : [
-            'Aうちから会社まで一時間かかります。',
-            'うちから会社まで二時間かかります。',
-            'うちから会社まで三時間かかります。'
-          ]
-        },
+        '<div class="columns-2 clear">'+
+          '<div class="example-problem">'+
+            '<div class="inner-problem">'+
+              'きのう、メアリーさんは<ruby>何<rt>なに</rt></ruby>か<ruby>食<rt>た</rt></ruby>べましたか。<br>'+
+              'はい、すしと<ruby>天<rt>てん</rt></ruby>ぷらを<ruby>食<rt>た</rt></ruby>べました。'+
+            '</div>'+
+          '</div>'+
+
+          '<div class="example-problem">'+
+            '<div class="inner-problem">'+
+              'きのう、たけしさんは<ruby>何<rt>なに</rt></ruby>か<ruby>食<rt>た</rt></ruby>べましたか。<br>'+
+              'いいえ、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べませんでした。'+
+            '</div>'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : '横浜から東京までどのぐらいかかりますか。',
-          answers : [
-            'A横浜から東京まで三十分かかります。',
-            '横浜から東京まで二十分かかります。',
-            '横浜から東京まで三時間分かかります。'
-          ]
-        },
-        
-        {
-          question : '会社からデパートまでどのぐらいかかりますか。',
-          answers : [
-            'A会社からデパートまで十五分かかります。',
-            '会社からデパートまで五十分かかります。',
-            '会社からデパートまで十分かかります。'
-          ]
-        },
-        
-        {
-          question : '名古屋から東京までどのぐらいかかりますか。',
-          answers : [
-            'A名古屋から東京まで二時間かかります。',
-            '名古屋から東京まで三時間かかります。',
-            '名古屋から東京まで一時間かかります。'
-          ]
-        },
-        
-        {
-          question : '日本からハワイまでどのぐらいかかりますか。',
-          answers : [
-            'A日本からハワイまで八時間かかります。',
-            '日本からハワイまで七時間かかります。',
-            '日本からハワイまで六時間かかります。'
-          ]
-        },
-        
-        {
-          question : '日本からインドネシアまでどのぐらいかかりますか。',
-          answers : [
-            'A日本からインドネシアまで一週間かかります。',
-            '日本からインドネシアまで一時間かかります。',
-            '日本からインドネシアまで一日間かかります。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'きのう、メアリーさんは<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>みましたか。<br>'+
+              '{はい、お茶とコーヒーを飲みました|はい、おちゃとコーヒーをのみました|' + Genki.getAlts('はい、お{茶}とコーヒーを{飲}みました', 'ちゃ|の') + 'answer}。'+
+            '</div>'+
+
+            '<div class="problem">'+
+              'きのう、たけしさんは<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>みましたか。<br>'+
+              '{いいえ、何も飲みませんでした|いいえ、なにものみませんでした|' + Genki.getAlts('いいえ、{何}も{飲}みませんでした', 'なに|の') + 'answer}。'+
+            '</div>'+
+
+            '<div class="problem">'+
+              'きのう、メアリーさんはどこかに<ruby>行<rt>い</rt></ruby>きましたか。<br>'+
+              '{はい、大阪に行きました|はい、おおさかにいきました|' + Genki.getAlts('はい、{大阪}に{行}きました', 'おおさか|い') + 'answer}。'+
+            '</div>'+
+
+            '<div class="problem">'+
+              'きのう、たけしさんはどこかに<ruby>行<rt>い</rt></ruby>きましたか。<br>'+
+              '{いいえ、どこにも行きませんでした|いいえ、どこにもいきませんでした|answer}。'+
+            '</div>'+
+          '</div>'+
+          
+          '<div>'+
+            '<div class="problem">'+
+              'きのう、メアリーさんはだれかに<ruby>会<rt>あ</rt></ruby>いましたか。<br>'+
+              '{はい、ロバートさんに会いました|はい、ロバートさんにあいました|answer}。'+
+            '</div>'+
+
+            '<div class="problem">'+
+              'きのう、たけしさんはだれかに<ruby>会<rt>あ</rt></ruby>いましたか。<br>'+
+              '{いいえ、だれにも会いませんでした|いいえ、だれにもあいませんでした|answer}。'+
+            '</div>'+
+
+            '<div class="problem">'+
+              'きのう、メアリーさんは<ruby>何<rt>なに</rt></ruby>かしましたか。<br>'+
+              '{はい、映画を見ました|はい、えいがをみました|' + Genki.getAlts('はい、{映画}を{見}ました', 'えいが|み') + 'answer}。'+
+            '</div>'+
+
+            '<div class="problem">'+
+              'きのう、たけしさんは<ruby>何<rt>なに</rt></ruby>かしましたか。<br>'+
+              '{いいえ、何もしませんでした|いいえ、なにもしませんでした|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

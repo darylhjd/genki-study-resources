@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Hiragana Practice: Combos - Lesson 1 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Hiragana Practice: Combos - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Hiragana Practice: Combos - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Hiragana Practice: Combos - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Pay close attention to the pronunciation of each word and choose the hiragana with the appropriate combinations.">
-    <meta property="og:description" content="Pay close attention to the pronunciation of each word and choose the hiragana with the appropriate combinations.">
+    <title>Hiragana Practice: Combos and Double Consonants - Lesson 1 | Genki Study Resources</title>
+    <meta name="title" content="Hiragana Practice: Combos and Double Consonants - Lesson 1 | Genki Study Resources">
+    <meta name="twitter:title" content="Hiragana Practice: Combos and Double Consonants - Lesson 1 | Genki Study Resources">
+    <meta property="og:title" content="Hiragana Practice: Combos and Double Consonants - Lesson 1 | Genki Study Resources">
+    <meta name="description" content="Pay close attention to the pronunciation of each word and choose the correct hiragana.">
+    <meta property="og:description" content="Pay close attention to the pronunciation of each word and choose the correct hiragana.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, Reading and Writing, page 290, problem I-F, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, Reading and Writing, page 298, problem I-D, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,77 +70,94 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Pay close attention to the pronunciation of each word and choose the hiragana with the appropriate combinations.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Pay close attention to the pronunciation of each word and choose the correct hiragana.', 'Pay close attention to the pronunciation of each word and write a O for the matching hiragana word.'],
 
       quizlet : [
-        {
-          question : 'shashin (photograph)',
-          answers : [
-            'Aしゃしん',
-            'しやしん'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'shashin (photograph)',
+            answers : [
+              'Aしゃしん',
+              'しやしん'
+            ]
+          },
+
+          {
+            question : 'dokusho (reading)',
+            answers : [
+              'Aどくしょ',
+              'どくしよ'
+            ]
+          },
+
+          {
+            question : 'kyori (distance)',
+            answers : [
+              'Aきょり',
+              'きより'
+            ]
+          },
+
+          {
+            question : 'hiyasu (to chill)',
+            answers : [
+              'Aひやす',
+              'ひゃす'
+            ]
+          },
+
+          {
+            question : 'chairo (brown)',
+            answers : [
+              'Aちゃいろ',
+              'ちやいろ'
+            ]
+          },
+
+          {
+            question : 'onna no hito (woman)',
+            answers : [
+              'Aおんなのひと',
+              'おっなのひと'
+            ]
+          },
+
+          {
+            question : 'kitte (stamps)',
+            answers : [
+              'Aきって',
+              'きて'
+            ]
+          },
+
+          {
+            question : 'motto (more)',
+            answers : [
+              'Aもっと',
+              'もつと'
+            ]
+          }
+        ],
         
-        {
-          question : 'dokusho (reading)',
-          answers : [
-            'Aどくしょ',
-            'どくしよ'
-          ]
-        },
         
-        {
-          question : 'kyori (distance)',
-          answers : [
-            'Aきょり',
-            'きより'
-          ]
-        },
-        
-        {
-          question : 'hiyasu (to chill)',
-          answers : [
-            'Aひやす',
-            'ひゃす'
-          ]
-        },
-        
-        {
-          question : 'chairo (brown)',
-          answers : [
-            'Aちゃいろ',
-            'ちやいろ'
-          ]
-        },
-        
-        {
-          question : 'onna no hito (woman)',
-          answers : [
-            'Aおんなのひと',
-            'おっなのひと'
-          ]
-        },
-        
-        {
-          question : 'kitte (stamps)',
-          answers : [
-            'Aきって',
-            'きて'
-          ]
-        },
-        
-        {
-          question : 'motto (more)',
-          answers : [
-            'Aもっと',
-            'もつと'
-          ]
-        }
+        // WRITTEN
+        '<div class="count-problems">'+
+          '<div class="problem"><span class="med-label"><em>shashin</em> (photograph)</span>（　しやしん ({||width:21})　・　({O}) しゃしん　）</div>'+
+          '<div class="problem"><span class="med-label"><em>dokusho</em> (reading)</span>（　どくしょ ({O})　・　({||width:21}) どくしよ　）</div>'+
+          '<div class="problem"><span class="med-label"><em>kyori</em> (distance)</span>（　きょり ({O})　・　({||width:21}) きより　）</div>'+
+          '<div class="problem"><span class="med-label"><em>hiyasu</em> (to chill)</span>（　ひゃす ({||width:21})　・　({O}) ひやす　）</div>'+
+          '<div class="problem"><span class="med-label"><em>chairo</em> (brown)</span>（　ちゃいろ ({O})　・　({||width:21}) ちやいろ　）</div>'+
+          '<div class="problem"><span class="med-label"><em>onna no hito</em> (woman)</span>（　おんなのひと ({O})　・　({||width:21}) おっなのひと　）</div>'+
+          '<div class="problem"><span class="med-label"><em>kitte</em> (stamp)</span>（　きて ({||width:21})　・　({O}) きって　）</div>'+
+          '<div class="problem"><span class="med-label"><em>motto</em> (more)</span>（　もつと ({||width:21})　・　({O}) もっと　）</div>'+
+        '</div>'
       ]
     });</script>
   </body>

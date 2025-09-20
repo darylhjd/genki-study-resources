@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Telephone Numbers - Lesson 1 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Telephone Numbers - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Telephone Numbers - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Telephone Numbers - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Solve the problems by choosing the correct answers.">
-    <meta property="og:description" content="Solve the problems by choosing the correct answers.">
+    <title>Workbook: NounのNoun - Lesson 1 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: NounのNoun - Lesson 1 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: NounのNoun - Lesson 1 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: NounのNoun - Lesson 1 | Genki Study Resources">
+    <meta name="description" content="Translate the following sentences into Japanese using the framework &qout;A の B.&qout;">
+    <meta property="og:description" content="Translate the following sentences into Japanese using the framework &qout;A の B.&qout;">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, page 14, problem II, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, page 18, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,48 +70,49 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Write the following phone numbers in Japanese and Arabic numerals.',
+      info : 'Translate the following sentences into Japanese using the framework "{!GRI|AのB|l1-p3}."',
 
       quizlet : 
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Translate the following sentences into Japanese using the framework "{!GRI|AのB|l1-p3}." Note that the order in which the two nouns appear may be different in English and in Japanese. Read Grammar 3 (p.43) for more info.</p>'+
+
       '<div class="count-problems">'+
-        '<p class="section-desc">Write the following phone numbers in Japanese.</p>'+
+        '<div class="problem"><span class="big-label">Takeshi\'s telephone number</span>{たけしさんのでんわばんごう|たけしさんの電話番号|' + Genki.getAlts('たけしさんの{電話}{番号}', 'でんわ|ばんごう') + 'answer}</div>'+
+        '<div class="problem"><span class="big-label">my friend</span>{わたしのともだち|私の友だち|' + Genki.getAlts('{私}の{友}{達}', 'わたし|とも|だち') + 'answer}</div>'+
+        '<div class="problem"><span class="big-label">Japanese-language teacher</span>{にほんごのせんせい|日本語の先生|' + Genki.getAlts('{日本語}の{先生}', 'にほんご|せんせい') + 'answer}</div>'+
+        '<div class="problem"><span class="big-label">Yui\'s major</span>{ゆいさんのせんこう|ゆいさんの専攻|answer}</div>'+
+        '<div class="problem"><span class="big-label">high school teacher</span>{こうこうのせんせい|高校の先生|' + Genki.getAlts('{高校}の{先生}', 'こうこう|せんせい') + 'answer}</div>'+
+      '</div><br>'+
+        
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Translate the following sentences into Japanese.</p>'+
+      '<div class="count-problems">'+
         '<div class="problem">'+
-          '030-3564-1782<br>'+
-          '{ぜろさんぜろさんごろくよんいちななはちに|ぜろさんぜろのさんごろくよんのいちななはちに|' + Genki.getAlts('{ゼロ}さん{ゼロ}さんごろくよんいちななはちに', 'ぜろ|ぜろ') + Genki.getAlts('{ゼロ}さん{ゼロ}のさんごろくよんのいちななはちに', 'ぜろ|ぜろ') + 'answer}'+
+          'My major is Japanese language.<br>'+
+          '{わたしのせんこうはにほんごです|私の専攻は日本語です|' + Genki.getAlts('{私}の{専攻}は{日本語}です', 'わたし|せんこう|にほんご') + 'answer}。'+
         '</div>'+
-
+        
         '<div class="problem">'+
-          '244-1095<br>'+
-          '{によんよんいちぜろきゅうご|によんよんのいちぜろきゅうご|によんよんいちゼロきゅうご|によんよんのいちゼロきゅうご|answer}'+
+          'I am a student at Nihon University.<br>'+
+          '{わたしはにほんだいがくのがくせいです|私はにほん大学の学生です|' + Genki.getAlts('{私}は{日本}{大学}の{学生}です', 'わたし|にほん|だいがく|がくせい') + 'answer}。'+
         '</div>'+
-
+        
         '<div class="problem">'+
-          '368-7120<br>'+
-          '{さんろくはちなないちにぜろ|さんろくはちのなないちにぜろ|さんろくはちなないちにゼロ|さんろくはちのなないちにゼロ|answer}'+
+          'Professor Yamashita is a Japanese language teacher.<br>'+
+          '{やましたせんせいはにほんごのせんせいです|山下先生は日本語の先生です|' + Genki.getAlts('{山下}{先生}は{日本語}の{先生}です', 'やました|せんせい|にほんご|せんせい') + 'answer}。'+
         '</div>'+
-
-        '<p class="section-desc">Write the following phone numbers in Arabic numerals.</p>'+
+        
         '<div class="problem">'+
-          'ぜろさんぜろのさんごろくよんのいちななはちに<br>'+
-          '{03035641782|030-3564-1782|030ー3564ー1782|answer}'+
-        '</div>'+
-
-        '<div class="problem">'+
-          'によんよんのいちぜろきゅうご<br>'+
-          '{2441095|244-1095|244ー1095|answer}'+
-        '</div>'+
-
-        '<div class="problem">'+
-          'さんろくはちのなないちにぜろ<br>'+
-          '{3687120|368-7120|368ー7120|answer}'+
+          'Is Takeshi a student at Sakura University?<br>'+
+          '{たけしさんはさくらだいがくのがくせいですか|たけしさんはさくら大学の学生ですか|' + Genki.getAlts('たけしさんは{桜}{大学}の{学生}ですか', 'さくら|だいがく|がくせい') + 'answer}。<br><br><br>'+
+          'Yes, that\'s right.<br>'+
+          '{はい、そうです}。'+
         '</div>'+
       '</div>'
-
+      
     });</script>
   </body>
 </html>

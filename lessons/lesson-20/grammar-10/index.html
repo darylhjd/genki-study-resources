@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～やすい／にくい - Lesson 20 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～やすい／にくい - Lesson 20 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～やすい／にくい - Lesson 20 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～やすい／にくい - Lesson 20 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Make sentences from the cues using ～やすい and ～にくい.">
-    <meta property="og:description" content="Make sentences from the cues using ～やすい and ～にくい.">
+    <title>Practice: Name という Item - Lesson 20 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Name という Item - Lesson 20 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Name という Item - Lesson 20 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Name という Item - Lesson 20 | Genki Study Resources">
+    <meta name="description" content="Translate the following sentences using ～という.">
+    <meta property="og:description" content="Translate the following sentences using ～という.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, page 203, problem VI-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, page 198, problem V-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,93 +70,192 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Make sentences from the cues using {!GRI|～やすい and ～にくい|l20-p6}.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Translate the following sentences using {!GRI|～という|l20-p5}.',
 
       quizlet : [
-        {
-          question : 'Action: 覚える<br>Easy: 川という漢字<br>Hard: 髪という漢字',
-          answers : [
-            'A川という漢字は覚えやすいですが、髪という漢字は覚えにくいです。',
-            '川という漢字は覚えにくいですが、髪という漢字は覚えやすいです。',
-            '川という漢字は覚えりやすいですが、髪という漢字は覚えりにくいです。',
-            '川という漢字は覚えりにくいですが、髪という漢字は覚えりやすいです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'A convenience store called Lawson.',
+            answers : [
+              'Aローソンというコンビニ',
+              'コンビニというローソン',
+              'コーソンというコンビニ',
+              'コンビニというコーソン'
+            ]
+          },
+
+          {
+            question : 'A company called Marui.',
+            answers : [
+              'Aまるいという<ruby>会社<rt>かいしゃ</rt></ruby>',
+              '<ruby>会社<rt>かいしゃ</rt></ruby>というまるい',
+              'まるいという<ruby>教会<rt>きょうかい</rt></ruby>',
+              '<ruby>教会<rt>きょうかい</rt></ruby>というまるい'
+            ]
+          },
+
+          {
+            question : 'A restaurant called Casa.',
+            answers : [
+              'Aカーサというレストラン',
+              'レストランというカーサ',
+              'カーザというレストラン',
+              'レストランというカーザ'
+            ]
+          },
+
+          {
+            question : 'A town called Akashi.',
+            answers : [
+              'Aあかしという<ruby>町<rt>まち</rt></ruby>',
+              '<ruby>町<rt>まち</rt></ruby>というあかし',
+              'あかしという<ruby>道<rt>みち</rt></ruby>',
+              '<ruby>道<rt>みち</rt></ruby>というあかし'
+            ]
+          },
+
+          {
+            question : 'A dog called Pochi.',
+            answers : [
+              'Aポチという<ruby>犬<rt>いぬ</rt></ruby>',
+              '<ruby>犬<rt>いぬ</rt></ruby>というポチ',
+              'ポチという<ruby>大<rt>だい</rt></ruby>',
+              '<ruby>大<rt>だい</rt></ruby>というポチ'
+            ]
+          },
+
+          {
+            question : 'A novel called "Kitchen."',
+            answers : [
+              'A「キッチン」という<ruby>小説<rt>しょうせつ</rt></ruby>',
+              '<ruby>小説<rt>しょうせつ</rt></ruby>という「キッチン」',
+              '「キッチン」という<ruby>説明<rt>せつめい</rt></ruby>',
+              '<ruby>説明<rt>せつめい</rt></ruby>という「キッチン」'
+            ]
+          },
+
+          {
+            question : 'A drink called Ramune.',
+            answers : [
+              'Aラムネという<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>',
+              '<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>というラムネ',
+              'Aラムネという<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>',
+              '<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>というラムネ'
+            ]
+          },
+
+          {
+            question : 'A snack called Pocky.',
+            answers : [
+              'Aポッキーというお菓子',
+              'お菓子というポッキー',
+              'ペッキーというお菓子',
+              'お菓子というペッキー'
+            ]
+          },
+
+          {
+            question : 'An animal called a Sloth (ナマケモノ).',
+            answers : [
+              'Aナマケモノという<ruby>動物<rt>どうぶつ</rt></ruby>',
+              '<ruby>動物<rt>どうぶつ</rt></ruby>というナマケモノ',
+              'ナマケモノという<ruby>活動<rt>かつどう</rt></ruby>',
+              '<ruby>活動<rt>かつどう</rt></ruby>というナマケモノ'
+            ]
+          },
+
+          { // みっしぃ最高だよ (=´・ω・`=)ﾐｼｼｯ
+            question : 'A mascot called Mishy (みっしぃ).',
+            answers : [
+              'Aみっしぃというマスコット',
+              'マスコットというみっしぃ',
+              'みーしぇというマスコット',
+              'マスコットというみーしぇ'
+            ]
+          },
+
+          { // ティオもよ～ <3
+            question : 'A girl called Tio.',
+            answers : [
+              'Aティオという<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>',
+              '<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>というティオ',
+              'ディオという<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>',
+              '<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>というディオ'
+            ]
+          }
+        ],
         
-        {
-          question : 'Action: 食べる<br>Easy: ハンバーガー<br>Hard: 魚',
-          answers : [
-            'Aハンバーガーは食べやすいですが、魚は食べにくいです。',
-            'ハンバーガーは食べにくいですが、魚は食べやすいです。',
-            'ハンバーガーは食べるやすいですが、魚は食べるにくいです。',
-            'ハンバーガーは食べるにくいですが、魚は食べるやすいです。'
-          ]
-        },
         
-        {
-          question : 'Action: 歩く<br>Hard: ハイヒール<br>Easy: スニーカー',
-          answers : [
-            'Aハイヒールは歩きにくいですが、スニーカーは歩きやすいです。',
-            'ハイヒールは歩きやすいですが、スニーカーは歩きにくいです。',
-            'ハイヒールは歩くにくいですが、スニーカーは歩くやすいです。',
-            'ハイヒールは歩くやすいですが、スニーカーは歩くにくいです。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'A convenience store called Lawson.<br>'+
+            '<i class="fa">&#xf061;</i>　ローソンというコンビニ'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'Action: 持つ<br>Easy: メアリーさんのかばん<br>Hard: たけしさんのかばん',
-          answers : [
-            'Aメアリーさんのかばんは持ちやすいですが、たけしさんのかばんは持ちにくいです。',
-            'メアリーさんのかばんは持ちにくいですが、たけしさんのかばんは持ちやすいです。',
-            'メアリーさんのかばんは待ちやすいですが、たけしさんのかばんは待ちにくいです。',
-            'メアリーさんのかばんは待ちにくいですが、たけしさんのかばんは待ちやすいです。'
-          ]
-        },
-        
-        {
-          question : 'Action: わかる<br>Easy: スーさんの話<br>Hard: けんさんの話',
-          answers : [
-            'Aスーさんの話はわかりやすいですが、けんさんの話はわかりにくいです。',
-            'スーさんの話はわかりにくいですが、けんさんの話はわかりやすいです。',
-            'スーさんの話はわかやすいですが、けんさんの話はわかにくいです。',
-            'スーさんの話はわかにくいですが、けんさんの話はわかやすいです。'
-          ]
-        },
-        
-        {
-          question : 'Action: 使う<br>Hard: 大きい辞書<br>Easy: 小さい辞書',
-          answers : [
-            'A大きい辞書は使いにくいですが、小さい辞書は使いやすいです。',
-            '大きい辞書は使いやすいですが、小さい辞書は使いにくいです。',
-            '大きい辞書は使うにくいですが、小さい辞書は使うやすいです。',
-            '大きい辞書は使うやすいですが、小さい辞書は使うにくいです。'
-          ]
-        },
-        
-        {
-          question : 'Action: 運転する<br>Hard: せまい道<br>Easy: 広い道',
-          answers : [
-            'Aせまい道は運転しにくいですが、広い道は運転しやすいです。',
-            'せまい道は運転しやすいですが、広い道は運転しにくいです。',
-            'せまい道は運転するにくいですが、広い道は運転するやすいです。',
-            'せまい道は運転するやすいですが、広い道は運転するにくいです。'
-          ]
-        },
-        
-        {
-          question : 'Action: 読む<br>Easy: スーさんの字<br>Hard: ロバートさんの字',
-          answers : [
-            'Aスーさんの字は読みやすいですが、ロバートさんの字は読みにくいです。',
-            'スーさんの字は読みにくいですが、ロバートさんの字は読みやすいです。',
-            'スーさんの字は読むやすいですが、ロバートさんの字は読むにくいです。',
-            'スーさんの字は読むにくいですが、ロバートさんの字は読むやすいです。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'A company called Marui.<br>'+
+              '{まるいという会社|まるいというかいしゃ|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A restaurant called Casa.<br>'+
+              '{カーサというレストラン}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A town called Akashi.<br>'+
+              '{あかしという町|あかしというまち|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A dog called Pochi.<br>'+
+              '{ポチという犬|ポチといういぬ|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A novel called "Kitchen."<br>'+
+              '{「キッチン」という小説|「キッチン」というしょうせつ|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'A drink called Ramune.<br>'+
+              '{ラムネという飲み物|ラムネというのみもの|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A snack called Pocky.<br>'+
+              '{ポッキーというお菓子|ポッキーというおかし|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'An animal called a Sloth (ナマケモノ).<br>'+
+              '{ナマケモノという動物|ナマケモノというどうぶつ|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A mascot called Mishy (みっしぃ).<br>'+
+              '{みっしぃというマスコット}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'A girl called Tio.<br>'+
+              '{ティオという女の子|ティオというおんなのこ|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

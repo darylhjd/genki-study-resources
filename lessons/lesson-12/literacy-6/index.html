@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Kanji Practice: Match the Readings - Lesson 12 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Kanji Practice: Match the Readings - Lesson 12 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Kanji Practice: Match the Readings - Lesson 12 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Kanji Practice: Match the Readings - Lesson 12 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Match the reading and translation to the correct kanji.">
-    <meta property="og:description" content="Match the reading and translation to the correct kanji.">
+    <title>Kanji Vocabulary: 使, 働, and 連 - Lesson 12 | Genki Study Resources</title>
+    <meta name="title" content="Kanji Vocabulary: 使, 働, and 連 - Lesson 12 | Genki Study Resources">
+    <meta name="twitter:title" content="Kanji Vocabulary: 使, 働, and 連 - Lesson 12 | Genki Study Resources">
+    <meta property="og:title" content="Kanji Vocabulary: 使, 働, and 連 - Lesson 12 | Genki Study Resources">
+    <meta name="description" content="Drag the English expression to the Japanese expression that has the same meaning.">
+    <meta property="og:description" content="Drag the English expression to the Japanese expression that has the same meaning.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, Reading and Writing, page 348, problem I-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, Reading and Writing, page 352, page 353, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,23 +70,28 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'drag',
-      info : 'Match the reading and translation to the correct kanji.',
+      format : 'vocab',
+      type : ['drag', 'multi', 'writing', 'fill'],
+      info : [Genki.lang.std_drag, Genki.lang.vocab_multi, Genki.lang.vocab_writing, Genki.lang.vocab_fill],
       
       quizlet : {
-        '昔' : 'むかし；ancient times',
-        '早' : 'はや(い)；early',
-        '起' : 'お(きる)；to get up',
-        '使' : 'つか(う)；to use',
-        '別' : 'わか(れる)；to separate',
-        '赤' : 'あか；red',
-        '青' : 'あお；blue',
-        '色' : 'いろ；color',
-        '牛' : 'うし；cow'
+        // 使
+        '使う|つかう' : 'to use',
+        '大使|たいし' : 'ambassador',
+        '使用中|しようちゅう' : '"Occupied"',
+        'お使い|おつかい' : 'errand',
+        // 働
+        '働く|はたらく' : 'to work',
+        '共働き|ともばたらき' : 'both husband and wife working',
+        '労働|ろうどう' : 'labor',
+        // 連
+        '連れて帰る|つれてかえる' : 'to bring (a person) back',
+        '国連|こくれん' : 'United Nations',
+        '連休|れんきゅう' : 'consecutive holidays'
       }
     });</script>
   </body>

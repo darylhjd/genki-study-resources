@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: も - Lesson 4 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: も - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: も - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: も - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Translate the following sentences into Japanese. Note that the particle も replaces は, が, and を, but goes side by side with other particles.">
-    <meta property="og:description" content="Translate the following sentences into Japanese. Note that the particle も replaces は, が, and を, but goes side by side with other particles.">
+    <title>Workbook: も - Lesson 4 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: も - Lesson 4 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: も - Lesson 4 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: も - Lesson 4 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using も.">
+    <meta property="og:description" content="Complete the following problems using も.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, page 41, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, page 46, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,48 +70,99 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Translate the following sentences into Japanese.<br>Note that the particle {!GRI|も|l4-p5} replaces は, が, and を, but goes side by side with other particles.',
+      info : 'Complete the following problems using {!GRI|も|l4-p5}.',
       
       quizlet : 
       '<div class="count-problems">'+
-        '<div class="problem">'+
-          'Mary went to the park last week. Takeshi went to the park, too.<br>'+
-          '{メアリーさんは先週公園に行きました。たけしさんも公園に行きました。|メアリーさんはせんしゅうこうえんにいきました。たけしさんもこうえんにいきました。|' + Genki.getAlts('メアリーさんは{先週}{公園}に{行}きました。たけしさんも{公園}に{行}きました。', 'せんしゅう|こうえん|い|こうえん|い') + 'answer}'+
-        '</div>'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd fa">&#xf054;</span>Translate the following sentences into Japanese. Note that the particle {!GRI|も|l4-p5} replaces は, が, and を, but goes side by side with other particles.</p>'+
         
-        '<div class="problem">'+
-          'There is a bookstore over there. There is a restaurant, too.<br>'+
-          '{あそこに本屋があります。レストランもあります。|あそこにほんやがあります。レストランもあります。|answer}'+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'Mary went to the park.<br>'+
+            '{メアリーさんは公園に行きました|メアリーさんはこうえんにいきました|' + Genki.getAlts('メアリーさんは{公園}に{行}きました', 'こうえん|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'Takeshi went to the park, too.<br>'+
+            '{たけしさんも公園に行きました|たけしさんもこうえんにいきました|' + Genki.getAlts('たけしさんも{公園}に{行}きました', 'こうえん|い') + 'answer}。'+
+          '</div>'+
         '</div>'+
-        
-        '<div class="problem">'+
-          'I drink tea. I drink coffee, too.<br>'+
-          '{私はお茶を飲みます。私はコーヒーも飲みます。|わたしはおちゃをのみます。わたしはコーヒーものみます。|' + Genki.getAlts('{私}はお{茶}を{飲}みます。{私}はコーヒーも{飲}みます。', 'わたし|ちゃ|の|わたし|の') + 'answer}'+
+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'There is a bookstore over there.<br>'+
+            '{あそこに本屋があります|あそこにほんやがあります|answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'There is a restaurant, too.<br>'+
+            '{レストランもあります}。'+
+          '</div>'+
         '</div>'+
-        
-        '<div class="problem">'+
-          'Mary will go to Korea. She will go to China, too.<br>'+
-          '{メアリーさんは韓国に行きます。メアリーさんは中国にも行きます。|メアリーさんはかんこくにいきます。メアリーさんはちゅうごくにもいきます。|' + Genki.getAlts('メアリーさんは{韓国}に{行}きます。メアリーさんは{中国}にも{行}きます。', 'かんこく|い|ちゅうごく|い') + 'answer}'+
+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'I drink tea.<br>'+
+            '{私はお茶を飲みます|わたしはおちゃをのみます|' + Genki.getAlts('{私}はお{茶}を{飲}みます', 'わたし|ちゃ|の') + 'answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'I drink coffee, too.<br>'+
+            '{私はコーヒーも飲みます|わたしはコーヒーものみます|' + Genki.getAlts('{私}はコーヒーも{飲}みます', 'わたし|の') + 'answer}。'+
+          '</div>'+
         '</div>'+
-        
-        '<div class="problem">'+
-          'Michiko ate hamburgers on Friday. She ate hamburgers on Saturday, too.<br>'+
-          '{みちこさんは金曜日にハンバーガーを食べました。みちこさんは土曜日にもハンバーガーを食べました。|みちこさんはきんようびにハンバーガーをたべました。みちこさんはどようびにもハンバーガーをたべました。|' + Genki.getAlts('みちこさんは{金曜日}にハンバーガーを{食}べました。みちこさんは{土曜日}にもハンバーガーを{食}べました。', 'きんようび|た|どようび|た') + 'answer}'+
+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'Ken will go to Korea.<br>'+
+            '{けんさんは韓国に行きます|けんさんはかんこくにいきます|' + Genki.getAlts('けんさんは{韓国}に{行}きます', 'かんこく|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'He will go to China, too.<br>'+
+            '{けんさんは中国にも行きます|けんさんはちゅうごくにもいきます|' + Genki.getAlts('けんさんは{中国}にも{行}きます', 'ちゅうごく|い') + 'answer}。'+
+          '</div>'+
         '</div>'+
-        
-        '<div class="problem">'+
-          'Yumi bought souvenirs at a temple. She bought souvenirs at a department store, too.<br>'+
-          '{ゆみさんはお寺でおみやげを買いました。ゆみさんはデパートでもおみやげを買いました。|ゆみさんはおてらでおみやげをかいました。ゆみさんはデパートでもおみやげをかいました。|' + Genki.getAlts('ゆみさんはお{寺}でおみやげを{買}いました。ゆみさんはデパートでもおみやげを{買}いました。', 'てら|か|か') + 'answer}'+
+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'Yui ate ice cream on Friday.<br>'+
+            '{ゆいさんは金曜日にアイスクリームを食べました|ゆいさんはきんようびにアイスクリームをたべました|' + Genki.getAlts('ゆいさんは{金曜日}にアイスクリームを{食}べました', 'きんようび|た') + 'answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'She ate ice cream on Saturday, too.<br>'+
+            '{ゆいさんは土曜日にもアイスクリームを食べました|ゆいさんはどようびにもアイスクリームをたべました|' + Genki.getAlts('みちこさんは{土曜日}にもハンバーガーを{食}べました', 'どようび|た') + 'answer}。'+
+          '</div>'+
         '</div>'+
-        
-        '<div class="problem">'+
-          'I took pictures at school yesterday. I took pictures at home, too.<br>'+
-          '{私はきのう学校で写真を撮りました。私は家でも写真を撮りました。|わたしはきのうがっこうでしゃしんをとりました。わたしはいえでもしゃしんをとりました。|' + Genki.getAlts('{私}はきのう{学校}で{写真}を{撮}りました。{私}は{家}でも{写真}を{撮}りました。', 'わたし|がっこう|しゃしん|と|わたし|いえ|しゃしん|と') + 'answer}'+
+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'Yumi studied at the library yesterday.<br>'+
+            '{ゆみさんはきのう図書館で勉強しました|ゆみさんはきのうとしょかんでべんきょうしました|' + Genki.getAlts('ゆみさんは{きのう}{図書館}で{勉強}しました', '昨日|としょかん|べんきょう') + 'answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'She studied at home, too.<br>'+
+            '{ゆみさんは家でも勉強しました|ゆみさんはいえでもべんきょうしました|' + Genki.getAlts('ゆみさんは{家}でも{勉強}しました', 'いえ|べんきょう') + 'answer}。'+
+          '</div>'+
+        '</div>'+
+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'I took pictures at school yesterday.<br>'+
+            '{私はきのう学校で写真を撮りました|わたしはきのうがっこうでしゃしんをとりました|' + Genki.getAlts('{私}は{きのう}{学校}で{写真}を{撮}りました', 'わたし|昨日|がっこう|しゃしん|と') + 'answer}。'+
+          '</div>'+
+          
+          '<div>'+
+            'I took pictures at home, too.<br>'+
+            '{私は家でも写真を撮りました|わたしはいえでもしゃしんをとりました|' + Genki.getAlts('{私}は{家}でも{写真}を{撮}りました。', 'わたし|いえ|しゃしん|と') + 'answer}。'+
+          '</div>'+
         '</div>'+
       '</div>'
       

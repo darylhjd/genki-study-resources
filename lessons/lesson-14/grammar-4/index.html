@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: あげる - Lesson 14 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: あげる - Lesson 14 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: あげる - Lesson 14 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: あげる - Lesson 14 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="You have just come back from a trip. Look at the cues and tell what you will give to the following people. You can look at the picture on page 65 to help visualize the transaction.">
-    <meta property="og:description" content="You have just come back from a trip. Look at the cues and tell what you will give to the following people. You can look at the picture on page 65 to help visualize the transaction.">
+    <title>Practice: あげる - Lesson 14 | Genki Study Resources</title>
+    <meta name="title" content="Practice: あげる - Lesson 14 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: あげる - Lesson 14 | Genki Study Resources">
+    <meta property="og:title" content="Practice: あげる - Lesson 14 | Genki Study Resources">
+    <meta name="description" content="You have just come back from a trip. Look at the cues and tell what you will give to the following people. You can look at the picture on page 61 to help visualize the transaction.">
+    <meta property="og:description" content="You have just come back from a trip. Look at the cues and tell what you will give to the following people. You can look at the picture on page 61 to help visualize the transaction.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, page 65, problem III-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, page 61, problem III-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,67 +70,117 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'You have just come back from a trip. Look at the cues and tell what you will give to the following people, using {!GRI|あげる|l14-p3}. You can look at the picture on page 65 to help visualize the transaction.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'You have just come back from a trip. Look at the cues and tell what you will give to the following people, using {!GRI|あげる|l14-p3}. You can look at the picture on page 61 to help visualize the transaction.',
 
       quizlet : [
-        {
-          question : 'whiskey <i class="fa">&#xf061;</i> father',
-          answers : [
-            'A父にお酒をあげます。',
-            '父はお酒にあげます。',
-            '父をお酒にあげます。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'お<ruby>酒<rt>さけ</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>父<rt>ちち</rt></ruby>',
+            answers : [
+              'A<ruby>父<rt>ちち</rt></ruby>にお<ruby>酒<rt>さけ</rt></ruby>をあげます。',
+              '<ruby>父<rt>ちち</rt></ruby>はお<ruby>酒<rt>さけ</rt></ruby>にあげます。',
+              '<ruby>父<rt>ちち</rt></ruby>をお<ruby>酒<rt>さけ</rt></ruby>にあげます。',
+              '<ruby>父<rt>ちち</rt></ruby>がお<ruby>酒<rt>さけ</rt></ruby>をあげます。'
+            ]
+          },
+
+          {
+            question : '<ruby>化粧品<rt>けしょうひん</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>母<rt>はは</rt></ruby>',
+            answers : [
+              'A<ruby>母<rt>はは</rt></ruby>に<ruby>化粧品<rt>けしょうひん</rt></ruby>をあげます。',
+              '<ruby>母<rt>はは</rt></ruby>は<ruby>化粧品<rt>けしょうひん</rt></ruby>にあげます。',
+              '<ruby>母<rt>はは</rt></ruby>を<ruby>化粧品<rt>けしょうひん</rt></ruby>にあげます。',
+              '<ruby>母<rt>はは</rt></ruby>が<ruby>化粧品<rt>けしょうひん</rt></ruby>をあげます。'
+            ]
+          },
+
+          {
+            question : 'チョコレート　<i class="fa">&#xf061;</i>　<ruby>友<rt>とも</rt></ruby>だち',
+            answers : [
+              'A<ruby>友<rt>とも</rt></ruby>だちにチョコレートをあげます。',
+              '<ruby>友<rt>とも</rt></ruby>だちはチョコレートにあげます。',
+              '<ruby>友<rt>とも</rt></ruby>だちをチョコレートにあげます。',
+              '<ruby>友<rt>とも</rt></ruby>だちにチョコレートにあげます。'
+            ]
+          },
+
+          {
+            question : 'Ｔシャツ　<i class="fa">&#xf061;</i>　ルームメート',
+            answers : [
+              'AルームメートにＴシャツをあげます。',
+              'ルームメートはＴシャツにあげます。',
+              'ルームメートをＴシャツをあげます。',
+              'ルームメートにＴシャツにあげます。'
+            ]
+          },
+
+          {
+            question : '<ruby>帽子<rt>ぼうし</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>弟<rt>おとうと</rt></ruby>',
+            answers : [
+              'A<ruby>弟<rt>おとうと</rt></ruby>に<ruby>帽子<rt>ぼうし</rt></ruby>をあげます。',
+              '<ruby>弟<rt>おとうと</rt></ruby>は<ruby>帽子<rt>ぼうし</rt></ruby>にあげます。',
+              '<ruby>弟<rt>おとうと</rt></ruby>を<ruby>帽子<rt>ぼうし</rt></ruby>にあげます。',
+              '<ruby>弟<rt>おとうと</rt></ruby>が<ruby>帽子<rt>ぼうし</rt></ruby>をあげます。'
+            ]
+          },
+
+          {
+            question : '<ruby>紅茶<rt>こうちゃ</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>先生<rt>せんせい</rt></ruby>',
+            answers : [
+              'A<ruby>先生<rt>せんせい</rt></ruby>に<ruby>紅茶<rt>こうちゃ</rt></ruby>をあげます。',
+              '<ruby>先生<rt>せんせい</rt></ruby>が<ruby>紅茶<rt>こうちゃ</rt></ruby>をあげます。',
+              '<ruby>先生<rt>せんせい</rt></ruby>を<ruby>紅茶<rt>こうちゃ</rt></ruby>をあげます。',
+              '<ruby>先生<rt>せんせい</rt></ruby>に<ruby>紅茶<rt>こうちゃ</rt></ruby>にあげます。'
+            ]
+          }
+        ],
         
-        {
-          question : 'book <i class="fa">&#xf061;</i> mother',
-          answers : [
-            'A母に本をあげます。',
-            '母は本にあげます。',
-            '母を本にあげます。'
-          ]
-        },
         
-        {
-          question : 'chocolate <i class="fa">&#xf061;</i> friend',
-          answers : [
-            'A友だちにチョコレートをあげます。',
-            '友だちはチョコレートにあげます。',
-            '友だちをチョコレートにあげます。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'お<ruby>酒<rt>さけ</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>父<rt>ちち</rt></ruby><br>'+
+            '<i class="fa">&#xf061;</i> <ruby>父<rt>ちち</rt></ruby>にお<ruby>酒<rt>さけ</rt></ruby>をあげます。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 't-shirt <i class="fa">&#xf061;</i> roommate',
-          answers : [
-            'AルームメートにＴシャツをあげます。',
-            'ルームメートはＴシャツにあげます。',
-            'ルームメートをＴシャツにあげます。'
-          ]
-        },
-        
-        {
-          question : 'hat <i class="fa">&#xf061;</i> younger brother',
-          answers : [
-            'A弟にぼうしをあげます。',
-            '弟はぼうしにあげます。',
-            '弟をぼうしにあげます。'
-          ]
-        },
-        
-        {
-          question : 'black tea <i class="fa">&#xf061;</i> teacher',
-          answers : [
-            'A先生に紅茶をあげます。',
-            '先生は紅茶にあげます。',
-            '先生を紅茶にあげます。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>化粧品<rt>けしょうひん</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>母<rt>はは</rt></ruby><br>'+
+              '{母に化粧品をあげます|ははにけしょうひんをあげます|' + Genki.getAlts('{母}に{化粧品}をあげます', 'はは|けしょうひん') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'チョコレート　<i class="fa">&#xf061;</i>　<ruby>友<rt>とも</rt></ruby>だち<br>'+
+              '{友だちにチョコレートをあげます|ともだちにチョコレートをあげます|' + Genki.getAlts('{友}{だち}にチョコレートをあげます', 'とも|達') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'Ｔシャツ　<i class="fa">&#xf061;</i>　ルームメート<br>'+
+              '{ルームメートにＴシャツをあげます}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>帽子<rt>ぼうし</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>弟<rt>おとうと</rt></ruby><br>'+
+              '{弟に帽子をあげます|おとうとにぼうしをあげます|' + Genki.getAlts('{弟}に{帽子}をあげます', 'おとうと|ぼうし') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>紅茶<rt>こうちゃ</rt></ruby>　<i class="fa">&#xf061;</i>　<ruby>先生<rt>せんせい</rt></ruby><br>'+
+              '{先生に紅茶をあげます|せんせいにこうちゃをあげます|' + Genki.getAlts('{先生}に{紅茶}をあげます', 'せんせい|こうちゃ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

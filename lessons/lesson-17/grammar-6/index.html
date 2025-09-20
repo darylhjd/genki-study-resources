@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～みたいです - Lesson 17 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～みたいです - Lesson 17 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～みたいです - Lesson 17 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～みたいです - Lesson 17 | Genki Study Resources - 2nd Edition">
+    <title>Practice: ～みたいです - Lesson 17 | Genki Study Resources</title>
+    <meta name="title" content="Practice: ～みたいです - Lesson 17 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: ～みたいです - Lesson 17 | Genki Study Resources">
+    <meta property="og:title" content="Practice: ～みたいです - Lesson 17 | Genki Study Resources">
     <meta name="description" content="Describe what the following things/people are like with ～みたいですね.">
     <meta property="og:description" content="Describe what the following things/people are like with ～みたいですね.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, page 134, problem V-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, page 130, problem V-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,94 +70,161 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
+      format : 'practice',
+      type : ['multi', 'fill'],
       info : 'Describe what the following things/people are like with {!GRI|～みたいですね|l17-p5}.',
 
       quizlet : [
-        {
-          question : '私の友だちです。すごく強いんです。<br>Is like: スーパーマン',
-          answers : [
-            'Aスーパーマンみたいですね。',
-            'スーパーマンがみたいですね。',
-            'スーパーマンはみたいですね。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>友<rt>とも</rt></ruby>だちは<ruby>強<rt>つよ</rt></ruby>いんです。<br>Is like: スーパーマン',
+            answers : [
+              'Aスーパーマンみたいですね。',
+              'スーパーマンがみたいですね。',
+              'バットマンみたいですね。',
+              'バットマンがみたいですね。'
+            ]
+          },
+
+          {
+            question : 'のり（seaweed）です。<br>Is like: <ruby>紙<rt>かみ</rt></ruby>',
+            answers : [
+              'A<ruby>紙<rt>かみ</rt></ruby>みたいですね。',
+              '<ruby>紙<rt>かみ</rt></ruby>がみたいですね。',
+              '<ruby>神<rt>かみ</rt></ruby>みたいですね。',
+              '<ruby>神<rt>かみ</rt></ruby>がみたいですね。'
+            ]
+          },
+
+          {
+            question : '<ruby>耳<rt>みみ</rt></ruby>かき（ear pick）です。<br>Is like: スプーン',
+            answers : [
+              'Aスプーンみたいですね。',
+              'スプーンがみたいですね。',
+              'スプールみたいですね。',
+              'スプールがみたいですね。'
+            ]
+          },
+
+          {
+            question : 'イタリアです。<br>Is like: ブーツ',
+            answers : [
+              'Aブーツみたいですね。',
+              'ブーツがみたいですね。',
+              'ブースみたいですね。',
+              'ブースがみたいですね。'
+            ]
+          },
+
+          {
+            question : 'パンダです。<br>Is like: ぬいぐるみ',
+            answers : [
+              'Aぬいぐるみみたいですね。',
+              'ぬいぐるみがみたいですね。',
+              'ぬいぐるみだみたいですね。',
+              'ぬいぐるみはみたいですね。'
+            ]
+          },
+
+          {
+            question : '<ruby>友<rt>とも</rt></ruby>だちはよく<ruby>寝<rt>ね</rt></ruby>るんです。<br>Is like: <ruby>猫<rt>ねこ</rt></ruby>',
+            answers : [
+              'A<ruby>猫<rt>ねこ</rt></ruby>みたいですね。',
+              '<ruby>猫<rt>ねこ</rt></ruby>がみたいですね。',
+              '<ruby>犬<rt>いぬ</rt></ruby>みたいですね。',
+              '<ruby>犬<rt>いぬ</rt></ruby>がみたいですね。'
+            ]
+          },
+
+          {
+            question : '友だちは<ruby>秘密<rt>ひみつ</rt></ruby>がたくさんあるんです。<br>Is like: バットマン',
+            answers : [
+              'Aバットマンみたいですね。',
+              'バットマンがみたいですね。',
+              'スーパーマンみたいですね。',
+              'スーパーマンがみたいですね。',
+            ]
+          },
+
+          {
+            question : 'おじさんはかわいいんです。<br>Is like: マリオ',
+            answers : [
+              'Aマリオみたいですね。',
+              'マリオがみたいですね。',
+              'ルイージみたいですね。',
+              'ルイージがみたいですね。'
+            ]
+          }
+        ],
         
-        {
-          question : 'のり（seaweed）です。<br>Is like: 紙',
-          answers : [
-            'A紙みたいですね。',
-            '紙がみたいですね。',
-            '紙はみたいですね。'
-          ]
-        },
         
-        {
-          question : '耳かき（ear pick）です。<br>Is like: スプーン',
-          answers : [
-            'Aスプーンみたいですね。',
-            'スプーンがみたいですね。',
-            'スプーンみたいです。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            '<ruby>友<rt>とも</rt></ruby>だちは<ruby>強<rt>つよ</rt></ruby>いんです。<br>Is like: スーパーマン<br>'+
+            '<i class="fa">&#xf061;</i>　スーパーマンみたいですね。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'イタリアです。<br>Is like: ブーツ',
-          answers : [
-            'Aブーツみたいですね。',
-            'ブーツみたいです。',
-            'ブーツみたい。'
-          ]
-        },
-        
-        {
-          question : '男です。<br>Is like: 女',
-          answers : [
-            'A女みたいですね。',
-            '女がみたいですね。',
-            '女みたいね。'
-          ]
-        },
-        
-        {
-          question : 'パンダです。<br>Is like: ぬいぐるみ',
-          answers : [
-            'Aぬいぐるみみたいですね。',
-            'ぬいぐるみがみたいですね。',
-            'ぬいぐるみだみたいですね。'
-          ]
-        },
-        
-        {
-          question : '私の友だちです。よく寝るんです。<br>Is like: 猫',
-          answers : [
-            'A猫みたいですね。',
-            '猫がみたいですね。',
-            '猫がみたいです。'
-          ]
-        },
-        
-        {
-          question : '私の友だちです。秘密がたくさんあるんです。<br>Is like: バットマン',
-          answers : [
-            'Aバットマンみたいですね。',
-            'バットマンがみたいですね。',
-            'バットマンはみたいですね。'
-          ]
-        },
-        
-        {
-          question : '私の友だちです。とてもかっこいいんです。<br>Is like: マイケル・ジャクソン',
-          answers : [
-            'Aマイケル・ジャクソンみたいですね。',
-            'マイケル・ジャクソンはみたいですね。',
-            'マイケル・ジャクソンみたいです。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                'のり（seaweed）です。<br>Is like: <ruby>紙<rt>かみ</rt></ruby><br>'+
+                '{紙みたいですね|かみみたいですね|answer}。'+
+              '</div>'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                '<ruby>耳<rt>みみ</rt></ruby>かき（ear pick）です。<br>Is like: スプーン<br>'+
+                '{スプーンみたいですね}。'+
+              '</div>'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                'イタリアです。<br>Is like: ブーツ<br>'+
+                '{ブーツみたいですね}。'+
+              '</div>'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                'パンダです。<br>Is like: ぬいぐるみ<br>'+
+                '{ぬいぐるみみたいですね}。'+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                '<ruby>友<rt>とも</rt></ruby>だちはよく<ruby>寝<rt>ね</rt></ruby>るんです。<br>Is like: <ruby>猫<rt>ねこ</rt></ruby><br>'+
+                '{猫みたいですね|ねこみたいですね|answer}。'+
+              '</div>'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                '友だちは<ruby>秘密<rt>ひみつ</rt></ruby>がたくさんあるんです。<br>Is like: バットマン<br>'+
+                '{バットマンみたいですね}。'+
+              '</div>'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<div class="inner-problem">'+
+                'おじさんはかわいいんです。<br>Is like: マリオ<br>'+
+                '{マリオみたいですね}。'+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

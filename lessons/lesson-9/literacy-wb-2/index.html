@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Spelling Practice (午, 後, 前, and 名) - Lesson 9 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Spelling Practice (午, 後, 前, and 名) - Lesson 9 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Spelling Practice (午, 後, 前, and 名) - Lesson 9 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Spelling Practice (午, 後, 前, and 名) - Lesson 9 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Practice spelling the following fifteen words in kanji.">
-    <meta property="og:description" content="Practice spelling the following fifteen words in kanji.">
+    <title>Workbook: Using Kanji - Lesson 9 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: Using Kanji - Lesson 9 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: Using Kanji - Lesson 9 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: Using Kanji - Lesson 9 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using the kanji you learned.">
+    <meta property="og:description" content="Complete the following problems using the kanji you learned.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, Reading and Writing, page 141, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, Reading and Writing, page 146, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,31 +70,56 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'writing',
-      info : 'Practice spelling the following fifteen words in kanji.',
+      type : 'fill',
+      info : 'Complete the following problems using the kanji you learned.',
       
-      columns : 6,
-      quizlet : {
-        '午前' : 'ごぜん',
-        '午後' : 'ごご',
-        '午前中' : 'ごぜんちゅう',
-        '正午' : 'しょうご',
-        'の後' : 'のあと',
-        '後で' : 'あとで',
-        '後ろ' : 'うしろ',
-        '最後に' : 'さいごに',
-        '前' : 'まえ',
-        '名前' : 'なまえ',
-        '前売り' : 'まえうり',
-        '有名な' : 'ゆうめいな',
-        '名刺' : 'めいし',
-        '氏名' : 'しめい',
-        '地名' : 'ちめい'
-      }
+      quizlet : 
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Fill in the blanks with the appropriate mixes of kanji and hiragana.</p>'+
+      '<div class="count-problems">'+
+        '<div class="problem valign-top">{午前中|ごぜんちゅう}は{雨|あめ}が<ruby>降<rt>ふ</rt></ruby>っていました。</div>'+
+        '<div class="problem">{午後|ごご}は{友だち|友達|answer;width:70;hint:ともだち}の{家|いえ}に行って、{話しました|はなしました}。</div>'+
+        '<div class="problem valign-top">この{白い|しろい}<ruby>着物<rt>きもの</rt></ruby>は{少し|すこし}{古い|ふるい}です。</div>'+
+        '<div class="problem">あの人の{名前|なまえ}を{知って|しって}いますか。{書いて|かいて}ください。</div>'+
+        '<div class="problem valign-top">{二時間|にじかん}<ruby>待<rt>ま</rt></ruby>ちましたが、ソラさんは{来ませんでした|きませんでした}。</div>'+
+        '<div class="problem">今、{時間|じかん}がないから、クラスの{後|あと}、{話|はなし}をしましょう。</div>'+
+      '</div><br>'+
+
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Using the kanji you know, translate the sentences into Japanese.</p>'+
+      '<div class="count-problems">'+
+        '<div class="problem">'+
+          'I wrote a letter to my friend in the afternoon.<br>'+
+          '{%(私は/)午後友だちに手紙を書きました|%(わたしは/)ごごともだちにてがみをかきました|' + Genki.getAlts('{私}は{午後}{友}{達}に{手紙}を{書}きました', 'わたし|ごご|とも|だち|てがみ|か') + Genki.getAlts('{午後}{友}{達}に{手紙}を{書}きました', 'ごご|とも|だち|てがみ|か') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'I read a book for one hour at home.<br>'+
+          '{%(私は/)家で一時間本を読みました|%(わたしは/)いえでいちじかんほんをよみました|' + Genki.getAlts('{私}は{家}で{一時間}{本}を{読}みました', 'わたし|いえ|いちじかん|ほん|よ') + Genki.getAlts('{家}で{一時間}{本}を{読}みました', 'いえ|いちじかん|ほん|よ') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'The post office is between the bank and the bookstore.<br>'+
+          '{郵便局は銀行と本屋の間です|ゆうびんきょくはぎんこうとほんやのあいだです|' + Genki.getAlts('{郵便局}は{銀行}と{本屋}の{間}です', 'ゆうびんきょく|ぎんこう|ほんや|あいだ') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'My friend is behind the teacher.<br>'+
+          '{%(私の/)友だちは先生の後ろです|%(わたしの/)ともだちはせんせいのうしろです|' + Genki.getAlts('{私}の{友}{だち}は{先生}の{後}ろです', 'わたし|とも|達|せんせい|うし') + Genki.getAlts('{友}{だち}は{先生}の{後}ろです', 'とも|達|せんせい|うし') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'The bus stop is in front of the university.<br>'+
+          '{バス停は大学の前です|バスていはだいがくのまえです|' + Genki.getAlts('バス{停}は{大学}の{前}です', 'てい|だいがく|まえ') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'I will call you later.<br>'+
+          '{%(私は/)後で電話します|%(わたしは/)あとででんわします|' + Genki.getAlts('{私}は{後}で{電話}します', 'わたし|あと|でんわ') + Genki.getAlts('{後}で{電話}します', 'あと|でんわ') + 'answer}。'+
+        '</div>'+
+      '</div>'
     });</script>
   </body>
 </html>

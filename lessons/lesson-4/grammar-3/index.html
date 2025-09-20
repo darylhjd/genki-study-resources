@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Past Tense of です - Lesson 4 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Past Tense of です - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Past Tense of です - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Past Tense of です - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Look at the information about Professor Yamashita 25 years ago and answer the questions.">
-    <meta property="og:description" content="Look at the information about Professor Yamashita 25 years ago and answer the questions.">
+    <title>Practice: Describing Where Things Are 1 - Lesson 4 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Describing Where Things Are 1 - Lesson 4 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Describing Where Things Are 1 - Lesson 4 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Describing Where Things Are 1 - Lesson 4 | Genki Study Resources">
+    <meta name="description" content="Look at the picture and tell where the following things are.">
+    <meta property="og:description" content="Look at the picture and tell where the following things are.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 118, problem III-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 117, problem II-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -50,6 +50,10 @@
       <div id="exercise" class="content-block">
         <div id="quiz-result"></div>
         <div id="quiz-zone" class="clear"></div>
+        <div class="text-block multi-quiz-image center">
+          <a href="../../../resources/images/lesson-images/3rd-l4-g3.png" target="_blank"><img src="../../../resources/images/lesson-images/3rd-l4-g3.png" alt=""></a>
+          <div><small>(Click Image to See Full Size)</small></div>
+        </div>
         <div id="quiz-timer" class="center"></div>
       </div>
     </div>
@@ -70,92 +74,131 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Look at the information about Professor Yamashita 25 years ago and answer the questions using the {!GRI|Past Tense of です|l4-p3}.<br><br>'+
-      '<table><tr><td>'+
-        'Twenty-five years ago, Professor Yamashita was...'+
-        '<ul>'+
-          '<li>twenty-two years old</li>'+
-          '<li>senior at a college</li>'+
-          '<li>good student</li>'+
-          '<li>his major: Japanese history</li>'+
-        '</ul>'+
-      '</td></tr></table>',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Look at the picture and {!GRI|tell where the following things are|l4-p2}.',
 
       quizlet : [
-        {
-          question : '山下先生は大学生でしたか。',
-          answers : [
-            'Aはい、山下先生は大学生でした。',
-            'はい、山下先生は大学生です。',
-            'いいえ、山下先生は大学生じゃなかったです。',
-            'いいえ、山下先生は大学生じゃないです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>図書館<rt>としょかん</rt></ruby>',
+            answers : [
+              'A<ruby>図書館<rt>としょかん</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろです。',
+              '<ruby>図書館<rt>としょかん</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>です。',
+              'A<ruby>図書館<rt>としょかん</rt></ruby>はスーパーのとなりです。',
+              '<ruby>図書館<rt>としょかん</rt></ruby>はスーパーの<ruby>右<rt>みぎ</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>',
+            answers : [
+              'A<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>は<ruby>病院<rt>びょういん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>です。',
+              '<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>は<ruby>病院<rt>びょういん</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろです。',
+              '<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>です。',
+              '<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>後<rt>うし</rt></ruby>ろです。'
+            ]
+          },
+
+          {
+            question : 'カフェ',
+            answers : [
+              'Aカフェはホテルの<ruby>中<rt>なか</rt></ruby>です。',
+              'カフェはホテルの<ruby>下<rt>した</rt></ruby>です。',
+              'カフェは公園の<ruby>前<rt>まえ</rt></ruby>です。',
+              'カフェは公園の<ruby>後<rt>うし</rt></ruby>ろです。'
+            ]
+          },
+
+          {
+            question : 'バス<ruby>停<rt>てい</rt></ruby>',
+            answers : [
+              'Aバス<ruby>停<rt>てい</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>です。',
+              'バス<ruby>停<rt>てい</rt></ruby>は<ruby>前<rt>まえ</rt></ruby>の<ruby>大学<rt>だいがく</rt></ruby>です。',
+              'バス<ruby>停<rt>てい</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>下<rt>した</rt></ruby>です。',
+              'バス<ruby>停<rt>てい</rt></ruby>は<ruby>下<rt>した</rt></ruby>の<ruby>大学<rt>だいがく</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>公園<rt>こうえん</rt></ruby>',
+            answers : [
+              'A<ruby>公園<rt>こうえん</rt></ruby>はホテルの<ruby>後<rt>うし</rt></ruby>ろです。',
+              '<ruby>公園<rt>こうえん</rt></ruby>は<ruby>後<rt>うし</rt></ruby>ろのホテルです。',
+              '<ruby>公園<rt>こうえん</rt></ruby>はホテルの<ruby>上<rt>うえ</rt></ruby>です。',
+              '<ruby>公園<rt>こうえん</rt></ruby>は<ruby>上<rt>うえ</rt></ruby>のホテルです。'
+            ]
+          },
+
+          {
+            question : 'スーパー',
+            answers : [
+              'Aスーパーは<ruby>図書館<rt>としょかん</rt></ruby>のとなりです。',
+              'スーパーは<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>のとなりです。',
+              'スーパーは<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>左<rt>ひだり</rt></ruby>です。',
+              'スーパーは<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>の<ruby>左<rt>ひだり</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>病院<rt>びょういん</rt></ruby>',
+            answers : [
+              'A<ruby>病院<rt>びょういん</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>とホテルの<ruby>間<rt>あいだ</rt></ruby>です。',
+              '<ruby>病院<rt>びょういん</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>とホテルの<ruby>中<rt>なか</rt></ruby>です。',
+              '<ruby>病院<rt>びょういん</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>です。',
+              '<ruby>病院<rt>びょういん</rt></ruby>はホテルの<ruby>中<rt>なか</rt></ruby>です。'
+            ]
+          }
+        ],
         
-        {
-          question : '山下先生は十九歳でしたか。',
-          answers : [
-            'Aいいえ、山下先生は十九歳じゃなかったです。',
-            'いいえ、山下先生は十九歳じゃないです。',
-            'はい、山下先生は十九歳でした。',
-            'はい、山下先生は十九歳です。'
-          ]
-        },
         
-        {
-          question : '山下先生は子供でしたか。',
-          answers : [
-            'Aいいえ、山下先生は子供じゃなかったです。',
-            'いいえ、山下先生は子供じゃないです。',
-            'はい、山下先生は子供でした。',
-            'はい、山下先生は子供です。'
-          ]
-        },
+        // WRITTEN
+        '<div class="center">{!IMG|3rd-l4-g3.png}</div><br>'+
+        '<div class="example-problem">'+
+          '<ruby>図書館<rt>としょかん</rt></ruby><br>'+
+          '{図書館|としょかん|answer}は{大学|だいがく|answer;hint:university;width:80}の{後ろ|うしろ|answer;hint:behind}です。<br><br><br>'+
+          '{図書館|としょかん|answer}は{スーパー|super market}の{となり|隣|answer;hint:next to}です。'+
+        '</div>'+
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>郵便局<rt>ゆうびんきょく</rt></ruby><br>'+
+              '{郵便局は病院の前です|ゆうびんきょくはびょういんのまえです|' + Genki.getAlts('{郵便局}は{病院}の{前}です', 'ゆうびんきょく|びょういん|まえ') + 'answer}。'+
+            '</div>'+
         
-        {
-          question : '山下先生は一年生でしたか。',
-          answers : [
-            'Aいいえ、山下先生は一年生じゃなかったです。',
-            'いいえ、山下先生は一年生じゃないです。',
-            'はい、山下先生は一年生でした。',
-            'はい、山下先生は一年生です。'
-          ]
-        },
+            '<div class="problem">'+
+              'カフェ<br>'+
+              '{カフェはホテルの中です|カフェはホテルのなかです|answer}。'+
+            '</div>'+
         
-        {
-          question : '山下先生はいい学生でしたか。',
-          answers : [
-            'Aはい、山下先生はいい学生でした。',
-            'はい、山下先生はいい学生です。',
-            'いいえ、山下先生はいい学生じゃなかったです。',
-            'いいえ、山下先生はいい学生じゃないです。'
-          ]
-        },
+            '<div class="problem">'+
+              'バス<ruby>停<rt>てい</rt></ruby><br>'+
+              '{バス停は大学の前です|バスていはだいがくのまえです|' + Genki.getAlts('バス{停}は{大学}の{前}です', 'てい|だいがく|まえ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>公園<rt>こうえん</rt></ruby><br>'+
+              '{公園はホテルの後ろです|こうえんはホテルのうしろです|' + Genki.getAlts('{公園}はホテルの{後}ろです', 'こうえん|うし') + 'answer}。'+
+            '</div>'+
         
-        {
-          question : '山下先生の専攻は英語でしたか。',
-          answers : [
-            'Aいいえ、山下先生の専攻は英語じゃなかったです。',
-            'いいえ、山下先生の専攻は英語じゃないです。',
-            'はい、山下先生の専攻は英語でした。',
-            'はい、山下先生の専攻は英語です。'
-          ]
-        },
+            '<div class="problem">'+
+              'スーパー<br>'+
+              '{スーパーは図書館のとなりです|スーパーはとしょかんのとなりです|' + Genki.getAlts('スーパーは{図書館}の{となり}です', 'としょかん|隣') + 'answer}。'+
+            '</div>'+
         
-        {
-          question : '山下先生の専攻は歴史でしたか。',
-          answers : [
-            'Aはい、山下先生の専攻は歴史でした。',
-            'はい、山下先生の専攻は歴史です。',
-            'いいえ、山下先生の専攻は歴史じゃなかったです。',
-            'いいえ、山下先生の専攻は歴史じゃないです。'
-          ]
-        }
+            '<div class="problem">'+
+              '<ruby>病院<rt>びょういん</rt></ruby><br>'+
+              '{病院は大学とホテルの間です|びょういんはだいがくとホテルのあいだです|' + Genki.getAlts('{病院}は{大学}とホテルの{間}です', 'びょういん|だいがく|あいだ') + 'answer;hint:between}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

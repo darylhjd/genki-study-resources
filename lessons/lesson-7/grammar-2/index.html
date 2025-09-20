@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Look at the table below and answer the following questions about Sue's family.">
-    <meta property="og:description" content="Look at the table below and answer the following questions about Sue's family.">
+    <title>Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources</title>
+    <meta name="title" content="Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources">
+    <meta property="og:title" content="Practice: ～ている (Result of a Change) - Lesson 7 | Genki Study Resources">
+    <meta name="description" content="Look at the table below and answer the following questions about Sora's family.">
+    <meta property="og:description" content="Look at the table below and answer the following questions about Sora's family.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 177, problem II-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 177, problem II-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,17 +70,18 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Look at the table below and answer the following questions about Sue\'s family. {!GRI|Click here|l7-p2} to review ～ている (Result of a Change).<br><br>'+
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Look at the table below and answer the following questions about Sora\'s family. {!GRI|Click here|l7-p2} to review ～ている (Result of a Change).<br><br>'+
       '<table class="center">'+
         '<tr>'+
           '<td style="font-weight:bold">Father</td>'+
-          '<td>lives in N.Y.</td>'+
-          '<td>works for an American company</td>'+
+          '<td>lives in New York</td>'+
+          '<td>works at a company</td>'+
           '<td>48 years old</td>'+
         '</tr>'+
         
@@ -94,8 +95,8 @@
         '<tr>'+
           '<td style="font-weight:bold">Sister</td>'+
           '<td>lives in Seoul</td>'+
-          '<td>works for a bank; married</td>'+
-          '<td>27 years old</td>'+
+          '<td>works for a hospital; married</td>'+
+          '<td>24 years old</td>'+
         '</tr>'+
         
         '<tr>'+
@@ -104,101 +105,201 @@
           '<td>student; not married</td>'+
           '<td>18 years old</td>'+
         '</tr>'+
-      '</table>',
+      '</table>', 'Look at the table below and answer the following questions about Sora\'s family. {!GRI|Click here|l7-p2} to review ～ている (Result of a Change).'],
 
       quizlet : [
-        {
-          question : 'お父さんはどこに住んでいますか。',
-          answers : [
-            'Aお父さんはニューヨークに住んでいます。',
-            'お父さんはソウルに住んでいます。',
-            'お父さんはロンドンに住んでいます。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'お<ruby>父<rt>とう</rt></ruby>さんはどこに<ruby>住<rt>す</rt></ruby>んでいますか。',
+            answers : [
+              'Aニューヨークに<ruby>住<rt>す</rt></ruby>んでいます。',
+              'ニューヨークに<ruby>住<rt>す</rt></ruby>いでいます。',
+              'ロンドンに<ruby>住<rt>す</rt></ruby>んでいます。',
+              'ロンドンに<ruby>住<rt>す</rt></ruby>いでいます。'
+            ]
+          },
+
+          {
+            question : 'お<ruby>姉<rt>ねえ</rt></ruby>さんはどこに<ruby>住<rt>す</rt></ruby>んでいますか。',
+            answers : [
+              'Aソウルに<ruby>住<rt>す</rt></ruby>んでいます。',
+              'ソウルに<ruby>住<rt>す</rt></ruby>みます。',
+              'ニューヨークに<ruby>住<rt>す</rt></ruby>んでいます。',
+              'ニューヨークに<ruby>住<rt>す</rt></ruby>みます。'
+            ]
+          },
+
+          {
+            question : '<ruby>弟<rt>おとうと</rt></ruby>さんはアメリカに<ruby>住<rt>す</rt></ruby>んでいますか。',
+            answers : [
+              'Aいいえ、ロンドンに<ruby>住<rt>す</rt></ruby>んでいます。',
+              'いいえ、ロンドンに<ruby>住<rt>す</rt></ruby>いでいます。',
+              'はい、<ruby>住<rt>す</rt></ruby>んでいます。',
+              'はい、<ruby>住<rt>す</rt></ruby>みます。'
+            ]
+          },
+
+          {
+            question : 'お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしていますか。',
+            answers : [
+              'A<ruby>高校<rt>こうこう</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>です。',
+              '<ruby>大学<rt>だいがく</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>です。',
+              '<ruby>学校<rt>がっこう</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>です。',
+              '<ruby>小学校<rt>しょうがっこう</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : 'お<ruby>姉<rt>ねえ</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしていますか。',
+            answers : [
+              'A<ruby>病院<rt>びょういん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いています。',
+              '<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>ています。',
+              '<ruby>銀行<rt>ぎんこう</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>っています。',
+              'カフェで<ruby>働<rt>はたら</rt></ruby>いています。'
+            ]
+          },
+
+          {
+            question : 'お<ruby>姉<rt>ねえ</rt></ruby>さんは<ruby>結婚<rt>けっこん</rt></ruby>していますか。',
+            answers : [
+              'Aはい、<ruby>結婚<rt>けっこん</rt></ruby>しています。',
+              'はい、<ruby>結婚<rt>けっこん</rt></ruby>します。',
+              'いいえ、<ruby>結婚<rt>けっこん</rt></ruby>していません。',
+              'いいえ、<ruby>結婚<rt>けっこん</rt></ruby>しません。'
+            ]
+          },
+
+          {
+            question : '<ruby>弟<rt>おとうと</rt></ruby>さんは<ruby>結婚<rt>けっこん</rt></ruby>していますか。',
+            answers : [
+              'Aいいえ、<ruby>結婚<rt>けっこん</rt></ruby>していません。',
+              'いいえ、<ruby>結婚<rt>けっこん</rt></ruby>しません。',
+              'はい、<ruby>結婚<rt>けっこん</rt></ruby>しています。',
+              'はい、<ruby>結婚<rt>けっこん</rt></ruby>します。',
+            ]
+          },
+
+          {
+            question : 'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>何歳<rt>なんさい</rt></ruby>ですか。',
+            answers : [
+              'A<ruby>四十八歳<rt>よんじゅうはっさい</rt></ruby>です。',
+              '<ruby>四十五歳<rt>よんじゅうごさい</rt></ruby>です。',
+              '<ruby>二十四歳<rt>にじゅうよんさい</rt></ruby>です。',
+              '<ruby>十八歳<rt>じゅうはっさい</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>弟<rt>おとうと</rt></ruby>さんは<ruby>何歳<rt>なんさい</rt></ruby>ですか。',
+            answers : [
+              'A<ruby>十八歳<rt>じゅうはっさい</rt></ruby>です。',
+              '<ruby>四十八歳<rt>よんじゅうはっさい</rt></ruby>です。',
+              '<ruby>四十五歳<rt>よんじゅうごさい</rt></ruby>です。',
+              '<ruby>二十四歳<rt>にじゅうよんさい</rt></ruby>です。',
+            ]
+          },
+
+          {
+            question : 'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>韓国<rt>かんこく</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていますか。',
+            answers : [
+              'Aいいえ、ニューヨークで<ruby>働<rt>はたら</rt></ruby>いています。',
+              'いいえ、ニューヨークで<ruby>働<rt>はたら</rt></ruby>ています。',
+              'はい、<ruby>働<rt>はたら</rt></ruby>いています。',
+              'はい、<ruby>働<rt>はたら</rt></ruby>ています。'
+            ]
+          }
+        ],
+          
+          
+        // WRITTEN
+        '<table class="table center">'+
+          '<tr>'+
+            '<td style="font-weight:bold">Father</td>'+
+            '<td>lives in New York</td>'+
+            '<td>works at a company</td>'+
+            '<td>48 years old</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td style="font-weight:bold">Mother</td>'+
+            '<td></td>'+
+            '<td>high school teacher</td>'+
+            '<td>45 years old</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td style="font-weight:bold">Sister</td>'+
+            '<td>lives in Seoul</td>'+
+            '<td>works for a hospital; married</td>'+
+            '<td>24 years old</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td style="font-weight:bold">Brother</td>'+
+            '<td>lives in London</td>'+
+            '<td>student; not married</td>'+
+            '<td>18 years old</td>'+
+          '</tr>'+
+        '</table><br>'+
         
-        {
-          question : 'お姉さんはどこに住んでいますか。',
-          answers : [
-            'Aお姉さんはソウルに住んでいます。',
-            'お姉さんはニューヨークに住んでいます。',
-            'お姉さんはロンドンに住んでいます。'
-          ]
-        },
-        
-        {
-          question : '弟さんはアメリカに住んでいますか。',
-          answers : [
-            'Aいいえ、弟さんはロンドンに住んでいます。',
-            'いいえ、弟さんはソウルに住んでいます。',
-            'はい、弟さんはニューヨークに住んでいます。'
-          ]
-        },
-        
-        {
-          question : 'お母さんは何をしていますか。',
-          answers : [
-            'Aお母さんは高校の先生です。',
-            'お母さんは先生の高校です。',
-            'お母さんは高校の先生をしています。',
-            'お母さんは先生の高校をしています。'
-          ]
-        },
-        
-        {
-          question : 'お姉さんは何をしていますか。',
-          answers : [
-            'Aお姉さんは銀行に勤めています。',
-            'お姉さんは会社に勤めています。',
-            'お姉さんは銀行です。',
-          ]
-        },
-        
-        {
-          question : 'お姉さんは結婚していますか。',
-          answers : [
-            'Aはい、お姉さんは結婚しています。',
-            'はい、お姉さんは結婚です。',
-            'いいえ、お姉さんは結婚していません。',
-            'いいえ、お姉さんは結婚じゃないです。'
-          ]
-        },
-        
-        {
-          question : '弟さんは結婚していますか。',
-          answers : [
-            'Aいいえ、弟さんは結婚していません。',
-            'いいえ、弟さんは結婚じゃないです。',
-            'はい、弟さんは結婚しています。',
-            'はい、弟さんは結婚です。'
-          ]
-        },
-        
-        {
-          question : 'お父さんは何歳ですか。',
-          answers : [
-            'Aお父さんは四十八歳です。',
-            'お父さんは四十五歳です。',
-            'お父さんは二十七歳です。'
-          ]
-        },
-        
-        {
-          question : '弟さんは何歳ですか。',
-          answers : [
-            'A弟さんは十八歳です。',
-            '弟さんは二十七歳です。',
-            '弟さんは十九歳です。'
-          ]
-        },
-        
-        {
-          question : 'お父さんは日本の会社に勤めていますか。',
-          answers : [
-            'Aいいえ、お父さんはアメリカの会社に勤めています。',
-            'いいえ、お父さんはイギリスの会社に勤めています。',
-            'いいえ、お父さんは韓国の会社に勤めています。'
-          ]
-        }
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'お<ruby>父<rt>とう</rt></ruby>さんはどこに<ruby>住<rt>す</rt></ruby>んでいますか。<br>'+
+            '{ニューヨーク}に{住|す|answer}んでいます。'+
+          '</div>'+
+        '</div>'+
+
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'お<ruby>姉<rt>ねえ</rt></ruby>さんはどこに<ruby>住<rt>す</rt></ruby>んでいますか。<br>'+
+              '{ソウルに住んでいます|ソウルにすんでいます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>弟<rt>おとうと</rt></ruby>さんはアメリカに<ruby>住<rt>す</rt></ruby>んでいますか。<br>'+
+              '{いいえ、ロンドンに住んでいます|いいえ、ロンドンにすんでいます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしていますか。<br>'+
+              '{高校の先生です|こうこうのせんせいです|' + Genki.getAlts('{高校}の{先生}です', 'こうこう|せんせい') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'お<ruby>姉<rt>ねえ</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしていますか。<br>'+
+              '{病院で働いています|びょういんではたらいています|' + Genki.getAlts('{病院}で{働}いています', 'びょういん|はたら') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'お<ruby>姉<rt>ねえ</rt></ruby>さんは<ruby>結婚<rt>けっこん</rt></ruby>していますか。<br>'+
+              '{はい、結婚しています|はい、けっこんしています|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>弟<rt>おとうと</rt></ruby>さんは<ruby>結婚<rt>けっこん</rt></ruby>していますか。<br>'+
+              '{いいえ、結婚していません|いいえ、けっこんしていません|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>何歳<rt>なんさい</rt></ruby>ですか。<br>'+
+              '{四十八歳です|よんじゅうはっさいです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>弟<rt>おとうと</rt></ruby>さんは<ruby>何歳<rt>なんさい</rt></ruby>ですか。<br>'+
+              '{十八歳です|じゅうはっさいです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>韓国<rt>かんこく</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていますか。<br>'+
+              '{いいえ、ニューヨークで働いています|いいえ、ニューヨークではたらいています|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

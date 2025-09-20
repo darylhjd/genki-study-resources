@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Past Tense 1 - Lesson 4 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Past Tense 1 - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Past Tense 1 - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Past Tense 1 - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="The cues in this exercise show what Mary did last week. Choose the correct sentence that describes what she did.">
-    <meta property="og:description" content="The cues in this exercise show what Mary did last week. Choose the correct sentence that describes what she did.">
+    <title>Practice: Past Tense of です - Lesson 4 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Past Tense of です - Lesson 4 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Past Tense of です - Lesson 4 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Past Tense of です - Lesson 4 | Genki Study Resources">
+    <meta name="description" content="Look at the information about Professor Yamashita 25 years ago and answer the questions.">
+    <meta property="og:description" content="Look at the information about Professor Yamashita 25 years ago and answer the questions.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 120, problem IV-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 118, problem III-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,76 +70,157 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'The cues in this exercise show what Mary did last week. Choose the correct sentence that describes what she did using the {!GRI|past tense|l4-p4}.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Look at the information about Professor Yamashita 25 years ago and answer the questions using the {!GRI|Past Tense of です|l4-p3}.<br><br>'+
+      '<table><tr><td>'+
+        'Twenty-five years ago, Professor Yamashita was...'+
+        '<ul>'+
+          '<li>twenty-two years old</li>'+
+          '<li>a fourth year at college</li>'+
+          '<li>good student</li>'+
+          '<li>his major: Japanese history</li>'+
+        '</ul>'+
+      '</td></tr></table>', 'Look at the information about Professor Yamashita 25 years ago and answer the questions using the {!GRI|Past Tense of です|l4-p3}.'],
 
       quizlet : [
-        {
-          question : 'Monday/Studied in the Library',
-          answers : [
-            'Aメアリーさんは月曜日に図書館で勉強しました。',
-            'メアリーさんは月曜日に図書館で寝ました。',
-            'メアリーさんは月曜日に図書館で本を読みました。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>でしたか。',
+            answers : [
+              'Aはい、<ruby>大学生<rt>だいがくせい</rt></ruby>でした。',
+              'はい、<ruby>大学生<rt>だいがくせい</rt></ruby>です。',
+              'いいえ、<ruby>大学生<rt>だいがくせい</rt></ruby>じゃなかったです。',
+              'いいえ、<ruby>大学生<rt>だいがくせい</rt></ruby>じゃないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>十九歳<rt>じゅうきゅうさい</rt></ruby>でしたか。',
+            answers : [
+              'Aいいえ、<ruby>十九歳<rt>じゅうきゅうさい</rt></ruby>じゃなかったです。',
+              'いいえ、<ruby>十九歳<rt>じゅうきゅうさい</rt></ruby>じゃないです。',
+              'はい、<ruby>十九歳<rt>じゅうきゅうさい</rt></ruby>でした。',
+              'はい、<ruby>十九歳<rt>じゅうきゅうさい</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>子供<rt>こども</rt></ruby>でしたか。',
+            answers : [
+              'Aいいえ、<ruby>子供<rt>こども</rt></ruby>じゃなかったです。',
+              'いいえ、<ruby>子供<rt>こども</rt></ruby>じゃないです。',
+              'はい、<ruby>子供<rt>こども</rt></ruby>でした。',
+              'はい、<ruby>子供<rt>こども</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>一年生<rt>いちねんせい</rt></ruby>でしたか。',
+            answers : [
+              'Aいいえ、<ruby>一年生<rt>いちねんせい</rt></ruby>じゃなかったです。',
+              'いいえ、<ruby>一年生<rt>いちねんせい</rt></ruby>じゃないです。',
+              'はい、<ruby>一年生<rt>いちねんせい</rt></ruby>でした。',
+              'はい、<ruby>一年生<rt>いちねんせい</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>はいい<ruby>学生<rt>がくせい</rt></ruby>でしたか。',
+            answers : [
+              'Aはい、いい<ruby>学生<rt>がくせい</rt></ruby>でした。',
+              'はい、いい<ruby>学生<rt>がくせい</rt></ruby>です。',
+              'いいえ、いい<ruby>学生<rt>がくせい</rt></ruby>じゃなかったです。',
+              'いいえ、いい<ruby>学生<rt>がくせい</rt></ruby>じゃないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>の<ruby>専攻<rt>せんこう</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>でしたか。',
+            answers : [
+              'Aいいえ、<ruby>英語<rt>えいご</rt></ruby>じゃなかったです。',
+              'いいえ、<ruby>英語<rt>えいご</rt></ruby>じゃないです。',
+              'はい、<ruby>英語<rt>えいご</rt></ruby>でした。',
+              'はい、<ruby>英語<rt>えいご</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : '<ruby>山下先生<rt>やましたせんせい</rt></ruby>の<ruby>専攻<rt>せんこう</rt></ruby>は<ruby>歴史<rt>れきし</rt></ruby>でしたか。',
+            answers : [
+              'Aはい、<ruby>歴史<rt>れきし</rt></ruby>でした。',
+              'はい、<ruby>歴史<rt>れきし</rt></ruby>です。',
+              'いいえ、<ruby>歴史<rt>れきし</rt></ruby>じゃなかったです。',
+              'いいえ、<ruby>歴史<rt>れきし</rt></ruby>じゃないです。'
+            ]
+          }
+        ],
         
-        {
-          question : 'Tuesday/Wrote a Letter at Home',
-          answers : [
-            'Aメアリーさんは火曜日に家で手紙を書きました。',
-            'メアリーさんは火曜日に家で本を書きました。',
-            'メアリーさんは火曜日に家で音楽を聞きました。'
-          ]
-        },
         
-        {
-          question : 'Wednesday/Played Tennis at School',
-          answers : [
-            'Aメアリーさんは水曜日に学校でテニスをしました。',
-            'メアリーさんは水曜日に学校でゲームをしました。',
-            'メアリーさんは水曜日に学校でテニスをします。'
-          ]
-        },
+        // WRITTEN
+        '<table class="table"><tr><td>'+
+          'Twenty-five years ago, Professor Yamashita was...'+
+          '<ul>'+
+            '<li>twenty-two years old</li>'+
+            '<li>a fourth year at college</li>'+
+            '<li>good student</li>'+
+            '<li>his major: Japanese history</li>'+
+          '</ul>'+
+        '</td></tr></table><br>'+
         
-        {
-          question : 'Thursday/Met her Japanese Friend at a Coffee Shop',
-          answers : [
-            'Aメアリーさんは木曜日に喫茶店で日本人の友だちに会いました。',
-            'メアリーさんは木曜日に喫茶店で中国人の友だちに会いました。',
-            'メアリーさんは木曜日に喫茶店で韓国人の友だちに会いました。'
-          ]
-        },
+        '<div class="columns-2 clear">'+
+          '<div>'+
+            '<div class="example-problem">'+
+              '<div class="inner-problem">'+
+                '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>大学生<rt>だいがくせい</rt></ruby>でしたか。<br>'+
+                'はい、{大学生|だいがくせい|answer}でした。'+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>十九歳<rt>じゅうきゅうさい</rt></ruby>でしたか。<br>'+
+              'いいえ、{十九歳|じゅうきゅうさい|answer}じゃなかったです。'+
+            '</div>'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'Friday/Ate Dinner at her Friend\'s House',
-          answers : [
-            'Aメアリーさんは金曜日に友だちのうちで晩ご飯を食べました。',
-            'メアリーさんは金曜日に友だちのうちで昼ご飯を食べました。',
-            'メアリーさんは金曜日に友だちのうちで朝ご飯を食べました。'
-          ]
-        },
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>子供<rt>こども</rt></ruby>でしたか。<br>'+
+              '{いいえ、子供じゃなかったです|いいえ、こどもじゃなかったです|' + Genki.getAlts('いいえ、{子}{供}じゃなかったです', 'こ|ども') + 'answer}。'+
+            '</div>'+
         
-        {
-          question : 'Saturday/Watched a Movie in Kyoto',
-          answers : [
-            'Aメアリーさんは土曜日に京都で映画を見ました。',
-            'メアリーさんは土曜日に京都で映画を見ます。',
-            'メアリーさんは土曜日に東京で映画を見ました。'
-          ]
-        },
+            '<div class="problem">'+
+              '<ruby>山下先生<rt>やましたせんせい</rt></ruby>は<ruby>一年生<rt>いちねんせい</rt></ruby>でしたか。<br>'+
+              '{いいえ、一年生じゃなかったです|いいえ、いちねんせいじゃなかったです|answer}。'+
+            '</div>'+
         
-        {
-          question : 'Sunday/Did Shopping at a Department Store',
-          answers : [
-            'Aメアリーさんは日曜日にデパートで買い物をしました。',
-            'メアリーさんは日曜日にスーパーで買い物をしました。',
-            'メアリーさんは日曜日にデパートで買い物をします。'
-          ]
-        }
+            '<div class="problem">'+
+              '<ruby>山下先生<rt>やましたせんせい</rt></ruby>はいい<ruby>学生<rt>がくせい</rt></ruby>でしたか。<br>'+
+              '{はい、いい学生でした|はい、いいがくせいでした|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>山下先生<rt>やましたせんせい</rt></ruby>の<ruby>専攻<rt>せんこう</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>でしたか。<br>'+
+              '{いいえ、英語じゃなかったです|いいえ、えいごじゃなかったです|answer}。'+
+            '</div>'+
+        
+            '<div class="problem">'+
+              '<ruby>山下先生<rt>やましたせんせい</rt></ruby>の<ruby>専攻<rt>せんこう</rt></ruby>は<ruby>歴史<rt>れきし</rt></ruby>でしたか。<br>'+
+              '{はい、歴史でした|はい、れきしでした|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

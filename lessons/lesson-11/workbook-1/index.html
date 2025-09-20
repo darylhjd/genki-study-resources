@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: ～たい - Lesson 11 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: ～たい - Lesson 11 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: ～たい - Lesson 11 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: ～たい - Lesson 11 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Practice making sentences of things you want/don't want to do, using ～たい.">
-    <meta property="og:description" content="Practice making sentences of things you want/don't want to do, using ～たい.">
+    <title>Workbook: ～たい - Lesson 11 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: ～たい - Lesson 11 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: ～たい - Lesson 11 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: ～たい - Lesson 11 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using ～たい.">
+    <meta property="og:description" content="Complete the following problems using ～たい.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, page 100, problem I, problem II, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, page 105, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,92 +70,71 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Practice making sentences of things you want/don\'t want to do, using {!GRI|～たい|l11-p1}.',
+      info : 'Complete the following problems using {!GRI|～たい|l11-p1}.',
       
       quizlet : 
       '<div class="count-problems">'+
-        '<p class="section-desc">Things you want to do.</p>'+
-        '<div class="problem">'+
-          'ピアノを習う<br>'+
-          '{ピアノを習いたいです|ピアノをならいたいです|answer}。'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Make sentences about two things you want to do and two things you don\'t want to do, using the cues below.</p>'+
+        '<div class="columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'What you want to do:<br>'+
+              '<div class="inline-problem">'+
+                '(a) {ピアノを習いたいです|ピアノをならいたいです|answer;hint:ピアノを<ruby>習<rt>なら</rt></ruby>う}。<br><br><br>'+
+                '(b) {外国に住みたいです|がいこくにすみたいです|' + Genki.getAlts('{外国}に{住}みたいです', 'がいこく|す') + 'answer;hint:<ruby>外国<rt>がいこく</rt></ruby>に<ruby>住<rt>す</rt></ruby>む}。'+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'What you don\'t want to do:<br>'+
+              '<div class="inline-problem">'+
+                '(a) {学校をやめたくないです|がっこうをやめたくないです|answer;hint:<ruby>学校<rt>がっこう</rt></ruby>をやめる}。<br><br><br>'+
+                '(b) {友だちとけんかしたくないです|ともだちとけんかしたくないです|' + Genki.getAlts('{友}{達}とけんかしたくないです', 'とも|だち') + 'answer;hint:<ruby>友<rt>とも</rt></ruby>だちとけんかする}。'+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+        '</div>'+
+      '</div><br>'+
+        
+      '<div class="count-problems">'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Write whether you wanted or did not want to do the following things when you were a child.</p>'+
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'go to school<br>'+
+            '<i class="fa">&#xf061;</i>　<ruby>子供<rt>こども</rt></ruby>の<ruby>時<rt>とき</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたかったです。／<ruby>子供<rt>こども</rt></ruby>の<ruby>時<rt>とき</rt></ruby>、<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたくなかったです。'+
+          '</div>'+
         '</div>'+
         
         '<div class="problem">'+
-          '外国に住む<br>'+
-          '{外国に住みたいです|がいこくにすみたいです|' + Genki.getAlts('{外国}に{住}みたいです', 'がいこく|す') + 'answer}。'+
+          'own a dog<br>'+
+          '<i class="fa">&#xf061;</i>　{子供の時、犬を飼い%(たかった/たくなかった)です|こどものとき、いぬをかい%(たかった/たくなかった)です|' + Genki.getAlts('{子}{供}の{時}、{犬}を{飼}い{たかった}です', 'こ|ども|とき|いぬ|か|たくなかった') + 'answer}。'+
         '</div>'+
         
         '<div class="problem">'+
-          '旅行する<br>'+
-          '{旅行したいです|りょこうしたいです|answer}。'+
+          'eat snacks<br>'+
+          '<i class="fa">&#xf061;</i>　{子供の時、お菓子を食べ%(たかった/たくなかった)です|こどものとき、おかしをたべ%(たかった/たくなかった)です|' + Genki.getAlts('{子}{供}の{時}、お{菓子}を{食}べ{たかった}です', 'こ|ども|とき|かし|た|たくなかった') + 'answer}。'+
         '</div>'+
         
         '<div class="problem">'+
-          'テレビを見る<br>'+
-          '{テレビを見たいです|テレビをみたいです|answer}。'+
-        '</div>'+
-        
-        '<p class="section-desc">Things you wanted to do as a child. (past tense)</p>'+
-        '<div class="problem">'+
-          '犬を飼う<br>'+
-          '{子供の時、犬を飼いたかったです|こどものとき、いぬをかいたかったです|' + Genki.getAlts('{子}{供}の{時}、{犬}を{飼}いたかったです', 'こ|ども|とき|いぬ|か') + 'answer}。'+
+          'ride an airplane<br>'+
+          '<i class="fa">&#xf061;</i>　{子供の時、飛行機に乗り%(たかった/たくなかった)です|こどものとき、ひこうきにのり%(たかった/たくなかった)です|' + Genki.getAlts('{子}{供}の{時}、{飛行機}に{乗}り{たかった}です', 'こ|ども|とき|ひこうき|の|たくなかった') + 'answer}。'+
         '</div>'+
         
         '<div class="problem">'+
-          'お菓子を食べる<br>'+
-          '{子供の時、お菓子を食べたかったです|こどものとき、おかしをたべたかったです|' + Genki.getAlts('{子}{供}の{時}、お{菓子}を{食}べたかったです', 'こ|ども|とき|かし|た') + 'answer}。'+
+          'be a singer<br>'+
+          '<i class="fa">&#xf061;</i>　{子供の時、歌手になり%(たかった/たくなかった)です|こどものとき、かしゅになり%(たかった/たくなかった)です|' + Genki.getAlts('{子}{供}の{時}、{歌手}になり{たかった}です', 'こ|ども|とき|かしゅ|たくなかった') + 'answer}。'+
         '</div>'+
         
         '<div class="problem">'+
-          'ゲームをする<br>'+
-          '{子供の時、ゲームをしたかったです|こどものとき、ゲームをしたかったです|' + Genki.getAlts('{子}{供}の{時}、ゲームをしたかったです', 'こ|ども|とき') + 'answer}。'+
-        '</div>'+
-        
-        '<p class="section-desc">Things you don\'t want to do.</p>'+
-        '<div class="problem">'+
-          '学校をやめる<br>'+
-          '{学校をやめたくないです|がっこうをやめたくないです|answer}。'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          '友だちとけんかする<br>'+
-          '{友だちとけんかしたくないです|ともだちとけんかしたくないです|' + Genki.getAlts('{友}{達}とけんかしたくないです', 'とも|だち') + 'answer}。'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          'うそをつく<br>'+
-          '{うそをつきたくないです}。'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          '山に登る<br>'+
-          '{山に登りたくないです|やまにのぼりたくないです|' + Genki.getAlts('{山}に{登}りたくないです', 'やま|のぼ') + 'answer}。'+
-        '</div>'+
-        
-        '<p class="section-desc">Things you didn\'t want to do as a child. (past tense)</p>'+
-        '<div class="problem">'+
-          '学校に行く<br>'+
-          '{子供の時、学校に行きたくなかったです|こどものとき、がっこうにいきたくなかったです|' + Genki.getAlts('{子}{供}の{時}、{学校}に{行}きたくなかったです', 'こ|ども|とき|がっこう|い') + 'answer}。'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          '働く<br>'+
-          '{子供の時、働きたくなかったです|こどものとき、はたらきたくなかったです|' + Genki.getAlts('{子}{供}の{時}、{働}きたくなかったです', 'こ|ども|とき|はたら') + 'answer}。'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          '電車に乗る<br>'+
-          '{子供の時、電車に乗りたくなかったです|こどものとき、でんしゃにのりたくなかったです|' + Genki.getAlts('{子}{供}の{時}、{電車}に{乗}りたくなかったです', 'こ|ども|とき|でんしゃ|の') + 'answer}。'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          '歌手になる<br>'+
-          '{子供の時、歌手になりたくなかったです|こどものとき、かしゅになりたくなかったです|' + Genki.getAlts('{子}{供}の{時}、{歌手}になりたくなかったです', 'こ|ども|とき|かしゅ') + 'answer}。'+
+          'play games<br>'+
+          '<i class="fa">&#xf061;</i>　{子供の時、ゲームをし%(たかった/たくなかった)です|こどものとき、ゲームをし%(たかった/たくなかった)です|' + Genki.getAlts('{子}{供}の{時}、ゲームをし{たかった}です', 'こ|ども|とき|たくなかった') + 'answer}。'+
         '</div>'+
       '</div>'
         

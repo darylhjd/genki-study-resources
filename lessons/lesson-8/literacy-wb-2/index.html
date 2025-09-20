@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Spelling Practice (員, 新, 聞, and 作) - Lesson 8 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Spelling Practice (員, 新, 聞, and 作) - Lesson 8 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Spelling Practice (員, 新, 聞, and 作) - Lesson 8 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Spelling Practice (員, 新, 聞, and 作) - Lesson 8 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Practice spelling the following fourteen words in kanji.">
-    <meta property="og:description" content="Practice spelling the following fourteen words in kanji.">
+    <title>Workbook: Using Kanji - Lesson 8 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: Using Kanji - Lesson 8 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: Using Kanji - Lesson 8 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: Using Kanji - Lesson 8 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using the kanji you learned.">
+    <meta property="og:description" content="Complete the following problems using the kanji you learned.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, Reading and Writing, page 139, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, Reading and Writing, page 144, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,30 +70,56 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'writing',
-      info : 'Practice spelling the following fourteen words in kanji.',
+      type : 'fill',
+      info : 'Complete the following problems using the kanji you learned.',
       
-      columns : 6,
-      quizlet : {
-        '会社員' : 'かいしゃいん',
-        '店員' : 'てんいん',
-        '会員' : 'かいいん',
-        '駅員' : 'えきいん',
-        '新しい' : 'あたらしい',
-        '新聞' : 'しんぶん',
-        '新幹線' : 'しんかんせん',
-        '新鮮な' : 'しんせんな',
-        '聞く' : 'きく',
-        '聞こえる' : 'きこえる',
-        '作る' : 'つくる',
-        '作文' : 'さくぶん',
-        '作品' : 'さくひん',
-        '作者' : 'さくしゃ'
-      }
+      quizlet : 
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Fill in the blanks with the appropriate mixes of kanji and hiragana.</p>'+
+      '<div class="count-problems">'+
+        '<div class="problem valign-top"><ruby>川口<rt>かわぐち</rt></ruby>さんは{会社員|かいしゃいん}だと{思います|おもいます}。</div>'+
+        '<div class="problem valign-top"><ruby>友<rt>とも</rt></ruby>だちは{仕事|しごと}を{休む|やすむ}と{言って|いって}いました。</div>'+
+        '<div class="problem">{新聞|しんぶん}を{読みます|よみます}。</div>'+
+        '<div class="problem">{新しい|あたらしい}{車|くるま}を買いました。</div>'+
+        '<div class="problem">{次|つぎ}の{電車|でんしゃ}は{何時|なんじ}ですか。</div>'+
+        '<div class="problem">{休み|やすみ}の日にピザを{作りました|つくりました}。</div>'+
+      '</div><br>'+
+
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Using the kanji you know, translate the sentences into Japanese.</p>'+
+      '<div class="count-problems">'+
+        '<div class="problem">'+
+          'I listen to music on the train.<br>'+
+          '{%(私は/)電車で音楽を聞きます|%(わたしは/)でんしゃでおんがくをききます|' + Genki.getAlts('{私}は{電車}で{音楽}を{聞}きます', 'わたし|でんしゃ|おんがく|き') + Genki.getAlts('{電車}で{音楽}を{聞}きます', 'でんしゃ|おんがく|き') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'Please turn on the light.<br>'+
+          '{電気をつけてください|でんきをつけてください|answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'I think company employees in Japan are busy.<br>'+
+          '{%(私は/)日本の会社員は忙しいと思います|%(わたしは/)にほんのかいしゃいんはいそがしいとおもいます|' + Genki.getAlts('{私}は{日本}の{会社員}は{忙}しいと{思}います', 'わたし|にほん|かいしゃいん|いそが|おも') + Genki.getAlts('{日本}の{会社員}は{忙}しいと{思}います', 'にほん|かいしゃいん|いそが|おも') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'What do you do on holidays?<br>'+
+          '{休みに何をしますか|やすみになにをしますか|' + Genki.getAlts('{休}みに{何}をしますか', 'やす|なに') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'My mother said that she would go to Tokyo next week.<br>'+
+          '{母は来週東京に行くと言っていました|はははらいしゅうとうきょうにいくといっていました|' + Genki.getAlts('{母}は{来週}{東京}に{行}くと{言}っていました', 'はは|らいしゅう|とうきょう|い|い') + 'answer}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'The next train comes at eleven o\'clock.<br>'+
+          '{次の電車は十一時に来ます|つぎのでんしゃはじゅういちじにきます|' + Genki.getAlts('{次}の{電車}は{十一時}に{来}ます', 'つぎ|でんしゃ|じゅういちじ|き') + 'answer}。'+
+        '</div>'+
+      '</div>'
     });</script>
   </body>
 </html>

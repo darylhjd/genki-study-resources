@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: ～でしょう - Lesson 12 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: ～でしょう - Lesson 12 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: ～でしょう - Lesson 12 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: ～でしょう - Lesson 12 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Answer the questions using ～でしょう.">
-    <meta property="og:description" content="Answer the questions using ～でしょう.">
+    <title>Workbook: ～でしょうか - Lesson 12 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: ～でしょうか - Lesson 12 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: ～でしょうか - Lesson 12 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: ～でしょうか - Lesson 12 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using ～でしょうか.">
+    <meta property="og:description" content="Complete the following problems using ～でしょうか.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, page 111, problem I, problem II, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, page 116, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,70 +70,55 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Answer the questions using {!GRI|～でしょう|l12-p6}.',
+      info : 'Complete the following problems using {!GRI|～でしょうか|l12-p6}.',
       
       quizlet : 
-      '<div class="count-problems even-width large-width">'+
-        '<p class="section-desc">You are a meteorologist. Look at the table and report the weather and the temperature of each location with {!GRI|～でしょう|l12-p6}.</p>'+
-        '<table class="table center">'+
-          '<tr>'+
-            '<td>#</td>'+
-            '<td></td>'+
-            '<td>天気</td>'+
-            '<td>気温</td>'+
-          '</tr>'+
+      '<div class="count-problems">'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd fa">&#xf054;</span>You live in a dormitory and you will get a new roomate. Ask the coordinator what that person is like, using {!GRI|～でしょうか|l12-p6}.</p>'+
+        '<div class="problem">'+
+          'Is she/he Japanese?<br>'+
+          '{日本人でしょうか|にほんじんでしょうか|answer}。'+
+        '</div>'+
         
-          '<tr>'+
-            '<td>1</td>'+
-            '<td>北海道<span class="define">[ほっかいどう]</span></td>'+
-            '<td>雪<span class="define">[ゆき]</span></td>'+
-            '<td>5°C</td>'+
-          '</tr>'+
+        '<div class="problem">'+
+          'What is her/his major?<br>'+
+          '{専攻は何でしょうか|せんこうはなんでしょうか|' + Genki.getAlts('{専攻}は{何}でしょうか', 'せんこう|なん') + 'answer}。'+
+        '</div>'+
         
-          '<tr>'+
-            '<td>2</td>'+
-            '<td>東京<span class="define">[とうきょう]</span></td>'+
-            '<td>くもり</td>'+
-            '<td>17°C</td>'+
-          '</tr>'+
+        '<div class="problem">'+
+          'Is she/he a quiet person?<br>'+
+          '{静かな人でしょうか|しずかなひとでしょうか|answer}。'+
+        '</div>'+
         
-          '<tr>'+
-            '<td>3</td>'+
-            '<td>大阪<span class="define">[おおさか]</span></td>'+
-            '<td>雨<span class="define">[あめ]</span></td>'+
-            '<td>20°C</td>'+
-          '</tr>'+
+        '<div class="problem">'+
+          'What kind of music does she/he like?<br>'+
+          '{どんな音楽が好きでしょうか|どんなおんがくがすきでしょうか|' + Genki.getAlts('どんな{音楽}が{好}きでしょうか', 'おんがく|す') + 'answer}。'+
+        '</div>'+
         
-          '<tr>'+
-            '<td>4</td>'+
-            '<td>沖縄<span class="define">[おきなわ]</span></td>'+
-            '<td>晴れ<span class="define">[はれ]</span></td>'+
-            '<td>24°C</td>'+
-          '</tr>'+
+        '<div class="problem">'+
+          'Does she/he smoke?<br>'+
+          '{たばこを吸うでしょうか|たばこをすうでしょうか|' + Genki.getAlts('{たばこ}を{吸}うでしょうか', 'タバコ|す') + 'answer}。'+
+        '</div>'+
         
-          '<tr>'+
-            '<td>5</td>'+
-            '<td>京都<span class="define">[きょうと]</span></td>'+
-            '<td>雨<span class="define">[あめ]</span></td>'+
-            '<td>12°C</td>'+
-          '</tr>'+
-        '</table>'+
-        '<br>'+
+        '<div class="problem">'+
+          'Does she/he have many friends?<br>'+
+          '{友だちがたくさんいるでしょうか|ともだちがたくさんいるでしょうか|' + Genki.getAlts('{友}{だち}がたくさんいるでしょうか', 'とも|達') + 'answer}。'+
+        '</div>'+
         
-        '<div class="problem">{北海道はあした雪でしょう。気温は五度ぐらいでしょう。|ほっかいどうはあしたゆきでしょう。きおんはごどぐらいでしょう。|' + Genki.getAlts('{北海道}は{明日}{雪}でしょう。{気温}は{五度}ぐらいでしょう。', 'ほっかいどう|あした|ゆき|きおん|ごど') + 'answer}</div>'+
+        '<div class="problem">'+
+          'What kind of food does she/he like?<br>'+
+          '{どんな食べ物が好きでしょうか|どんなたべものがすきでしょうか|' + Genki.getAlts('どんな{食べ物}が{好}きでしょうか', 'たべもの|す') + 'answer}。'+
+        '</div>'+
         
-        '<div class="problem">{東京はあしたくもりでしょう。気温は十七度ぐらいでしょう。|とうきょうはあしたくもりでしょう。きおんはじゅうななどぐらいでしょう。|' + Genki.getAlts('{東京}は{明日}{曇}りでしょう。{気温}は{十七度}ぐらいでしょう。', 'とうきょう|あした|くも|きおん|じゅうななど') + 'answer}</div>'+
-        
-        '<div class="problem">{大阪はあした雨でしょう。気温は二十度ぐらいでしょう。|おおさかはあしたあめでしょう。きおんはにじゅうどぐらいでしょう。|' + Genki.getAlts('{大阪}は{明日}{雨}でしょう。{気温}は{二十度}ぐらいでしょう。', 'おおさか|あした|あめ|きおん|にじゅうど') + 'answer}</div>'+
-        
-        '<div class="problem">{沖縄はあした晴れでしょう。気温は二十四度ぐらいでしょう。|おきなわはあしたはれでしょう。きおんはにじゅうよんどぐらいでしょう。|' + Genki.getAlts('{沖縄}は{明日}{晴}れでしょう。{気温}は{二十四度}ぐらいでしょう。', 'おきなわ|あした|はれ|きおん|じゅうよんど') + 'answer}</div>'+
-        
-        '<div class="problem">{京都はあした雨でしょう。気温は十二度ぐらいでしょう。|きょうとはあしたあめでしょう。きおんはじゅうにどぐらいでしょう。|' + Genki.getAlts('{京都}は{明日}{雨}でしょう。{気温}は{十二度}ぐらいでしょう。', 'きょうと|あした|あめ|きおん|じゅうにど') + 'answer}</div>'+
+        '<div class="problem">'+
+          'Does she/he have a car?<br>'+
+          '{車があるでしょうか|くるまがあるでしょうか|answer}。'+
+        '</div>'+
       '</div>'
         
     });</script>

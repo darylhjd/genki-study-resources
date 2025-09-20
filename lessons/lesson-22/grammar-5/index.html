@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources - 2nd Edition">
+    <title>Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Verb Stem + なさい - Lesson 22 | Genki Study Resources">
     <meta name="description" content="You are a parent. What would you say to your child in the following situations?">
     <meta property="og:description" content="You are a parent. What would you say to your child in the following situations?">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, page 245, problem III-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, page 243, problem III-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,96 +70,147 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
+      format : 'practice',
+      type : ['multi', 'fill'],
       info : 'You are a parent. What would you say to your child in the following situations? {!GRI|Click here|l22-p3} to review Verb Stem + なさい.',
 
       quizlet : [
-        {
-          question : 'Your child\'s room is always messy.',
-          answers : [
-            'A部屋を掃除しなさい。',
-            '部屋を掃除してなさい。',
-            '部屋を掃除するなさい。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'Your child\'s room is always messy.',
+            answers : [
+              'A<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>しなさい。',
+              '<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>してなさい。',
+              '<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>するなさい。',
+              '<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>すなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child doesn\'t eat vegetables.',
+            answers : [
+              'A<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べなさい。',
+              '<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べりなさい。',
+              '<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べるなさい。',
+              '<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child doesn\'t study at all.',
+            answers : [
+              'A<ruby>勉強<rt>べんきょう</rt></ruby>しなさい。',
+              '<ruby>勉強<rt>べんきょう</rt></ruby>してなさい。',
+              '<ruby>勉強<rt>べんきょう</rt></ruby>すなさい。',
+              '<ruby>勉強<rt>べんきょう</rt></ruby>するなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child stay\'s up late.',
+            answers : [
+              'A<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>なさい。',
+              '<ruby>寝<rt>ね</rt></ruby>なさい。',
+              '<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>りなさい。',
+              '<ruby>寝<rt>ね</rt></ruby>りなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child doesn\'t practice the piano.',
+            answers : [
+              'Aピアノを<ruby>練習<rt>れんしゅう</rt></ruby>しなさい。',
+              'ピアノを<ruby>練習<rt>れんしゅう</rt></ruby>してなさい。',
+              'ピアノを<ruby>練習<rt>れんしゅう</rt></ruby>すなさい。',
+              'ピアノを<ruby>練習<rt>れんしゅう</rt></ruby>するなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child doesn\'t like to take a bath.',
+            answers : [
+              'Aお<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りなさい。',
+              'お<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るなさい。',
+              'お<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>なさい。',
+              'お<ruby>風呂<rt>ふろ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child doesn\'t play outside.',
+            answers : [
+              'A<ruby>外<rt>そと</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>びなさい。',
+              '<ruby>遊<rt>あそ</rt></ruby>びなさい。',
+              '<ruby>外<rt>そと</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>んでなさい。',
+              '<ruby>遊<rt>あそ</rt></ruby>んでなさい。'
+            ]
+          },
+
+          {
+            question : 'Your child doesn\'t come home right after school.',
+            answers : [
+              'A<ruby>早<rt>はや</rt></ruby>くうちに<ruby>帰<rt>かえ</rt></ruby>りなさい。',
+              'うちに<ruby>帰<rt>かえ</rt></ruby>りなさい。',
+              '<ruby>早<rt>はや</rt></ruby>くうちに<ruby>帰<rt>かえ</rt></ruby>なさい。',
+              'うちに<ruby>帰<rt>かえ</rt></ruby>なさい。'
+            ]
+          }
+        ],
         
-        {
-          question : 'Your child doesn\'t eat vegetables.',
-          answers : [
-            'A野菜を食べなさい。',
-            '野菜を食べりなさい。',
-            '野菜を食べるなさい。'
-          ]
-        },
         
-        {
-          question : 'Your child doesn\'t study at all.',
-          answers : [
-            'A勉強しなさい。',
-            '勉強してなさい。',
-            '勉強すなさい。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'Your child\'s room is always messy.<br>'+
+            '<i class="fa">&#xf061;</i>　<ruby>部屋<rt>へや</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>しなさい。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'Your child stay\'s up late.',
-          answers : [
-            'A早く寝なさい。',
-            '寝なさい。',
-            '早く寝りなさい。',
-            '寝りなさい。'
-          ]
-        },
-        
-        {
-          question : 'Your child doesn\'t practice the piano.',
-          answers : [
-            'Aピアノを練習しなさい。',
-            'ピアノを練習してなさい。',
-            'ピアノを練習すなさい。'
-          ]
-        },
-        
-        {
-          question : 'Your child doesn\'t like to take a bath.',
-          answers : [
-            'Aお風呂に入りなさい。',
-            'お風呂に入るなさい。',
-            'お風呂に入なさい。'
-          ]
-        },
-        
-        {
-          question : 'Your child always studies and doesn\'t play.',
-          answers : [
-            'A遊びなさい。',
-            '遊ぶなさい。',
-            '遊んでなさい。'
-          ]
-        },
-        
-        {
-          question : 'Your child doesn\'t come home right after school.',
-          answers : [
-            'A早くうちに帰りなさい。',
-            'うちに帰りなさい。',
-            '早くうちに帰なさい。',
-            'うちに帰なさい。'
-          ]
-        },
-        
-        {
-          question : 'Your son has very long hair like a girl\'s.',
-          answers : [
-            'A髪を切りなさい。',
-            '髪を切てなさい。',
-            '髪を切なさい。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'Your child doesn\'t eat vegetables.<br>'+
+              '{野菜を食べなさい|やさいをたべなさい|' + Genki.getAlts('{野菜}を{食}べなさい', 'やさい|た') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'Your child doesn\'t study at all.<br>'+
+              '{勉強しなさい|べんきょうしなさい|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'Your child stay\'s up late.<br>'+
+              '{早く寝なさい|はやくねなさい|' + Genki.getAlts('{早}く{寝}なさい', 'はや|ね') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'Your child doesn\'t practice the piano.<br>'+
+              '{ピアノを練習しなさい|ピアノをれんしゅうしなさい|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'Your child doesn\'t like to take a bath.<br>'+
+              '{お風呂に入りなさい|おふろにはいりなさい|' + Genki.getAlts('お{風呂}に{入}りなさい', 'ふろ|はい') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'Your child doesn\'t play outside.<br>'+
+              '{外で遊びなさい|そとであそびなさい|' + Genki.getAlts('{外}で{遊}びなさい', 'そと|あそ') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'Your child doesn\'t come home right after school.<br>'+
+              '{早くうちに帰りなさい|はやくうちにかえりなさい|' + Genki.getAlts('{早}く{うち}に{帰}りなさい', 'はや|家|かえ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～そうです 2 - Lesson 13 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～そうです 2 - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～そうです 2 - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～そうです 2 - Lesson 13 | Genki Study Resources - 2nd Edition">
+    <title>Practice: ～そうです 2 - Lesson 13 | Genki Study Resources</title>
+    <meta name="title" content="Practice: ～そうです 2 - Lesson 13 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: ～そうです 2 - Lesson 13 | Genki Study Resources">
+    <meta property="og:title" content="Practice: ～そうです 2 - Lesson 13 | Genki Study Resources">
     <meta name="description" content="Look at the cues and make sentences by using the adjective + そう combination to qualify the noun.">
     <meta property="og:description" content="Look at the cues and make sentences by using the adjective + そう combination to qualify the noun.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, page 42, problem III-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, page 37, problem III-B, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,157 +70,237 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
+      format : 'practice',
+      type : ['multi', 'fill'],
       info : 'Look at the cues and make sentences by using the {!GRI|adjective + そう|l13-p3} combination to qualify the noun.',
 
       quizlet : [
-        {
-          question : 'すし<br>delicious',
-          answers : [
-            'Aおいしそうなすしです。',
-            'おいしいそうなすしです。',
-            'おいしそういすしです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'すし<br>delicious',
+            answers : [
+              'Aおいしそうなすしです。',
+              'おいしいそうなすしです。',
+              'おいしそういすしです。',
+              'おいしそうすしです。'
+            ]
+          },
+
+          {
+            question : 'カレー<br>spicy',
+            answers : [
+              'A<ruby>辛<rt>から</rt></ruby>そうなカレーです。',
+              '<ruby>辛<rt>から</rt></ruby>いそうなカレーです。',
+              '<ruby>辛<rt>から</rt></ruby>そういカレーです。',
+              '<ruby>辛<rt>から</rt></ruby>そうカレーです。'
+            ]
+          },
+          
+          {
+            question : 'ケーキ<br>sweet',
+            answers : [
+              'A<ruby>甘<rt>あま</rt></ruby>そうなケーキです。',
+              '<ruby>甘<rt>あま</rt></ruby>いそうなケーキです。',
+              '<ruby>甘<rt>あま</rt></ruby>そういケーキです。',
+              '<ruby>甘<rt>あま</rt></ruby>そうケーキです。'
+            ]
+          },
+
+          {
+            question : '<ruby>家<rt>いえ</rt></ruby><br>old',
+            answers : [
+              'A<ruby>古<rt>ふる</rt></ruby>そうな<ruby>家<rt>いえ</rt></ruby>です。',
+              '<ruby>古<rt>ふる</rt></ruby>いそうな<ruby>家<rt>いえ</rt></ruby>です。',
+              '<ruby>古<rt>ふる</rt></ruby>いそう<ruby>家<rt>いえ</rt></ruby>です。',
+              '<ruby>古<rt>ふる</rt></ruby>そう<ruby>家<rt>いえ</rt></ruby>です。'
+            ]
+          },
+          
+          {
+            question : 'アパート<br>new',
+            answers : [
+              'A<ruby>新<rt>あたら</rt></ruby>しそうなアパートです。',
+              '<ruby>新<rt>あたら</rt></ruby>しいそうなアパートです。',
+              '<ruby>新<rt>あたら</rt></ruby>しそういアパートです。',
+              '<ruby>新<rt>あたら</rt></ruby>しそうアパートです。'
+            ]
+          },
+          
+          {
+            question : 'マンション<br>convenient',
+            answers : [
+              'A<ruby>便利<rt>べんり</rt></ruby>そうなマンションです。',
+              '<ruby>便利<rt>べんり</rt></ruby>なそうなマンションです。',
+              '<ruby>便利<rt>べんり</rt></ruby>そうマンションです。',
+              '<ruby>便利<rt>べんり</rt></ruby>なそうマンションです。'
+            ]
+          },
+
+          {
+            question : '<ruby>先生<rt>せんせい</rt></ruby><br>strict',
+            answers : [
+              'A<ruby>厳<rt>きび</rt></ruby>しそうな<ruby>先生<rt>せんせい</rt></ruby>です。',
+              '<ruby>厳<rt>きび</rt></ruby>しいそうな<ruby>先生<rt>せんせい</rt></ruby>です。',
+              '<ruby>厳<rt>きび</rt></ruby>しいそうい<ruby>先生<rt>せんせい</rt></ruby>です。',
+              '<ruby>厳<rt>きび</rt></ruby>しそう<ruby>先生<rt>せんせい</rt></ruby>です。'
+            ]
+          },
+          
+          {
+            question : '<ruby>学生<rt>がくせい</rt></ruby><br>sleepy',
+            answers : [
+              'A<ruby>眠<rt>ねむ</rt></ruby>そうな<ruby>学生<rt>がくせい</rt></ruby>です。',
+              '<ruby>寝<rt>ね</rt></ruby>そうな<ruby>学生<rt>がくせい</rt></ruby>です。',
+              '<ruby>眠<rt>ねむ</rt></ruby>そう<ruby>学生<rt>がくせい</rt></ruby>です。',
+              '<ruby>寝<rt>ね</rt></ruby>りそうな<ruby>学生<rt>がくせい</rt></ruby>です。'
+            ]
+          },
+          
+          {
+            question : 'おじいさん<br>energetic',
+            answers : [
+              'A<ruby>元気<rt>げんき</rt></ruby>そうなおじいさんです。',
+              '<ruby>元気<rt>げんき</rt></ruby>なそうなおじいさんです。',
+              '<ruby>元気<rt>げんき</rt></ruby>そうおじいさんです。',
+              '<ruby>元気<rt>げんき</rt></ruby>なそうおじいさんです。'
+            ]
+          },
+
+          {
+            question : 'おばあさん<br>mean',
+            answers : [
+              'Aいじわるそうなおばあさんです。',
+              'いじわるいそうなおばあさんです。',
+              'いじわるなそうなおばあさんです。',
+              'いじわるそうおばあさんです。'
+            ]
+          },
+
+          {
+            question : '<ruby>子供<rt>こども</rt></ruby><br>sad',
+            answers : [
+              'A<ruby>悲<rt>かな</rt></ruby>しそうな<ruby>子供<rt>こども</rt></ruby>です。',
+              '<ruby>悲<rt>かな</rt></ruby>しいそうな<ruby>子供<rt>こども</rt></ruby>です。',
+              '<ruby>悲<rt>かな</rt></ruby>しいそう<ruby>子供<rt>こども</rt></ruby>です。',
+              '<ruby>悲<rt>かな</rt></ruby>しそう<ruby>子供<rt>こども</rt></ruby>です。'
+            ]
+          },
+          
+          {
+            question : '<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby><br>lonely',
+            answers : [
+              'Aさびしそうな<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>です。',
+              'きびしそうな<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>です。',
+              'さびしそう<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>です。',
+              'きびしそう<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>です。'
+            ]
+          },
+          
+          {
+            question : '<ruby>弁護士<rt>べんごし</rt></ruby><br>smart',
+            answers : [
+              'A<ruby>頭<rt>あたま</rt></ruby>がよさそうな<ruby>弁護士<rt>べんごし</rt></ruby>です。',
+              '<ruby>頭<rt>あたま</rt></ruby>がいいそうな<ruby>弁護士<rt>べんごし</rt></ruby>です。',
+              '<ruby>頭<rt>あたま</rt></ruby>がよいそうな<ruby>弁護士<rt>べんごし</rt></ruby>です。',
+              '<ruby>頭<rt>あたま</rt></ruby>がいさそうな<ruby>弁護士<rt>べんごし</rt></ruby>です。'
+            ]
+          },
+
+          {
+            question : 'やくざ<br>scary',
+            answers : [
+              'Aこわそうなやくざです。',
+              'こわいそうなやくざです。',
+              'かわよさそうなやくざです。',
+              'こわそうやくざです。'
+            ]
+          }
+        ],
         
-        {
-          question : 'ケーキ<br>sweet',
-          answers : [
-            'A甘そうなケーキです。',
-            '甘いそうなケーキです。',
-            '甘そういケーキです。'
-          ]
-        },
         
-        {
-          question : 'カレー<br>spicy',
-          answers : [
-            'A辛そうなカレーです。',
-            '辛いそうなカレーです。',
-            '辛そういカレーです。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'すし／delicious<br>'+
+            '<i class="fa">&#xf061;</i>　おいしそうなすしです。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : '服<br>old',
-          answers : [
-            'A古そうな服です。',
-            '古いそうな服です。',
-            '古いそう服です。'
-          ]
-        },
-        
-        {
-          question : '先生<br>strict',
-          answers : [
-            'A厳しそうな先生です。',
-            '厳しいそうな先生です。',
-            '厳しいそうい先生です。'
-          ]
-        },
-        
-        {
-          question : '時計<br>new',
-          answers : [
-            'A新しそうな時計です。',
-            '新しいそうな時計です。',
-            '新しそうい時計です。'
-          ]
-        },
-        
-        {
-          question : 'やくざ<br>scary',
-          answers : [
-            'Aこわそうなやくざです。',
-            'こわいそうなやくざです。',
-            'かわよさそうなやくざです。'
-          ]
-        },
-        
-        {
-          question : '男の人<br>lonely',
-          answers : [
-            'Aさびしそうな男の人です。',
-            'きびしそうな男の人です。',
-            'さびしいそうな男の人です。'
-          ]
-        },
-        
-        {
-          question : '女の人<br>glad',
-          answers : [
-            'Aうれしそうな女の人です。',
-            'うれしいそうな女の人です。',
-            'うれしそう女の人です。'
-          ]
-        },
-        
-        {
-          question : 'おじいさん<br>energetic',
-          answers : [
-            'A元気そうなおじいさんです。',
-            '元気なそうなおじいさんです。',
-            '元気そうおじいさんです。'
-          ]
-        },
-        
-        {
-          question : 'おばあさん<br>mean',
-          answers : [
-            'Aいじわるそうなおばあさんです。',
-            'いじわるいそうなおばあさんです。',
-            'いじわるそうなおじいさんです。'
-          ]
-        },
-        
-        {
-          question : '女の人<br>kind',
-          answers : [
-            'A親切そうな女の人です。',
-            '親切なそうな女の人です。',
-            '親切そうな男の人です。'
-          ]
-        },
-        
-        {
-          question : '弁護士<br>smart',
-          answers : [
-            'A頭がよさそうな弁護士です。',
-            '頭がいいそうな弁護士です。',
-            '頭がよいそうな弁護士です。'
-          ]
-        },
-        
-        {
-          question : '学生<br>sleepy',
-          answers : [
-            'A眠そうな学生です。',
-            '寝そうな学生です。',
-            '眠そうな先生です。'
-          ]
-        },
-        
-        {
-          question : 'セーター<br>warm',
-          answers : [
-            'A暖かそうなセーターです。',
-            '暖かいそうなセーターです。',
-            '暖かそういセーターです。'
-          ]
-        },
-        
-        {
-          question : '子供<br>sad',
-          answers : [
-            'A悲しそうな子供です。',
-            '悲しいそうな子供です。',
-            '悲しいそう子供です。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'カレー／spicy<br>'+
+              '{辛そうなカレーです|からそうなカレーです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'ケーキ／sweet<br>'+
+              '{甘そうなケーキです|あまそうなケーキです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>家<rt>いえ</rt></ruby>／old<br>'+
+              '{古そうな家です|ふるそうないえです|' + Genki.getAlts('{古}そうな{家}です', 'ふる|いえ') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'アパート／new<br>'+
+              '{新しそうなアパートです|あたらしそうなアパートです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'マンション／convenient<br>'+
+              '{便利そうなマンションです|べんりそうなマンションです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>先生<rt>せんせい</rt></ruby>／strict<br>'+
+              '{厳しそうな先生です|きびしそうなせんせいです|' + Genki.getAlts('{厳}しそうな{先生}です', 'きび|せんせい') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>学生<rt>がくせい</rt></ruby>／sleepy<br>'+
+              '{眠そうな学生です|ねむそうながくせいです|' + Genki.getAlts('{眠}そうな{学生}です', 'ねむ|がくせい') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'おじいさん／energetic<br>'+
+              '{元気そうなおじいさんです|げんきそうなおじいさんです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'おばあさん／mean<br>'+
+              '{意地悪そうなおばあさんです|いじわるそうなおばあさんです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>子供<rt>こども</rt></ruby>／sad<br>'+
+              '{悲しそうな子供です|かなしそうなこどもです|' + Genki.getAlts('{悲}しそうな{子}{供}です', 'かな|こ|ども') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>／lonely<br>'+
+              '{さびしそうな男の人です|さびしそうなおとこのひとです|' + Genki.getAlts('{さび}しそうな{男}の{人}です', '寂|おとこ|ひと') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>弁護士<rt>べんごし</rt></ruby>／smart<br>'+
+              '{頭がよさそうな弁護士です|あたまがよさそうなべんごしです|' + Genki.getAlts('{頭}がよさそうな{弁護士}です', 'あたま|べんごし') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'やくざ／scary<br>'+
+              '{怖そうなやくざです|こわそうなやくざです|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

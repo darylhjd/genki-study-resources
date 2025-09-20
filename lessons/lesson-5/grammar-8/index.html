@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="A and B are talking about A's vacation. Complete the dialogue between A and B by using the cues in A's dialogue.">
-    <meta property="og:description" content="A and B are talking about A's vacation. Complete the dialogue between A and B by using the cues in A's dialogue.">
+    <title>Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Adjectives (Past Tense) 2 - Lesson 5 | Genki Study Resources">
+    <meta name="description" content="A and B are talking. Complete the dialogue between A and B by using the cues in A's dialogue.">
+    <meta property="og:description" content="A and B are talking. Complete the dialogue between A and B by using the cues in A's dialogue.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 140, problem II-D, い-adjective, な-adjective, conjugation, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 141, problem II-D, い-adjective, な-adjective, conjugation, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,66 +70,119 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>(function () {
       var b = '<br>B：そうですか。どうでしたか。<br>';
         
       Genki.generateQuiz({
-        type : 'multi',
-        info : 'A and B are talking about A\'s vacation. Complete the dialogue between A and B by using the cues in A\'s dialogue. {!GRI|Click here|l5-p2} to review past tense adjectives.',
+        format : 'practice',
+        type : ['multi', 'fill'],
+        info : 'A and B are talking. Complete the dialogue between A and B by using the cues in A\'s dialogue. {!GRI|Click here|l5-p2} to review past tense adjectives.',
 
+        questionsAlignLeft : true,
         quizlet : [
-          {
-            question : 'A：went to Okinawa on vacation' + b + 'A：very hot',
-            answers : [
-              'A休みに沖縄に行きました。<br>とても暑かったです。',
-              '休みに沖縄に行きます。<br>とても暑いです。',
-              '休みに沖縄に来ました。<br>すごく暑かったです。',
-              '休みに沖縄に行きました。<br>とても熱かったです。'
-            ]
-          },
+          [
+            // MULTIPLE CHOICE
+            {
+              question : 'A：went to Okinawa during the holiday' + b + 'A：very hot',
+              answers : [
+                'A<ruby>休<rt>やす</rt></ruby>みに<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<br>とても<ruby>暑<rt>あつ</rt></ruby>かったです。',
+                '<ruby>休<rt>やす</rt></ruby>みに<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<br>とても<ruby>暑<rt>あつ</rt></ruby>いです。',
+                '<ruby>休<rt>やす</rt></ruby>みに<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ました。<br>すごく<ruby>暑<rt>あつ</rt></ruby>かったです。',
+                '<ruby>休<rt>やす</rt></ruby>みに<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<br>とても<ruby>熱<rt>あつ</rt></ruby>かったです。'
+              ]
+            },
 
-          {
-            question : 'A：saw a movie' + b + 'A：scary',
-            answers : [
-              'A映画を見ました。<br>怖かったです。',
-              '映画を見ます。<br>怖いです。',
-              '映画を見ました。<br>怖いでした。',
-              '映画を見ました。<br>怖くったです。'
-            ]
-          },
+            {
+              question : 'A：saw a movie' + b + 'A：scary',
+              answers : [
+                'A<ruby>休<rt>やす</rt></ruby>みに<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<br><ruby>怖<rt>こわ</rt></ruby>かったです。',
+                '<ruby>休<rt>やす</rt></ruby>みに<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。<br><ruby>怖<rt>こわ</rt></ruby>いです。',
+                '<ruby>休<rt>やす</rt></ruby>みに<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<br><ruby>怖<rt>こわ</rt></ruby>いでした。',
+                '<ruby>休<rt>やす</rt></ruby>みに<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<br><ruby>怖<rt>こわ</rt></ruby>くったです。'
+              ]
+            },
 
-          {
-            question : 'A：stayed home' + b + 'A：very boring',
-            answers : [
-              'Aうちにいました。とてもつまらなかったです。',
-              'うちにいます。とてもつまらないです。',
-              'うちにいました。すごくつまらなかったです。',
-              'うちにいました。とてもつまらないでした。'
-            ]
-          },
+            {
+              question : 'A：stayed home' + b + 'A：very boring',
+              answers : [
+                'A<ruby>休<rt>やす</rt></ruby>みにうちにいました。とてもつまらなかったです。',
+                '<ruby>休<rt>やす</rt></ruby>みにうちにいます。とてもつまらないです。',
+                '<ruby>休<rt>やす</rt></ruby>みにうちにいました。すごくつまらなかったです。',
+                '<ruby>休<rt>やす</rt></ruby>みにうちにいました。とてもつまらないでした。'
+              ]
+            },
 
-          {
-            question : 'A：went to a party' + b + 'A：not fun',
-            answers : [
-              'Aパーティーに行きました。<br>楽しくなかったです。',
-              'パーティーに行きます。<br>楽しくないです。',
-              'パーティーに行きました。<br>おもしろくなかったです。',
-              'パーティーに行きました。<br>楽しいじゃなかったです。'
-            ]
-          },
+            {
+              question : 'A：went to a party' + b + 'A：not fun',
+              answers : [
+                'A<ruby>休<rt>やす</rt></ruby>みにパーティーに<ruby>行<rt>い</rt></ruby>きました。<br><ruby>楽<rt>たの</rt></ruby>しくなかったです。',
+                '<ruby>休<rt>やす</rt></ruby>みにパーティーに<ruby>行<rt>い</rt></ruby>きます。<br><ruby>楽<rt>たの</rt></ruby>しくないです。',
+                '<ruby>休<rt>やす</rt></ruby>みにパーティーに<ruby>行<rt>い</rt></ruby>きました。<br><ruby>楽<rt>たの</rt></ruby>しなかったです。',
+                '<ruby>休<rt>やす</rt></ruby>みにパーティーに<ruby>行<rt>い</rt></ruby>きました。<br><ruby>楽<rt>たの</rt></ruby>しいじゃなかったです。'
+              ]
+            },
 
-          {
-            question : 'A：went to a restaurant' + b + 'A：not delicious',
-            answers : [
-              'Aレストランに行きました。<br>おいしくなかったです。',
-              'レストランに行きます。<br>おいしくないです。',
-              'レストランに行きました。<br>おいしいじゃなかったです。',
-              'レストランに来ました。<br>おいしくなかったです。'
-            ]
-          }
+            {
+              question : 'A：went to a restaurant' + b + 'A：not delicious',
+              answers : [
+                'A<ruby>休<rt>やす</rt></ruby>みにレストランに<ruby>行<rt>い</rt></ruby>きました。<br>おいしくなかったです。',
+                '<ruby>休<rt>やす</rt></ruby>みにレストランに<ruby>行<rt>い</rt></ruby>きます。<br>おいしくないです。',
+                '<ruby>休<rt>やす</rt></ruby>みにレストランに<ruby>行<rt>い</rt></ruby>きました。<br>おいしいじゃなかったです。',
+                '<ruby>休<rt>やす</rt></ruby>みにレストランに<ruby>来<rt>き</rt></ruby>ました。<br>おいしくなかったです。'
+              ]
+            }
+          ],
+          
+          
+          // WRITTEN
+          '<div class="example-problem">'+
+            '<div class="inner-problem">'+
+              'A：<ruby>休<rt>やす</rt></ruby>みに{沖縄|おきなわ|answer;hint:Okinawa}に{行き|いき|answer;hint:went}ました。<br><br>'+
+              b + '<br>'+
+              'A：{とても|すごく|answer;hint:very}{暑|あつ|answer;hint:hot}かったです。'+
+            '</div>'+
+          '</div>'+
+          
+          '<div class="count-problems columns-2 clear">'+
+            '<div>'+
+              '<div class="problem">'+
+                '<div class="inner-problem">'+
+                  'A：<ruby>休<rt>やす</rt></ruby>みに{映画を見ました|えいがをみました|' + Genki.getAlts('{映画}を{見}ました', 'えいが|み') + 'answer;hint:saw a movie}。<br><br>'+
+                  b + '<br>'+
+                  'A：{怖かったです|こわかったです|answer;hint:scary}。'+
+                '</div>'+
+              '</div>'+
+              
+              '<div class="problem">'+
+                '<div class="inner-problem">'+
+                  'A：<ruby>休<rt>やす</rt></ruby>みに{家にいました|うちにいました|answer;hint:stayed home}。<br><br>'+
+                  b + '<br>'+
+                  'A：{%(とても/すごく)つまらなかったです|very boring|width:200}。'+
+                '</div>'+
+              '</div>'+
+            '</div>'+
+
+            '<div>'+
+              '<div class="problem">'+
+                '<div class="inner-problem">'+
+                  'A：<ruby>休<rt>やす</rt></ruby>みに{パーティーに行きました|パーティーにいきました|answer;hint:went to a party}。<br><br>'+
+                  b + '<br>'+
+                  'A：{楽しくなかったです|たのしくなかったです|answer;hint:not fun}。'+
+                '</div>'+
+              '</div>'+
+              
+              '<div class="problem">'+
+                '<div class="inner-problem">'+
+                  'A：<ruby>休<rt>やす</rt></ruby>みに{レストランに行きました|レストランにいきました|answer;hint:went to a restaurant}。<br><br>'+
+                  b + '<br>'+
+                  'A：{おいしくなかったです|not delicious|width:150}。'+
+                '</div>'+
+              '</div>'+
+            '</div>'+
+          '</div>'
         ]
       });
     }());</script>

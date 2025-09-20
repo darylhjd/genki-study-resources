@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Practice writing the following fourteen kanji.">
-    <meta property="og:description" content="Practice writing the following fourteen kanji.">
+    <title>Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: Kanji Writing Practice - Lesson 7 | Genki Study Resources">
+    <meta name="description" content="Practice drawing the following kanji multiple times.">
+    <meta property="og:description" content="Practice drawing the following kanji multiple times.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, Reading and Writing, page 137, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, Reading and Writing, Kanji stroke order, page 141, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,30 +70,101 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/kanji-canvas.min.js"></script>
+    <script src="../../../resources/javascript/ref-patterns/kanji.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'writing',
-      info : 'Practice writing the following fourteen kanji.',
+      type : 'drawing',
+      info : Genki.lang.std_drawing,
       
-      columns : 9,
-      quizlet : {
-        '京' : 'きょう',
-        '子' : 'こ',
-        '小' : 'しょう',
-        '会' : 'かい',
-        '社' : 'しゃ',
-        '父' : 'ちち',
-        '母' : 'はは',
-        '高' : 'たか',
-        '校' : 'こう',
-        '毎' : 'まい',
-        '語' : 'ご',
-        '文' : 'ぶん',
-        '帰' : 'き',
-        '入' : 'にゅう'
-      }
+      columns : 7,
+      quizlet : [
+        {
+          kanji : '京',
+          strokes : 8,
+          order : '059'
+        },
+        
+        {
+          kanji : '子',
+          strokes : 3,
+          order : '060'
+        },
+        
+        {
+          kanji : '小',
+          strokes : 3,
+          order : '061'
+        },
+        
+        {
+          kanji : '会',
+          strokes : 6,
+          order : '062'
+        },
+        
+        {
+          kanji : '社',
+          strokes : 7,
+          order : '063'
+        },
+        
+        {
+          kanji : '父',
+          strokes : 4,
+          order : '064'
+        },
+        
+        {
+          kanji : '母',
+          strokes : 5,
+          order : '065'
+        },
+        
+        {
+          kanji : '高',
+          strokes : 10,
+          order : '066'
+        },
+        
+        {
+          kanji : '校',
+          strokes : 10,
+          order : '067'
+        },
+        
+        {
+          kanji : '毎',
+          strokes : 6,
+          order : '068'
+        },
+        
+        {
+          kanji : '語',
+          strokes : 14,
+          order : '069'
+        },
+        
+        {
+          kanji : '文',
+          strokes : 4,
+          order : '070'
+        },
+        
+        {
+          kanji : '帰',
+          strokes : 10,
+          order : '071'
+        },
+        
+        {
+          kanji : '入',
+          strokes : 2,
+          order : '072'
+        }
+      ]
     });</script>
   </body>
 </html>

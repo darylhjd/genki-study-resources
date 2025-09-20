@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Reading Practice: Robert's Postcard - Lesson 5 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Reading Practice: Robert's Postcard - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Reading Practice: Robert's Postcard - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Reading Practice: Robert's Postcard - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Read the postcard and answer the questions in Japanese.">
-    <meta property="og:description" content="Read the postcard and answer the questions in Japanese.">
+    <title>Katakana Practice: Match the Words - Lesson 5 | Genki Study Resources</title>
+    <meta name="title" content="Katakana Practice: Match the Words - Lesson 5 | Genki Study Resources">
+    <meta name="twitter:title" content="Katakana Practice: Match the Words - Lesson 5 | Genki Study Resources">
+    <meta property="og:title" content="Katakana Practice: Match the Words - Lesson 5 | Genki Study Resources">
+    <meta name="description" content="Match the following katakana words with the English equivalents.">
+    <meta property="og:description" content="Match the following katakana words with the English equivalents.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, Reading and Writing, page 310, problem II-C, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, Reading and Writing, page 315, problem II-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,51 +70,118 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'fill',
-      info : 'Read the postcard and answer the questions in Japanese.',
+      format : 'practice',
+      type : ['multi', 'fill', 'drag'],
+      info : ['Read the katakana and choose the answer that matches it.', 'Read the katakana and the English words, then write the letter for each match.', 'Match the following katakana words with the English equivalents.'],
       
-      quizlet : 
-      '<div class="count-problems">'+
-        '<div class="problem">'+
-          'ロバートさんは今どこにいますか。<br>'+
-          '{沖縄にいます|おきなわにいます|answer}。'+
-        '</div>'+
-
-        '<div class="problem">'+
-          'どんな天気ですか。<br>'+
-          '{暑いですが、いい天気です|あついですが、いいてんきです|' + Genki.getAlts('{暑}いですが、{い}い{天気}です', 'あつ|良|てんき') + Genki.getAlts('{暑}いですが、{よ}い{天気}です', 'あつ|良|てんき') + 'answer}。'+
-        '</div>'+
-
-        '<div class="problem">'+
-          'きのうはなにをしましたか。<br>'+
-          '{友だちと一緒に海で泳ぎました|ともだちといっしょにうみでおよぎました|' + Genki.getAlts('{友}{達}と{一緒}に{海}で{泳}ぎました', 'とも|だち|いっしょ|うみ|およ') + 'answer}。'+
-        '</div>'+
-
-        '<div class="problem">'+
-          '今日はなにをしましたか。だれとしましたか。<br>'+
-          '{山に行きました。日本人の男の人とメキシコ人の女の人と行きました。|やまにいきました。にほんじんのおとこのひととメキシコじんのおんなのひとといきました。|' + Genki.getAlts('{山}に{行}きました。{日本人}の{男}の{人}とメキシコ{人}の{女}の{人}と{行}きました。', 'やま|い|にほんじん|おとこ|ひと|じん|おんな|ひと|い') + 'answer}'+
-        '</div>'+
-      '</div><br>'+
-
-      '<div style="width:80%; margin:0 auto;">'+
-        '<p class="sub-section text-passage vertical-text">'+
-          'かおりさん、お元気ですか。今、私はおきなわにいます。ここはあついですが、いい天気です。きのうはともだちといっしょにうみでおよぎました。今日は日本人の男の人とメキシコ人の女の人と山に行きました。たいへんでしたが、とてもきれいでした。まいにちたのしです。おきなわの食べものもだいすきです。では、お元気で。<br>'+
-          '　　九月九日<br>'+
-          '　　　　　　ロバート・スミス'+
-        '</p>'+
-
-        '<p style="text-align:right;">'+
-          'メキシコ Mexico<br>'+
-          '山（やま） mountain<br>'+
-          'たいへん(な) tough<br>'+
-          'では、お元気で Take care.<br>'+
-        '</p>'+
-      '</div>'
-      
+      quizlet : [
+        // MULTIPLE CHOICE
+        [
+          {
+            question : 'コーヒー',
+            answers : [
+              'Acoffee',
+              'cafe',
+              'concert',
+              'cake'
+            ]
+          },
+          
+          {
+            question : 'コンサート',
+            answers : [
+              'Aconcert',
+              'coffee',
+              'classical music',
+              'cake'
+            ]
+          },
+          
+          {
+            question : 'ウィーン',
+            answers : [
+              'AVienna',
+              'cake',
+              'cafe',
+              'concert'
+            ]
+          },
+          
+          {
+            question : 'カフェ',
+            answers : [
+              'Acafe',
+              'cake',
+              'coffee',
+              'classical music'
+            ]
+          },
+          
+          {
+            question : 'クラシック',
+            answers : [
+              'Aclassical music',
+              'concert',
+              'Vienna',
+              'coffee'
+            ]
+          },
+          
+          {
+            question : 'ケーキ',
+            answers : [
+              'Acake',
+              'cafe',
+              'coffee',
+              'concert'
+            ]
+          }
+        ],
+        
+        
+        // WRITTEN
+        '<div class="count-problems">'+
+          '<p class="sectionDesc3rd"><span class="sectionNumber3rd fa">&#xf054;</span>Read the katakana and the English words, then write the letter for each match.</p>'+
+        
+          '<div class="columns-2 clear">'+
+            '<div>'+
+              '<div class="problem">({b})　コーヒー</div>'+
+              '<div class="problem">({e})　コンサート</div>'+
+              '<div class="problem">({f})　ウィーン</div>'+
+            '</div>'+
+            
+            '<div>'+
+              '<div class="problem">({c})　カフェ</div>'+
+              '<div class="problem">({d})　クラシック</div>'+
+              '<div class="problem">({a})　ケーキ</div>'+
+            '</div>'+
+          '</div>'+
+        
+          '<div class="sub-section inline-problem set-problem-width-med">'+
+            '<div class="block">(a) cake</div>'+
+            '<div class="block">(b) coffee</div>'+
+            '<div class="block">(c) cafe</div>'+
+            '<div class="block">(d) classical music</div>'+
+            '<div class="block">(e) concert</div>'+
+            '<div class="block">(f) Vienna</div>'+
+          '</div>'+
+        '</div>',
+        
+        
+        // DRAG AND DROP
+        {
+          'コーヒー' : 'coffee',
+          'コンサート' : 'concert',
+          'ウィーン' : 'Vienna',
+          'カフェ' : 'cafe',
+          'クラシック' : 'classical music',
+          'ケーキ' : 'cake'
+        }
+      ]
     });</script>
   </body>
 </html>

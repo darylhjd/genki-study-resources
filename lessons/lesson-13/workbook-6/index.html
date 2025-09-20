@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: ～てみる - Lesson 13 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: ～てみる - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: ～てみる - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: ～てみる - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Complete the problems below using ～てみる.">
-    <meta property="og:description" content="Complete the problems below using ～てみる.">
+    <title>Workbook: ～てみる - Lesson 13 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: ～てみる - Lesson 13 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: ～てみる - Lesson 13 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: ～てみる - Lesson 13 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using ～てみる.">
+    <meta property="og:description" content="Complete the following problems using ～てみる.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II Workbook, page 16, problem I, problem II, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II Workbook, page 16, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,59 +70,85 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Complete the problems below using {!GRI|～てみる|l13-p4}.',
+      info : 'Complete the following problems using {!GRI|～てみる|l13-p4}.',
       
       quizlet : 
       '<div class="count-problems">'+
-        '<p class="section-desc">Reply to A, using {!GRI|～てみます|l13-p4}.</p>'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Reply to A, using {!GRI|～てみます|l13-p4}.</p>'+
         '<div class="problem">'+
-          'A：あの映画は感動しました。<br>'+
-          '(I\'ll try watching it)<br>'+
-          'B：じゃあ、{見てみます|みてみます|answer}。'+
+          '<div class="inner-problem">'+
+            'A：あの<ruby>映画<rt>えいが</rt></ruby>は<ruby>感動<rt>かんどう</rt></ruby>しました。<br>'+
+            'B：じゃあ、{見てみます|みてみます|answer;hint:(I\'ll try watching it);width:300}。'+
+          '</div>'+
         '</div>'+
         
         '<div class="problem">'+
-          'A：あの空手の先生は教えるのがとても上手ですよ。<br>'+
-          '(I\'ll try going to karate class)<br>'+
-          'B：じゃあ、{空手のクラスに行ってみます|からてのクラスにいってみます|' + Genki.getAlts('{空手}のクラスに{行}ってみます', 'からて|い') + 'answer}。'+
+          '<div class="inner-problem">'+
+            'A：あの<ruby>空手<rt>からて</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は<ruby>教<rt>おし</rt></ruby>えるのがとても<ruby>上手<rt>じょうず</rt></ruby>ですよ。<br>'+
+            'B：じゃあ、{空手のクラスに行ってみます|からてのクラスにいってみます|' + Genki.getAlts('{空手}のクラスに{行}ってみます', 'からて|い') + 'answer;hint:(I\'ll try going to karate class);width:300}。'+
+          '</div>'+
         '</div>'+
         
         '<div class="problem">'+
-          'A：この本はよかったですよ。<br>'+
-          '(I\'ll try reading it)<br>'+
-          'B：じゃあ、{読んでみます|よんでみます|answer}。'+
+          '<div class="inner-problem">'+
+            'A：この<ruby>本<rt>ほん</rt></ruby>はよかったですよ。<br>'+
+            'B：じゃあ、{読んでみます|よんでみます|answer;hint:(I\'ll try reading it);width:300}。'+
+          '</div>'+
         '</div>'+
         
         '<div class="problem">'+
-          'A：韓国の料理は辛くて、とてもおいしいですよ。<br>'+
-          '(I\'ll try eating it)<br>'+
-          'B：じゃあ、{食べてみます|たべてみます|answer}。'+
+          '<div class="inner-problem">'+
+            'A：<ruby>韓国<rt>かんこく</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>は<ruby>辛<rt>から</rt></ruby>くて、とてもおいしいですよ。<br>'+
+            'B：じゃあ、{食べてみます|たべてみます|answer;hint:(I\'ll try eating it);width:300}。'+
+          '</div>'+
+        '</div>'+
+      '</div><br>'+
+      
+      '<div class="count-problems">'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Write about three places you have never been to and things you want to try there by translating the following sentences using {!GRI|～てみたい|l13-p4}.</p>'+
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'I would like to go to Mongolia.　<i class="fa">&#xf061;</i>　モンゴルに<ruby>行<rt>い</rt></ruby>ってみたいです。<br>'+
+            'I want to try riding a horse there.　<i class="fa">&#xf061;</i>　そこで<ruby>馬<rt>うま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ってみたいです。'+
+          '</div>'+
         '</div>'+
         
-        '<p class="section-desc">Write about three places you have never been to and things you want to try there, using {!GRI|～てみたい|l13-p4}.</p>'+
-        '<div class="problem">'+
-          'I would like to go to Mongolia (モンゴル). I want to try riding a horse (馬；うま) there.<br>'+
-          '{モンゴルに行ってみたいです。そこで馬に乗ってみたいです。|モンゴルにいってみたいです。そこでうまにのってみたいです。|' + Genki.getAlts('モンゴルに{行}ってみたいです。そこで{馬}に{乗}ってみたいです。', 'い|うま|の') + 'answer}'+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'I would like to go to <ruby>Egypt<rt>エジプト</rt></ruby>.<br>'+
+            '{エジプトに行ってみたいです|エジプトにいってみたいです|answer}。'+
+          '</div>'+
+          '<div>'+
+            'I want to try seeing the <ruby>pyramids<rt>ピラミッド</rt></ruby> there.<br>'+
+            '{そこでピラミッドを見てみたいです|そこでピラミッドをみてみたいです|answer}。'+
+          '</div>'+
         '</div>'+
         
-        '<div class="problem">'+
-          'I would like to go to Egypt (エジプト).　I want to try seeing the pyramids (ピラミッド) there.<br>'+
-          '{エジプトに行ってみたいです。そこでピラミッドを見てみたいです。|エジプトにいってみたいです。そこでピラミッドをみてみたいです。|' + Genki.getAlts('エジプトに{行}ってみたいです。そこでピラミッドを{見}てみたいです。', 'い|み') + 'answer}'+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'I would like to go to <ruby>Africa<rt>アフリカ</rt></ruby>.<br>'+
+            '{アフリカに行ってみたいです|アフリカにいってみたいです|answer}。'+
+          '</div>'+
+          '<div>'+
+            'I want to try seeing a lot of <ruby>animals<rt>動物；どうぶつ</rt></ruby> there.<br>'+
+            '{そこで動物をたくさん見てみたいです|そこでどうぶつをたくさんみてみたいです|' + Genki.getAlts('そこで{動物}をたくさん{見}てみたいです', 'どうぶつ|み') + 'answer}。'+
+          '</div>'+
         '</div>'+
         
-        '<div class="problem">'+
-          'I would like to go to Africa (アフリカ). I want to try seeing a lot of animals (動物；どうぶつ) there.<br>'+
-          '{アフリカに行ってみたいです。そこで動物をたくさん見てみたいです。|アフリカにいってみたいです。そこでどうぶつをたくさんみてみたいです。|' + Genki.getAlts('アフリカに{行}ってみたいです。そこで{動物}をたくさん{見}てみたいです。', 'い|どうぶつ|み') + 'answer}'+
-        '</div>'+
-        
-        '<div class="problem">'+
-          'I would like to go to China. I want to try eating all sorts of food there.<br>'+
-          '{中国に行ってみたいです。そこでいろいろな食べ物を食べてみたいです。|ちゅうごくにいってみたいです。そこでいろいろなたべものをたべてみたいです。|' + Genki.getAlts('{中国}に{行}ってみたいです。そこでいろいろな{食べ物}を{食}べてみたいです。', 'ちゅうごく|い|たべもの|た') + 'answer}'+
+        '<div class="problem inline-columns">'+
+          '<div>'+
+            'I would like to go to China.<br>'+
+            '{中国に行ってみたいです|ちゅうごくにいってみたいです|' + Genki.getAlts('{中国}に{行}ってみたいです', 'ちゅうごく|い') + 'answer}。'+
+          '</div>'+
+          '<div>'+
+            'I want to try eating all sorts of food there.<br>'+
+            '{そこでいろいろな食べ物を食べてみたいです|そこでいろいろなたべものをたべてみたいです|' + Genki.getAlts('そこでいろいろな{食べ物}を{食}べてみたいです', 'たべもの|た') + 'answer}。'+
+          '</div>'+
         '</div>'+
       '</div>'
         

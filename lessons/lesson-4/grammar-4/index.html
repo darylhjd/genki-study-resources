@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Past Tense of Verbs - Lesson 4 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Past Tense of Verbs - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Past Tense of Verbs - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Past Tense of Verbs - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Change the verbs into ～ました and ～ませんでした.">
-    <meta property="og:description" content="Change the verbs into ～ました and ～ませんでした.">
+    <title>Practice: Describing Where Things Are 2 - Lesson 4 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Describing Where Things Are 2 - Lesson 4 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Describing Where Things Are 2 - Lesson 4 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Describing Where Things Are 2 - Lesson 4 | Genki Study Resources">
+    <meta name="description" content="Read the cues and describe where the following things are located.">
+    <meta property="og:description" content="Read the cues and describe where the following things are located.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 120, problem IV-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 117, problem II-B, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,157 +70,160 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Change the verbs into {!GRI|～ました and ～ませんでした|l4-p4}.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Read the cues and {!GRI|describe where the following things are located|l4-p2}.',
 
       quizlet : [
-        {
-          question : 'たべる',
-          answers : [
-            'Aたべました／たべませんでした',
-            'たべるました／たべるませんでした',
-            'たりべました／たべりませんでした'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>本<rt>ほん</rt></ruby>はどこですか。<br>(on the desk)',
+            answers : [
+              'A<ruby>本<rt>ほん</rt></ruby>はつくえの<ruby>上<rt>うえ</rt></ruby>です。',
+              '<ruby>本<rt>ほん</rt></ruby>は<ruby>上<rt>うえ</rt></ruby>のつくえです。',
+              '<ruby>本<rt>ほん</rt></ruby>はつくえの<ruby>下<rt>した</rt></ruby>です。',
+              '<ruby>本<rt>ほん</rt></ruby>は<ruby>下<rt>した</rt></ruby>のつくえです。'
+            ]
+          },
+
+          {
+            question : 'ジーンズはどこですか。<br>(on the TV)',
+            answers : [
+              'Aジーンズはテレビの<ruby>上<rt>うえ</rt></ruby>です。',
+              'ジーンズは<ruby>上<rt>うえ</rt></ruby>のテレビです。',
+              'ジーンズはテレビの<ruby>下<rt>した</rt></ruby>です。',
+              'ジーンズは<ruby>下<rt>した</rt></ruby>のテレビです。'
+            ]
+          },
+
+          {
+            question : '<ruby>猫<rt>ねこ</rt></ruby>はどこですか。<br>(behind the TV)',
+            answers : [
+              'A<ruby>猫<rt>ねこ</rt></ruby>はテレビの<ruby>後<rt>うし</rt></ruby>ろです。',
+              '<ruby>猫<rt>ねこ</rt></ruby>は<ruby>後<rt>うし</rt></ruby>ろのテレビです。',
+              '<ruby>猫<rt>ねこ</rt></ruby>はテレビの<ruby>前<rt>まえ</rt></ruby>です。',
+              '<ruby>猫<rt>ねこ</rt></ruby>は<ruby>前<rt>まえ</rt></ruby>のテレビです。'
+            ]
+          },
+
+          {
+            question : '<ruby>帽子<rt>ぼうし</rt></ruby>はどこですか。<br>(in the bag)',
+            answers : [
+              'A<ruby>帽子<rt>ぼうし</rt></ruby>はかばんの<ruby>中<rt>なか</rt></ruby>です。',
+              '<ruby>帽子<rt>ぼうし</rt></ruby>は<ruby>中<rt>なか</rt></ruby>のかばんです。',
+              '<ruby>帽子<rt>ぼうし</rt></ruby>はかばんの<ruby>下<rt>した</rt></ruby>です。',
+              '<ruby>帽子<rt>ぼうし</rt></ruby>は<ruby>下<rt>した</rt></ruby>のかばんです。'
+            ]
+          },
+
+          {
+            question : '<ruby>時計<rt>とけい</rt></ruby>はどこですか。<br>(in front of the TV)',
+            answers : [
+              'A<ruby>時計<rt>とけい</rt></ruby>はテレビの<ruby>前<rt>まえ</rt></ruby>です。',
+              '<ruby>時計<rt>とけい</rt></ruby>は<ruby>前<rt>まえ</rt></ruby>のテレビです。',
+              '<ruby>時計<rt>とけい</rt></ruby>はテレビの<ruby>後<rt>うし</rt></ruby>ろです。',
+              '<ruby>時計<rt>とけい</rt></ruby>は<ruby>後<rt>うし</rt></ruby>ろのテレビです。'
+            ]
+          },
+
+          {
+            question : '<ruby>靴<rt>くつ</rt></ruby>はどこですか。<br>(under the desk)',
+            answers : [
+              'A<ruby>靴<rt>くつ</rt></ruby>はつくえの<ruby>下<rt>した</rt></ruby>です。',
+              '<ruby>靴<rt>くつ</rt></ruby>は<ruby>下<rt>した</rt></ruby>のつくえです。',
+              '<ruby>靴<rt>くつ</rt></ruby>はつくえの<ruby>中<rt>なか</rt></ruby>です。',
+              '<ruby>靴<rt>くつ</rt></ruby>は<ruby>中<rt>なか</rt></ruby>のつくえです。'
+            ]
+          },
+
+          {
+            question : '<ruby>花<rt>はな</rt></ruby>はどこですか。<br>(on the chair)',
+            answers : [
+              'A<ruby>花<rt>はな</rt></ruby>はいすの<ruby>上<rt>うえ</rt></ruby>です。',
+              '<ruby>花<rt>はな</rt></ruby>は<ruby>上<rt>うえ</rt></ruby>のいすです。',
+              '<ruby>花<rt>はな</rt></ruby>はいすの<ruby>前<rt>まえ</rt></ruby>です。',
+              '<ruby>花<rt>はな</rt></ruby>は<ruby>前<rt>まえ</rt></ruby>のいすです。'
+            ]
+          },
+
+          {
+            question : '<ruby>犬<rt>いぬ</rt></ruby>はどこですか。<br>(under the desk)',
+            answers : [
+              'A<ruby>犬<rt>いぬ</rt></ruby>はつくえの<ruby>下<rt>した</rt></ruby>です。',
+              '<ruby>犬<rt>いぬ</rt></ruby>は<ruby>下<rt>した</rt></ruby>のつくえです。',
+              '<ruby>犬<rt>いぬ</rt></ruby>はつくえの<ruby>後<rt>うし</rt></ruby>ろです。',
+              '<ruby>犬<rt>いぬ</rt></ruby>は<ruby>後<rt>うし</rt></ruby>ろのつくえです。'
+            ]
+          },
+
+          {
+            question : '<ruby>傘<rt>かさ</rt></ruby>はどこですか。<br>(on the desk)',
+            answers : [
+              'A<ruby>傘<rt>かさ</rt></ruby>はつくえの<ruby>上<rt>うえ</rt></ruby>です。',
+              '<ruby>傘<rt>かさ</rt></ruby>は<ruby>上<rt>うえ</rt></ruby>のつくえです。',
+              '<ruby>傘<rt>かさ</rt></ruby>はつくえの<ruby>下<rt>した</rt></ruby>です。',
+              '<ruby>傘<rt>かさ</rt></ruby>は<ruby>下<rt>した</rt></ruby>のつくえです。'
+            ]
+          }
+        ],
         
-        {
-          question : 'はなす',
-          answers : [
-            'Aはなしました／はなしませんでした',
-            'はなすました／はなすませんでした',
-            'はなました／はなませんでした'
-          ]
-        },
         
-        {
-          question : 'かう',
-          answers : [
-            'Aかいました／かいませんでした',
-            'かうました／かうませんでした',
-            'かました／かませんでした'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<ruby>本<rt>ほん</rt></ruby>はどこですか。(on the desk)<br>'+
+          '{本|ほん|answer}は{机|つくえ|answer}の{上|うえ|answer}です。'+
+        '</div>'+
         
-        {
-          question : 'よむ',
-          answers : [
-            'Aよみました／よみませんでした',
-            'よむました／よむませんでした',
-            'よました／よませんでした'
-          ]
-        },
-        
-        {
-          question : 'かく',
-          answers : [
-            'Aかきました／かきませんでした',
-            'かくました／かくませんでした',
-            'かました／かませんでした'
-          ]
-        },
-        
-        {
-          question : 'くる',
-          answers : [
-            'Aきました／きませんでした',
-            'くりました／くりませんでした',
-            'くました／くませんでした'
-          ]
-        },
-        
-        {
-          question : 'まつ',
-          answers : [
-            'Aまちました／まちませんでした',
-            'まつました／まつませんでした',
-            'まました／まませんでした'
-          ]
-        },
-        
-        {
-          question : 'おきる',
-          answers : [
-            'Aおきました／おきませんでした',
-            'おきりました／おきりませんでした',
-            'おきるました／おきるませんでした'
-          ]
-        },
-        
-        {
-          question : 'わかる',
-          answers : [
-            'Aわかりました／わかりませんでした',
-            'わかるました／わかるませんでした',
-            'わかました／わかませんでした'
-          ]
-        },
-        
-        {
-          question : 'する',
-          answers : [
-            'Aしました／しませんでした',
-            'すました／すませんでした',
-            'すりました／すりませんでした'
-          ]
-        },
-        
-        {
-          question : 'とる',
-          answers : [
-            'Aとりました／とりませんでした',
-            'ちました／ちませんでした',
-            'とました／とませんでした'
-          ]
-        },
-        
-        {
-          question : 'ある',
-          answers : [
-            'Aありました／ありませんでした',
-            'あました／あませんでした',
-            'いました／いませんでした'
-          ]
-        },
-        
-        {
-          question : 'ねる',
-          answers : [
-            'Aねました／ねませんでした',
-            'ねりました／ねりませんでした',
-            'にました／にませんでした'
-          ]
-        },
-        
-        {
-          question : 'きく',
-          answers : [
-            'Aききました／ききませんでした',
-            'きくました／きくませんでした',
-            'きました／きませんでした'
-          ]
-        },
-        
-        {
-          question : 'かえる',
-          answers : [
-            'Aかえりました／かえりませんでした',
-            'かえるました／かえるませんでした',
-            'かえました／かえませんでした'
-          ]
-        },
-        
-        {
-          question : 'のむ',
-          answers : [
-            'Aのみました／のみませんでした',
-            'のむました／のむませんでした',
-            'のました／のませんでした'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'ジーンズはどこですか。(on the TV)<br>'+
+              '{ジーンズはテレビの上です|ジーンズはテレビのうえです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>猫<rt>ねこ</rt></ruby>はどこですか。(behind the TV)<br>'+
+              '{猫はテレビの後ろです|ねこはテレビのうしろです|' + Genki.getAlts('{猫}はテレビの{後}ろです', 'ねこ|うし') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>帽子<rt>ぼうし</rt></ruby>はどこですか。(in the bag)<br>'+
+              '{帽子はかばんの中です|ぼうしはかばんのなかです|' + Genki.getAlts('{帽子}は{かばん}の{中}です', 'ぼうし|鞄|なか') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>時計<rt>とけい</rt></ruby>はどこですか。(in front of the TV)<br>'+
+              '{時計はテレビの前です|とけいはテレビのまえです|' + Genki.getAlts('{時計}はテレビの{前}です', 'とけい|まえ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>靴<rt>くつ</rt></ruby>はどこですか。(under the desk)<br>'+
+              '{靴は机の下です|くつはつくえのしたです|' + Genki.getAlts('{靴}は{机}の{下}です', 'くつ|つくえ|した') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>花<rt>はな</rt></ruby>はどこですか。(on the chair)<br>'+
+              '{花はいすの上です|はなはいすのうえです|' + Genki.getAlts('{花}は{いす}の{上}です', 'はな|椅子|うえ') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>犬<rt>いぬ</rt></ruby>はどこですか。(under the desk)<br>'+
+              '{犬は机の下です|いぬはつくえのしたです|' + Genki.getAlts('{犬}は{机}の{下}です', 'いぬ|つくえ|した') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>傘<rt>かさ</rt></ruby>はどこですか。(on the desk)<br>'+
+              '{傘は机の上です|かさはつくえのうえです|' + Genki.getAlts('{傘}は{机}の{上}です', 'かさ|つくえ|うえ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Questions - Lesson 20 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Questions - Lesson 20 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Questions - Lesson 20 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Questions - Lesson 20 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Answer the following questions in Japanese by translating the given cues.">
-    <meta property="og:description" content="Answer the following questions in Japanese by translating the given cues.">
+    <title>Workbook: ～やすい／～にくい - Lesson 20 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: ～やすい／～にくい - Lesson 20 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: ～やすい／～にくい - Lesson 20 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: ～やすい／～にくい - Lesson 20 | Genki Study Resources">
+    <meta name="description" content="Complete the following problems using ～やすい／～にくい.">
+    <meta property="og:description" content="Complete the following problems using ～やすい／～にくい.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II Workbook, page 76, problem I, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II Workbook, page 76, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,44 +70,49 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Answer the following questions in Japanese by translating the given cues.',
+      info : 'Complete the following problems using {!GRI|～やすい／～にくい|l20-p6}.',
       
       quizlet : 
-      '<div class="count-problems">'+
-        '<p class="section-desc">日本語で答えてください。</p>'+
+      '<div class="count-problems valign-top">'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Describe the situations using {!GRI|～やすい／～にくい|l20-p6}.</p>'+
         '<div class="problem">'+
-          '財布を持たないで買い物に行ったことがありますか。<br>'+
-          '(Yes, I have.)<br>'+
-          '{はい、あります}。'+
+          '<ruby>魚<rt>さかな</rt></ruby>は{食べにくいです|たべにくいです|answer;hint:(difficult to eat);width:200}。'+
         '</div>'+
         
         '<div class="problem">'+
-          '（「はい」の時）どうしましたか。<br>'+
-          '(I went back home to pick up my wallet.)<br>'+
-          '{財布を取りに家に戻りました|さいふをとりにいえにもどりました|' + Genki.getAlts('{財布}を{取}りに{家}に{戻}りました', 'さいふ|と|いえ|もど') + 'answer}。'+
+          '<ruby>広<rt>ひろ</rt></ruby>い<ruby>道<rt>みち</rt></ruby>は{走りやすいです|はしりやすいです|answer;hint:(easy to drive [on]);width:200}。'+
         '</div>'+
         
         '<div class="problem">'+
-          'クラスメートが週末何をしたか知っていますか。<br>'+
-          '(No, I don\'t know.)<br>'+
-          '{いいえ、知りません|いいえ、しりません|answer}。'+
+          'ハイヒール(high heels)は{歩きにくいです|あるきにくいです|answer;hint:(difficult to walk [in]);width:200}。'+
+        '</div>'+
+      '</div><br>'+
+
+      '<div class="count-problems valign-top">'+
+        '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Read the first half of the sentence and fill in the blanks with the {!GRI|verb stem + やすいです／にくいです|l20-p6}, according to the given cues.</p>'+
+        '<div class="problem">'+
+          'ここは<ruby>物価<rt>ぶっか</rt></ruby>が<ruby>安<rt>やす</rt></ruby>いので、{住みやすいです|すみやすいです|answer;hint:(live)}。'+
         '</div>'+
         
         '<div class="problem">'+
-          '（「いいえ」の時）何をしたと思いますか。<br>'+
-          '(I think Lee went to go see a movie on the weekend.)<br>'+
-          '{リーさんは週末映画を見に行ったと思います|リーさんはしゅうまつえいがをみにいったとおもいます|' + Genki.getAlts('リーさんは{週末}{映画}を{見}に{行}ったと{思}います', 'しゅうまつ|えいが|み|い|おも') + 'answer}。'+
+          'あの<ruby>角<rt>かど</rt></ruby>はせまいので、{曲がりにくいです|まがりにくいです|answer;hint:(turn)}。'+
         '</div>'+
         
         '<div class="problem">'+
-          'どんな町が生活しやすいと思いますか。<br>'+
-          '(I think it\'s easy to live in a town with not very many people.)<br>'+
-          '{人があまり多くない町が生活しやすいと思います|ひとがあまりおおくないまちがせいかつしやすいとおもいます|' + Genki.getAlts('{人}があまり{多}くない{町}が{生活}しやすいと{思}います', 'ひと|おお|まち|せいがつ|おも') + 'answer}。'+
+          'この<ruby>歌<rt>うた</rt></ruby>は<ruby>音<rt>おた</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いので、{歌いにくいです|うたいにくいです|answer;hint:(sing)}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          'この<ruby>携帯<rt>けいたい</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さくて<ruby>軽<rt>かる</rt></ruby>いので、{持ちやすいです|もちやすいです|answer;hint:(hold)}。'+
+        '</div>'+
+        
+        '<div class="problem">'+
+          '<ruby>山下<rt>やました</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はやさしいし、<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いてくださるから、{相談しやすいです|そうだんしやすいです|answer;hint:(consult)}。'+
         '</div>'+
       '</div>'
         

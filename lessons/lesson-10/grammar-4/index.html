@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～つもりだ - Lesson 10 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～つもりだ - Lesson 10 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～つもりだ - Lesson 10 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～つもりだ - Lesson 10 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="You are planning to do/not to do the following things next week. Tell what you will/will not do, using ～つもりです.">
-    <meta property="og:description" content="You are planning to do/not to do the following things next week. Tell what you will/will not do, using ～つもりです.">
+    <title>Practice: Adjective/Noun + の 2 - Lesson 10 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Adjective/Noun + の 2 - Lesson 10 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Adjective/Noun + の 2 - Lesson 10 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Adjective/Noun + の 2 - Lesson 10 | Genki Study Resources">
+    <meta name="description" content="Mary and Yui did the following things before and during their trip. Describe what Yui did, using の.">
+    <meta property="og:description" content="Mary and Yui did the following things before and during their trip. Describe what Yui did, using の.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 241, problem IV-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 242, problem III-B, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,121 +70,155 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'You are planning to do/not to do the following things next week. Tell what you will/will not do, using {!GRI|～つもりです|l10-p4}.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Mary and Yui did the following things before and during their trip. Describe what Yui did, using {!GRI|の|l10-p3}.'+
+      '<table class="center">'+
+        '<tr class="t-bold left">'+
+          '<td style="width:100px"></td>'+
+          '<td style="width:100px">1.</td>'+
+          '<td style="width:100px">2.</td>'+
+          '<td style="width:100px">3.</td>'+
+          '<td style="width:100px">4.</td>'+
+          '<td style="width:100px">5.</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td class="t-bold">メアリー</td>'+
+          '<td>Guide Book Japan<br>English</td>'+
+          '<td><ruby>電車<rt>でんしゃ</rt></ruby><br>early</td>'+
+          '<td>コーヒー<br>hot</td>'+
+          '<td><ruby>傘<rt>かさ</rt></ruby><br>cheap</td>'+
+          '<td><ruby>手袋<rt>てぶくろ</rt></ruby><br>red</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td class="t-bold">ゆい</td>'+
+          '<td>ガイドブック<ruby>日本<rt>にほん</rt></ruby><br>Japanese</td>'+
+          '<td><ruby>電車<rt>でんしゃ</rt></ruby><br>late</td>'+
+          '<td>コーヒー<br>cold</td>'+
+          '<td><ruby>傘<rt>かさ</rt></ruby><br>beautiful</td>'+
+          '<td><ruby>手袋<rt>てぶくろ</rt></ruby><br>black</td>'+
+        '</tr>'+
+      '</table>', 'Mary and Yui did the following things before and during their trip. Describe what Yui did, using {!GRI|の|l10-p3}.'],
 
       quizlet : [
-        {
-          question : '月曜日：to read books',
-          answers : [
-            'A月曜日に本を読むつもりです。',
-            '月曜日に本を読みつもりです。',
-            '月曜日に本を読んでつもりです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'メアリーさんは<ruby>英語<rt>えいご</rt></ruby>のガイドブックを<ruby>持<rt>も</rt></ruby>っていきました。',
+            answers : [
+              'Aゆいさんは<ruby>日本語<rt>にほんご</rt></ruby>のを<ruby>持<rt>も</rt></ruby>っていきました。',
+              'ゆいさんは<ruby>日本語<rt>にほんご</rt></ruby>のガイドブックを<ruby>持<rt>も</rt></ruby>っていきました。',
+              'ゆいさんは<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていきました。',
+              'ゆいさんは<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>持<rt>も</rt></ruby>っていきました。'
+            ]
+          },
+          
+          {
+            question : 'メアリーさんは<ruby>早<rt>はや</rt></ruby>い<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りました。',
+            answers : [
+              'Aゆいさんは<ruby>遅<rt>おそ</rt></ruby>いのに<ruby>乗<rt>の</rt></ruby>りました。',
+              'ゆいさんは<ruby>遅<rt>おそ</rt></ruby>いの<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りました。',
+              'ゆいさんは<ruby>早<rt>はや</rt></ruby>いのに<ruby>乗<rt>の</rt></ruby>りました。',
+              'ゆいさんは<ruby>早<rt>はや</rt></ruby>いの<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りました。'
+            ]
+          },
+          
+          {
+            question : 'メアリーさんはカフェで<ruby>熱<rt>あつ</rt></ruby>いコーヒーを<ruby>飲<rt>の</rt></ruby>みました。',
+            answers : [
+              'Aゆいさんは<ruby>冷<rt>つめ</rt></ruby>たいのを<ruby>飲<rt>の</rt></ruby>みました。',
+              'ゆいさんは<ruby>冷<rt>つめ</rt></ruby>たいのコーヒーを<ruby>飲<rt>の</rt></ruby>みました。',
+              'ゆいさんは<ruby>寒<rt>さむ</rt></ruby>いのを<ruby>飲<rt>の</rt></ruby>みました。',
+              'ゆいさんは<ruby>寒<rt>さむ</rt></ruby>いのコーヒーを<ruby>飲<rt>の</rt></ruby>みました。',
+            ]
+          },
+          
+          {
+            question : 'メアリーさんは<ruby>安<rt>やす</rt></ruby>い<ruby>傘<rt>かさ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。',
+            answers : [
+              'Aゆいさんはきれいなのを<ruby>買<rt>か</rt></ruby>いました。',
+              'ゆいさんはきれいなの<ruby>傘<rt>かさ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。',
+              'ゆいさんはきれいなの<ruby>買<rt>か</rt></ruby>いました。',
+              'ゆいさんはきれいなを<ruby>買<rt>か</rt></ruby>いました。'
+            ]
+          },
+          
+          {
+            question : 'メアリーさんは<ruby>赤<rt>あか</rt></ruby>い<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。',
+            answers : [
+              'Aゆいさんは<ruby>黒<rt>くろ</rt></ruby>いのを<ruby>買<rt>か</rt></ruby>いました。',
+              'ゆいさんは<ruby>黒<rt>くろ</rt></ruby>いの<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。',
+              'ゆいさんは<ruby>黒<rt>くろ</rt></ruby>いを<ruby>買<rt>か</rt></ruby>いました。',
+              'ゆいさんは<ruby>黒<rt>くろ</rt></ruby>いの<ruby>買<rt>か</rt></ruby>いました。'
+            ]
+          }
+        ],
         
-        {
-          question : '月曜日：to practice the piano',
-          answers : [
-            'A月曜日にピアノを練習するつもりです。',
-            '月曜日にピアノを練習しつもりです。',
-            '月曜日にピアノを練習してつもりです。'
-          ]
-        },
         
-        {
-          question : '火曜日：to do exercises',
-          answers : [
-            'A火曜日に運動するつもりです。',
-            '火曜日に運動しつもりです。',
-            '火曜日に運動してつもりです。'
-          ]
-        },
+        // WRITTEN
+        '<table class="table center">'+
+          '<tr class="t-bold left">'+
+            '<td style="width:100px"></td>'+
+            '<td style="width:100px">Example</td>'+
+            '<td style="width:100px">1.</td>'+
+            '<td style="width:100px">2.</td>'+
+            '<td style="width:100px">3.</td>'+
+            '<td style="width:100px">4.</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td class="t-bold">メアリー</td>'+
+            '<td>Guide Book Japan<br>English</td>'+
+            '<td><ruby>電車<rt>でんしゃ</rt></ruby><br>early</td>'+
+            '<td>コーヒー<br>hot</td>'+
+            '<td><ruby>傘<rt>かさ</rt></ruby><br>cheap</td>'+
+            '<td><ruby>手袋<rt>てぶくろ</rt></ruby><br>red</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td class="t-bold">ゆい</td>'+
+            '<td>ガイドブック<ruby>日本<rt>にほん</rt></ruby><br>Japanese</td>'+
+            '<td><ruby>電車<rt>でんしゃ</rt></ruby><br>late</td>'+
+            '<td>コーヒー<br>cold</td>'+
+            '<td><ruby>傘<rt>かさ</rt></ruby><br>beautiful</td>'+
+            '<td><ruby>手袋<rt>てぶくろ</rt></ruby><br>black</td>'+
+          '</tr>'+
+        '</table><br>'+
         
-        {
-          question : '水曜日：to do laundry',
-          answers : [
-            'A水曜日に洗濯するつもりです。',
-            '水曜日に洗濯しつもりです。',
-            '水曜日に洗濯してつもりです。'
-          ]
-        },
+        '<div class="count-problems">'+
+          '<div class="example-problem">'+
+            '<div class="inner-problem valign-top">'+
+              'メアリーさんは<ruby>英語<rt>えいご</rt></ruby>のガイドブックを<ruby>持<rt>も</rt></ruby>っていきました。<br>'+
+              'ゆいさんは{日本語|にほんご|answer}のを<ruby>持<rt>も</rt></ruby>っていきました。'+
+            '</div>'+
+          '</div>'+
         
-        {
-          question : '木曜日：to write letters to friends',
-          answers : [
-            'A木曜日に友だちに手紙を書くつもりです。',
-            '木曜日に友だちに手紙を書きつもりです。',
-            '木曜日に友だちに手紙を書いてつもりです。'
-          ]
-        },
+          '<div class="problem">'+
+            'メアリーさんは<ruby>早<rt>はや</rt></ruby>い<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りました。<br>'+
+            '{ゆいさんは遅いのに乗りました|ゆいさんはおそいのにのりました|' + Genki.getAlts('ゆいさんは{遅}いのに{乗}りました', 'おそ|の') + 'answer}。'+
+          '</div>'+
         
-        {
-          question : '木曜日：not to go out',
-          answers : [
-            'A木曜日に出かけないつもりです。',
-            '木曜日に出かけませんつもりです。',
-            '木曜日に出かけるつもりです。'
-          ]
-        },
+          '<div class="problem">'+
+            'メアリーさんはカフェで<ruby>熱<rt>あつ</rt></ruby>いコーヒーを<ruby>飲<rt>の</rt></ruby>みました。<br>'+
+            '{ゆいさんは冷たいのを飲みました|ゆいさんはつめたいのをのみました|' + Genki.getAlts('ゆいさんは{冷}たいのを{飲}みました', 'つめ|の') + 'answer}。'+
+          '</div>'+
         
-        {
-          question : '金曜日：to eat dinner with friends',
-          answers : [
-            'A金曜日に友だちと晩ご飯を食べるつもりです。',
-            '金曜日に友だちと晩ご飯を食べますつもりです。',
-            '金曜日に友だちと晩ご飯を食べつもりです。'
-          ]
-        },
+          '<div class="problem">'+
+            'メアリーさんは<ruby>安<rt>やす</rt></ruby>い<ruby>傘<rt>かさ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<br>'+
+            '{ゆいさんはきれいなのを買いました|ゆいさんはきれいなのをかいました|' + Genki.getAlts('ゆいさんは{きれい}なのを{買}いました', '綺麗|か') + 'answer}。'+
+          '</div>'+
         
-        {
-          question : '金曜日：not to study Japanese',
-          answers : [
-            'A金曜日に日本語を勉強しないつもりです。',
-            '金曜日に日本語を勉強しませんつもりです。',
-            '金曜日に日本語を勉強するつもりです。'
-          ]
-        },
-        
-        {
-          question : '土曜日：to stay at a friend\'s house',
-          answers : [
-            'A土曜日に友だちのうちに泊まるつもりです。',
-            '土曜日に友だちのうちに泊まりますつもりです。',
-            '土曜日に友だちのうちに泊まりつもりです。'
-          ]
-        },
-        
-        {
-          question : '土曜日：not to go home',
-          answers : [
-            'A土曜日に家に帰らないつもりです。',
-            '土曜日に家に帰りませんつもりです。',
-            '土曜日に家に帰るつもりです。'
-          ]
-        },
-        
-        {
-          question : '日曜日：to clean a room',
-          answers : [
-            'A日曜日に部屋を掃除するつもりです。',
-            '日曜日に部屋を掃除しますつもりです。',
-            '日曜日に部屋を掃除しつもりです。'
-          ]
-        },
-        
-        {
-          question : '日曜日：not to get up early',
-          answers : [
-            'A日曜日に早く起きないつもりです。',
-            '日曜日に早く起きませんつもりです。',
-            '日曜日に早く起きるつもりです。'
-          ]
-        }
+          '<div class="problem">'+
+            'メアリーさんは<ruby>赤<rt>あか</rt></ruby>い<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<br>'+
+            '{ゆいさんは黒いのを買いました|ゆいさんはくろいのをかいました|' + Genki.getAlts('ゆいさんは{黒}いのを{買}いました', 'くろ|か') + 'answer}。'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

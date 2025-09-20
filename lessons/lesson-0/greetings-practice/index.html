@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Greetings | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Greetings | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Greetings | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Greetings | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Choose the best greeting for the situation.">
-    <meta property="og:description" content="Choose the best greeting for the situation.">
+    <title>Practice: Greetings - Lesson 0 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Greetings - Lesson 0 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Greetings - Lesson 0 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Greetings - Lesson 0 | Genki Study Resources">
+    <meta name="description" content="Choose the appropriate expression for the each situation.">
+    <meta property="og:description" content="Choose the appropriate expression for the each situation.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 37, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 34, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,112 +70,162 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Choose the best greeting for the situation.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Choose the appropriate expression for the each situation.', 'Write in Japanese (hiragana) the appropriate expression for each situation.'],
       
       quizlet : [
-        {
-          question : 'You meet your host family for the first time. Greet them.',
-          answers : [
-            'Aはじめまして。おねがいします。',
-            'おはようございます。',
-            'こんにちは。'
-          ]
-        },
+        // MULTIPLE CHOICE VERSION
+        [
+          {
+            question : 'It is one o\'clock in the afternoon. You see your neighbor Mr. Yamada.',
+            answers : [
+              'Aこんにちは。',
+              'こんばんは。',
+              'おはよう。'
+            ]
+          },
+
+          {
+            question : 'You come to class in the morning. Greet your teacher. Greet your friends.',
+            answers : [
+              'Aおはようございます。／おはよう。',
+              'おはよう。／おはようございます。',
+              'はじめまして。／こんにちは。'
+            ]
+          },
+
+          {
+            question : 'On a crowded train, you stepped on someone\'s foot.',
+            answers : [
+              'Aすみません。',
+              'はじめまして。',
+              'ごちそうさま。'
+            ]
+          },
+
+          {
+            question : 'You dropped your book. Someone picked it up for you.',
+            answers : [
+              'Aありがとうございます。',
+              'ありがとう。',
+              'Aすみません。'
+            ]
+          },
+
+          {
+            question : 'It is eight o\'clock at night. You happen to meet your teacher at the convenience store.',
+            answers : [
+              'Aこんばんは。',
+              'こんにちは。',
+              'おはようございます。'
+            ]
+          },
+
+          {
+            question : 'You are watching TV with your host family. It is time to go to sleep.',
+            answers : [
+              'Aおやすみ（なさい）。',
+              'さようなら。',
+              'いってきます。'
+            ]
+          },
+
+          {
+            question : 'You are leaving home.',
+            answers : [
+              'Aいってきます。',
+              'いったらっしゃい。',
+              'さようなら。'
+            ]
+          },
+
+          {
+            question : 'You have come back home.',
+            answers : [
+              'Aただいま。',
+              'おかえりなさい。',
+              'こんにちは。'
+            ]
+          },
+
+          {
+            question : 'You are going to start eating.',
+            answers : [
+              'Aいただきます。',
+              'ごちそうさま。',
+              'ありがとう。'
+            ]
+          },
+
+          {
+            question : 'You have finished eating.',
+            answers : [
+              'Aごちそうさま（でした）。',
+              'ありがとうございます。',
+              'おやすみなさい。'
+            ]
+          }
+        ],
         
-        {
-          question : 'It is one o\'clock in the afternoon. You see your neighbor Mr. Yamada.',
-          answers : [
-            'Aこんにちは。',
-            'こんばんは。',
-            'おはよう。'
-          ]
-        },
         
-        {
-          question : 'You come to class in the morning. Greet your teacher. Greet your friends.',
-          answers : [
-            'Aおはようございます。／おはよう。',
-            'おはよう。／おはようございます。',
-            'はじめまして。／こんにちは。'
-          ]
-        },
-        
-        {
-          question : 'On a crowded train, you stepped on someone\'s foot.',
-          answers : [
-            'Aすみません。',
-            'はじめまして。',
-            'ごちそうさま。'
-          ]
-        },
-        
-        {
-          question : 'You dropped your book. Someone picked it up for you.',
-          answers : [
-            'Aありがとうございます。',
-            'ありがとう。',
-            'すみません。'
-          ]
-        },
-        
-        {
-          question : 'It is eight o\'clock at night. You happen to meet your teacher at the convenience store.',
-          answers : [
-            'Aこんばんは。',
-            'こんにちは。',
-            'おはようございます。'
-          ]
-        },
-        
-        {
-          question : 'You are watching TV with your host family. It is time to go to sleep.',
-          answers : [
-            'Aおやすみなさい。',
-            'さようなら。',
-            'いってきます。'
-          ]
-        },
-        
-        {
-          question : 'You are leaving home.',
-          answers : [
-            'Aいってきます。',
-            'いったらっしゃい。',
-            'さようなら。'
-          ]
-        },
-        
-        {
-          question : 'You have come back home.',
-          answers : [
-            'Aただいま。',
-            'おかえりなさい。',
-            'こんにちは。'
-          ]
-        },
-        
-        {
-          question : 'You are going to start eating.',
-          answers : [
-            'Aいただきます。',
-            'ごちそうさま。',
-            'ありがとう。'
-          ]
-        },
-        
-        {
-          question : 'You have finished eating.',
-          answers : [
-            'Aごちそうさま。',
-            'ありがとうございます。',
-            'おやすみなさい。'
-          ]
-        }
+        // WRITTEN VERSION
+        '<div class="count-problems">'+
+          '<div class="problem">'+
+            'It is one o\'clock in the afternoon. You see your neighbor Mr. Yamada.<br>'+
+            '{こんにちは}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You come to class in the morning. Greet your teacher. Greet your friends.<br>'+
+            'To your teacher: {おはようございます}。<br><br>'+
+            'To your friend: {おはよう}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'On a crowded train, you stepped on someone\'s foot.<br>'+
+            '{すみません}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You dropped your book. Someone picked it up for you.<br>'+
+            '{ありがとうございます}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'It is eight o\'clock at night. You happen to meet your teacher at the convenience store.<br>'+
+            '{こんばんは}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You are watching TV with your host family. It is time to go to sleep.<br>'+
+            '{おやすみ%(なさい/)}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You are leaving home.<br>'+
+            '{いってきます}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You have come back home.<br>'+
+            '{ただいま}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You are going to start eating.<br>'+
+            '{いただきます}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            'You have finished eating.<br>'+
+            '{ごちそうさま%(でした/)}。'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

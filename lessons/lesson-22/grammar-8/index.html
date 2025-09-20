@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～のに - Lesson 22 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～のに - Lesson 22 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～のに - Lesson 22 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～のに - Lesson 22 | Genki Study Resources - 2nd Edition">
+    <title>Practice: ～のに - Lesson 22 | Genki Study Resources</title>
+    <meta name="title" content="Practice: ～のに - Lesson 22 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: ～のに - Lesson 22 | Genki Study Resources">
+    <meta property="og:title" content="Practice: ～のに - Lesson 22 | Genki Study Resources">
     <meta name="description" content="Change the cues into のに clauses and choose the correct phrase that follows.">
     <meta property="og:description" content="Change the cues into のに clauses and choose the correct phrase that follows.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, page 247, problem V-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, page 245, problem V-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,93 +70,163 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
+      format : 'practice',
+      type : ['multi', 'fill'],
       info : 'Change the cues into {!GRI|のに|l22-p5} clauses and choose the correct phrase that follows.',
 
       quizlet : [
-        {
-          question : '日本に留学したことがありません',
-          answers : [
-            'A日本に留学したことがないのに、日本語がぺらぺらです。',
-            '日本に留学したことがあるのに、日本語がぺらぺらです。',
-            '日本に留学したことがないのに、人気がないです。',
-            '日本に留学したことがあるのに、人気がないです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがありません',
+            answers : [
+              'A<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがないのに、<ruby>日本語<rt>にほんご</rt></ruby>がぺらぺらです。',
+              '<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがあるのに、<ruby>日本語<rt>にほんご</rt></ruby>がぺらぺらです。',
+              '<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがないのに、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。',
+              '<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがあるのに、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。'
+            ]
+          },
+
+          {
+            question : 'かぎがかけてありました',
+            answers : [
+              'Aかぎがかけてあったのに、どろぼうに<ruby>入<rt>はい</rt></ruby>られました。',
+              'かぎがかけてあるのに、どろぼうに<ruby>入<rt>はい</rt></ruby>られました。',
+              'かぎがかけてあったのに、やめる<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。',
+              'かぎがかけてあるのに、やめる<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。'
+            ]
+          },
+
+          {
+            question : 'いい<ruby>天気<rt>てんき</rt></ruby>です',
+            answers : [
+              'Aいい<ruby>天気<rt>てんき</rt></ruby>なのに、<ruby>家<rt>いえ</rt></ruby>でごろごろしています。',
+              'いい<ruby>天気<rt>てんき</rt></ruby>のに、<ruby>家<rt>いえ</rt></ruby>でごろごろしています。',
+              'いい<ruby>天気<rt>てんき</rt></ruby>なのに、<ruby>朝寝坊<rt>あさねぼう</rt></ruby>してしまいました。',
+              'いい<ruby>天気<rt>てんき</rt></ruby>のに、<ruby>朝寝坊<rt>あさねぼう</rt></ruby>してしまいました。'
+            ]
+          },
+
+          {
+            question : 'きのうの<ruby>夜<rt>よる</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ました',
+            answers : [
+              'Aきのうの<ruby>夜<rt>よる</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>たのに、<ruby>朝寝坊<rt>あさねぼう</rt></ruby>してしまいました。',
+              'きのうの<ruby>夜<rt>よる</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るのに、<ruby>朝寝坊<rt>あさねぼう</rt></ruby>してしまいました。',
+              'きのうの<ruby>夜<rt>よる</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>たのに、<ruby>眠<rt>ねむ</rt></ruby>くないです。',
+              'きのうの<ruby>夜<rt>よる</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るのに、<ruby>眠<rt>ねむ</rt></ruby>くないです。'
+            ]
+          },
+
+          {
+            question : 'この<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>です',
+            answers : [
+              'Aこの<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>なのに、やめる<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。',
+              'この<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>のに、やめる<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。',
+              'この<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>なのに、どろぼうに<ruby>入<rt>はい</rt></ruby>られました。',
+              'この<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>のに、どろぼうに<ruby>入<rt>はい</rt></ruby>られました。'
+            ]
+          },
+
+          {
+            question : 'ぜんぜん<ruby>練習<rt>れんしゅう</rt></ruby>しませんでした',
+            answers : [
+              'Aぜんぜん<ruby>練習<rt>れんしゅう</rt></ruby>しなかったのに、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。',
+              'ぜんぜん<ruby>練習<rt>れんしゅう</rt></ruby>しないのに、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。',
+              'ぜんぜん<ruby>練習<rt>れんしゅう</rt></ruby>しなかったのに、<ruby>日本語<rt>にほんご</rt></ruby>がぺらぺらです。',
+              'ぜんぜん<ruby>練習<rt>れんしゅう</rt></ruby>しないのに、<ruby>日本語<rt>にほんご</rt></ruby>がぺらぺらです。'
+            ]
+          },
+
+          {
+            question : 'あの<ruby>二人<rt>ふたり</rt></ruby>は<ruby>仲<rt>なか</rt></ruby>がよかったです',
+            answers : [
+              'Aあの<ruby>二人<rt>ふたり</rt></ruby>は<ruby>仲<rt>なか</rt></ruby>がよかったのに、<ruby>別<rt>わか</rt></ruby>れたそうです。',
+              'あの<ruby>二人<rt>ふたり</rt></ruby>は<ruby>仲<rt>なか</rt></ruby>がよかったなのに、<ruby>別<rt>わか</rt></ruby>れたそうです。',
+              'あの<ruby>二人<rt>ふたり</rt></ruby>は<ruby>仲<rt>なか</rt></ruby>がよかったのに、<ruby>家<rt>いえ</rt></ruby>でごろごろしています。',
+              'あの<ruby>二人<rt>ふたり</rt></ruby>は<ruby>仲<rt>なか</rt></ruby>がよかったなのに、<ruby>家<rt>いえ</rt></ruby>でごろごろしています。'
+            ]
+          },
+
+          {
+            question : '<ruby>徹夜<rt>てつや</rt></ruby>しました',
+            answers : [
+              'A<ruby>徹夜<rt>てつや</rt></ruby>したのに、<ruby>眠<rt>ねむ</rt></ruby>くないです。',
+              '<ruby>徹夜<rt>てつや</rt></ruby>するのに、<ruby>眠<rt>ねむ</rt></ruby>くないです。',
+              '<ruby>徹夜<rt>てつや</rt></ruby>したのに、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。',
+              '<ruby>徹夜<rt>てつや</rt></ruby>するのに、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。'
+            ]
+          }
+        ],
         
-        {
-          question : 'かぎがかけてありました',
-          answers : [
-            'Aかぎがかけてあったのに、どろぼうに入られました。',
-            'かぎがかけてあるのに、どろぼうに入られました。',
-            'かぎがかけてあったのに、仕事は大変です。',
-            'かぎがかけてあるのに、仕事は大変です。'
-          ]
-        },
         
-        {
-          question : '子供です',
-          answers : [
-            'A子供なのに、動物園がきらいです。',
-            '子供のに、動物園がきらいです。',
-            '子供なのに、日本語がぺらぺらです。',
-            '子供のに、日本語がぺらぺらです。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            '<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがありません<br>'+
+            '<i class="fa">&#xf061;</i>　<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>したことがないのに、<ruby>日本語<rt>にほんご</rt></ruby>がぺらぺらです。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'きのうの夜早く寝ました',
-          answers : [
-            'Aきのうの夜早く寝たのに、朝寝坊してしまいました。',
-            'きのうの夜早く寝るのに、朝寝坊してしまいました。',
-            'きのうの夜早く寝たのに、眠くないです。',
-            'きのうの夜早く寝るのに、眠くないです。'
-          ]
-        },
+        '<div class="sub-section columns-2 clear">'+
+          '<div style="margin-bottom:0;">'+
+            'e.g. <ruby>日本語<rt>にほんご</rt></ruby>がぺらぺらです。<br>'+
+            '&bull; <ruby>眠<rt>ねむ</rt></ruby>くないです。<br>'+
+            '&bull; やめる<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。<br>'+
+            '&bull; <ruby>別<rt>わか</rt></ruby>れたそうです。'+
+          '</div>'+
         
-        {
-          question : '彼女はとてもきれいです',
-          answers : [
-            'A彼女はとてもきれいなのに、人気がないです。',
-            '彼女はとてもきれいのに、人気がないです。',
-            '彼女はとてもきれいなのに、動物園がきらいです。',
-            '彼女はとてもきれいのに、動物園がきらいです。'
-          ]
-        },
+          '<div style="margin-bottom:0;">'+
+            '&bull; <ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちました。<br>'+
+            '&bull; どろぼうに<ruby>入<rt>はい</rt></ruby>られました。<br>'+
+            '&bull; <ruby>朝寝坊<rt>あさねぼう</rt></ruby>してしまいました。<br>'+
+            '&bull; <ruby>家<rt>いえ</rt></ruby>でごろごろしています。'+
+          '</div>'+
+        '</div><br>'+
         
-        {
-          question : 'ぜんぜん練習しませんでした',
-          answers : [
-            'Aぜんぜん練習しなかったのに、試合に勝ちました。',
-            'ぜんぜん練習しないのに、試合に勝ちました。',
-            'ぜんぜん練習しなかったのに、仕事は大変です。',
-            'ぜんぜん練習しないのに、仕事は大変です。'
-          ]
-        },
-        
-        {
-          question : '給料が安いです',
-          answers : [
-            'A給料が安いのに、仕事は大変です。',
-            '給料が安いなのに、仕事は大変です。',
-            '給料が安いのに、どろぼうに入られました。',
-            '給料が安いなのに、どろぼうに入られました。'
-          ]
-        },
-        
-        {
-          question : '徹夜しました',
-          answers : [
-            'A徹夜したのに、眠くないです。',
-            '徹夜するのに、眠くないです。',
-            '徹夜したのに、試合に勝ちました。',
-            '徹夜するのに、試合に勝ちました。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'かぎがかけてありました<br>'+
+              '{かぎがかけてあったのに、どろぼうに入られました|かぎがかけてあったのに、どろぼうにはいられました|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'いい<ruby>天気<rt>てんき</rt></ruby>です<br>'+
+              '{いい天気なのに、家でごろごろしています|いいてんきなのに、いえでごろごろしています|' + Genki.getAlts('{い}い{天気}なのに、{家}でごろごろしています', '良|てんき|いえ') + Genki.getAlts('{よ}い{天気}なのに、{家}でごろごろしています', '良|てんき|いえ') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'きのうの<ruby>夜<rt>よる</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ました<br>'+
+              '{きのうの夜早く寝たのに、朝寝坊してしまいました|きのうのよるはやくねたのに、あさねぼうしてしまいました|' + Genki.getAlts('{きのう}の{夜}{早}く{寝}たのに、{朝寝坊}してしまいました', '昨日|よる|はや|ね|あさねぼう') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'この<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>です<br>'+
+              '{この会社の仕事は楽なのに、やめる人が多いです|このかいしゃのしごとはらくなのに、やめるひとがおおいです|' + Genki.getAlts('この{会社}の{仕事}は{楽}なのに、やめる{人}が{多}いです', 'かいしゃ|しごと|らく|ひと|おお') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'ぜんぜん<ruby>練習<rt>れんしゅう</rt></ruby>しませんでした<br>'+
+              '{ぜんぜん練習しなかったのに、試合に勝ちました|ぜんぜんれんしゅうしなかったのに、しあいにかちました|' + Genki.getAlts('ぜんぜん{練習}しなかったのに、{試合}に{勝}ちました', 'れんしゅう|しあい|か') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'あの<ruby>二人<rt>ふたり</rt></ruby>は<ruby>仲<rt>なか</rt></ruby>がよかったです<br>'+
+              '{あの二人は仲がよかったのに、別れたそうです|あのふたりはなかがよかったのに、わかれたそうです|' + Genki.getAlts('あの{二人}は{仲}が{よ}かったのに、{別}れたそうです', 'ふたり|なか|良|わか') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>徹夜<rt>てつや</rt></ruby>しました<br>'+
+              '{徹夜したのに、眠くないです|てつやしたのに、ねむくないです|' + Genki.getAlts('{徹夜}したのに、{眠}くないです', 'てつや|ねむ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

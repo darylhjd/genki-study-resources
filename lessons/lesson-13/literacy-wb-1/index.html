@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Practice writing the following sixteen kanji.">
-    <meta property="og:description" content="Practice writing the following sixteen kanji.">
+    <title>Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: Kanji Writing Practice - Lesson 13 | Genki Study Resources">
+    <meta name="description" content="Practice drawing the following kanji multiple times.">
+    <meta property="og:description" content="Practice drawing the following kanji multiple times.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II Workbook, Reading and Writing, page 109, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II Workbook, Reading and Writing, Kanji stroke order, page 111, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,32 +70,113 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/kanji-canvas.min.js"></script>
+    <script src="../../../resources/javascript/ref-patterns/kanji.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'writing',
-      info : 'Practice writing the following sixteen kanji.',
+      type : 'drawing',
+      info : Genki.lang.std_drawing,
       
-      columns : 9,
-      quizlet : {
-        '物' : 'もの／ぶつ',
-        '鳥' : 'とり／ちょう',
-        '料' : 'りょう',
-        '理' : 'り',
-        '特' : 'とく',
-        '安' : 'やす／あん',
-        '飯' : 'はん',
-        '肉' : 'にく',
-        '悪' : 'わる／あく',
-        '体' : 'からだ／たい',
-        '空' : 'そら／くう',
-        '港' : 'みなと／こう',
-        '着' : 'ちゃく',
-        '同' : 'どう',
-        '海' : 'うみ／かい',
-        '昼' : 'ひる／ちゅう'
-      }
+      columns : 7,
+      quizlet : [
+        {
+          kanji : '物',
+          strokes : 8,
+          order : '146'
+        },
+        
+        {
+          kanji : '鳥',
+          strokes : 11,
+          order : '147'
+        },
+        
+        {
+          kanji : '料',
+          strokes : 10,
+          order : '148'
+        },
+        
+        {
+          kanji : '理',
+          strokes : 11,
+          order : '149'
+        },
+        
+        {
+          kanji : '特',
+          strokes : 10,
+          order : '150'
+        },
+        
+        {
+          kanji : '安',
+          strokes : 6,
+          order : '151'
+        },
+        
+        {
+          kanji : '飯',
+          strokes : 12,
+          order : '152'
+        },
+        
+        {
+          kanji : '肉',
+          strokes : 6,
+          order : '153'
+        },
+        
+        {
+          kanji : '悪',
+          strokes : 11,
+          order : '154'
+        },
+        
+        {
+          kanji : '体',
+          strokes : 7,
+          order : '155'
+        },
+        
+        {
+          kanji : '同',
+          strokes : 6,
+          order : '156'
+        },
+        
+        {
+          kanji : '着',
+          strokes : 12,
+          order : '157'
+        },
+        
+        {
+          kanji : '空',
+          strokes : 8,
+          order : '158'
+        },
+        
+        {
+          kanji : '港',
+          strokes : 12,
+          order : '159'
+        },
+        
+        {
+          kanji : '昼',
+          strokes : 9,
+          order : '160'
+        },
+        
+        {
+          kanji : '海',
+          strokes : 9,
+          order : '161'
+        }
+      ]
     });</script>
   </body>
 </html>

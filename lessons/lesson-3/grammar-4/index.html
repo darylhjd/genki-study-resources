@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Time References 1 - Lesson 3 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Time References 1 - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Time References 1 - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Time References 1 - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Look at Mary's schedule below and answer the questions. NOTE: In this exercise you will practice using the particle に to indicate the time at which an event takes place.">
-    <meta property="og:description" content="Look at Mary's schedule below and answer the questions. NOTE: In this exercise you will practice using the particle に to indicate the time at which an event takes place.">
+    <title>Practice: を and で Particles - Lesson 3 | Genki Study Resources</title>
+    <meta name="title" content="Practice: を and で Particles - Lesson 3 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: を and で Particles - Lesson 3 | Genki Study Resources">
+    <meta property="og:title" content="Practice: を and で Particles - Lesson 3 | Genki Study Resources">
+    <meta name="description" content="Look at the table and answer the following questions.">
+    <meta property="og:description" content="Look at the table and answer the following questions.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 98, problem II-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 95, problem II-B, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,173 +70,257 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
-    <script>(function() {
-      var mary = 'メアリーさんは何時に';
+    <script>Genki.generateQuiz({
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Look at the table and answer the following questions. {!GRI|Click here|l3-p3} to review Particles.<br><br>'+
+      '<table class="center">'+
+        '<tr style="font-weight:bold">'+
+          '<td>Place</td>'+
+          '<td>Object</td>'+
+          '<td>Action</td>'+
+        '</tr>'+
         
-      Genki.generateQuiz({
-        type : 'multi',
-        info : 'Look at Mary\'s schedule below and answer the questions.<br>NOTE: In this exercise you will practice using the particle に to indicate the time at which an event takes place. {!GRI|Click here|l3-p4} to review Time References.<br><br>'+
-        '<table style="width:200px;">'+
-          '<tr>'+
-            '<td>07:30 <small>A.M.</small></td>'+
-            '<td>get up</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td>マクドナルド</td>'+
+          '<td>ハンバーガー</td>'+
+          '<td><ruby>食<rt>た</rt></ruby>べる</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>08:00</td>'+
-            '<td>eat breakfast</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td>うち</td>'+
+          '<td><ruby>音楽<rt>おんがく</rt></ruby></td>'+
+          '<td><ruby>聞<rt>き</rt></ruby>く</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>08:30</td>'+
-            '<td>go to school</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td>カフェ</td>'+
+          '<td>コーヒー</td>'+
+          '<td><ruby>飲<rt>の</rt></ruby>む</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>12:00</td>'+
-            '<td>eat lunch</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td><ruby>大学<rt>だいがく</rt></ruby></td>'+
+          '<td><ruby>日本語<rt>にほんご</rt></ruby></td>'+
+          '<td><ruby>話<rt>はな</rt></ruby>す</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>03:00 <small>P.M.</small></td>'+
-            '<td>drink coffee</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td><ruby>図書館<rt>としょかん</rt></ruby></td>'+
+          '<td><ruby>雑誌<rt>ざっし</rt></ruby></td>'+
+          '<td><ruby>読<rt>よ</rt></ruby>む</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>04:00</td>'+
-            '<td>play tennis</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td>うち</td>'+
+          '<td>テレビ</td>'+
+          '<td><ruby>見<rt>み</rt></ruby>る</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>05:00</td>'+
-            '<td>go home</td>'+
-          '</tr>'+
+        '<tr>'+
+          '<td><ruby>学校<rt>がっこう</rt></ruby></td>'+
+          '<td>テニス</td>'+
+          '<td>する</td>'+
+        '</tr>'+
         
-          '<tr>'+
-            '<td>06:30</td>'+
-            '<td>eat dinner</td>'+
-          '</tr>'+
-        
-          '<tr>'+
-            '<td>07:00</td>'+
-            '<td>watch TV</td>'+
-          '</tr>'+
-        
-          '<tr>'+
-            '<td>08:00</td>'+
-            '<td>study</td>'+
-          '</tr>'+
-        
-          '<tr>'+
-            '<td>11:30</td>'+
-            '<td>go to bed</td>'+
-          '</tr>'+
-        '</table>',
+        '<tr>'+
+          '<td><ruby>図書館<rt>としょかん</rt></ruby></td>'+
+          '<td><ruby>日本語<rt>にほんご</rt></ruby></td>'+
+          '<td><ruby>勉強<rt>べんきょう</rt></ruby>する</td>'+
+        '</tr>'+
+      '</table>', 'Look at the table and answer the following questions. {!GRI|Click here|l3-p3} to review Particles.'],
 
-        quizlet : [
+      quizlet : [
+        [
+          // MULTIPLE CHOICE
           {
-            question : mary + '起きますか。',
+            question : 'メアリーさんは<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>雑誌<rt>ざっし</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みますか。',
             answers : [
-              'A七時半に起きます。',
-              '七時に起きます。',
-              '起きますに七時半。'
+              'Aはい、読みます。',
+              'いいえ、読みません。',
+              'いいえ、図書館で読みません。うちで読みます。',
+              'いいえ、雑誌を読みません。本を読みます。'
             ]
           },
-
+          
           {
-            question : mary + '朝ご飯を食べますか。',
+            question : 'メアリーさんはうちでコーヒーを<ruby>飲<rt>の</rt></ruby>みますか。',
             answers : [
-              'A八時に朝ご飯を食べます。',
-              '八時に昼ご飯を食べます。',
-              '八時に晩ご飯を食べます。'
+              'Aいいえ、うちで飲みません。カフェで飲みます。',
+              'いいえ、カフェで飲みません。うちで飲みます。',
+              'いいえ、飲みません。',
+              'はい、飲みます。'
             ]
           },
-
+          
           {
-            question : mary + '学校に行きますか。',
+            question : 'メアリーさんはどこでテニスをしますか。',
             answers : [
-              'A八時半に学校に行きます。',
-              '八時に学校に行きます。',
-              '八時半に学校にきます。'
+              'A学校でします。',
+              '大学でします。',
+              'うちでします。',
+              'カフェでします。'
             ]
           },
-
+          
           {
-            question : mary + '昼ご飯を食べますか。',
+            question : 'メアリーさんはカフェで<ruby>何<rt>なに</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みますか。',
             answers : [
-              'A十二時に昼ご飯を食べます。',
-              '十二時に朝ご飯を食べます。',
-              '十二時に晩ご飯を食べます。'
+              'Aコーヒーを飲みます。',
+              'お茶を飲みます。',
+              '水を飲みます。',
+              'ジュースを飲みます。'
             ]
           },
-
+          
           {
-            question : mary + 'コーヒーを飲みますか。',
+            question : 'メアリーさんはうちでテレビを<ruby>見<rt>み</rt></ruby>ますか。',
             answers : [
-              'A三時にコーヒーを飲みます。',
-              '三時半にコーヒーを飲みます。',
-              'コーヒーを飲みますに三時。'
+              'Aはい、見ます。',
+              'いいえ、見ません。',
+              'いいえ、うちで見ません。カフェで見ます。',
+              'いいえ、テレビを見ません。本を読みます。'
             ]
           },
-
+          
           {
-            question : mary + 'テニスをしますか。',
+            question : 'メアリーさんは<ruby>学校<rt>がっこう</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しますか。',
             answers : [
-              'A四時にテニスをします。',
-              '四時半にテニスをします。',
-              'テニスをしますに四時。'
+              'Aいいえ、学校で勉強しません。図書館で勉強します。',
+              'いいえ、大学で勉強しません。図書館で勉強します。',
+              'いいえ、勉強しません。',
+              'はい、勉強します。'
             ]
           },
-
+          
           {
-            question : mary + 'うちに帰りますか。',
+            question : 'メアリーさんはどこで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しますか。',
             answers : [
-              'A五時にうちに帰ります。',
-              '五時半にうちに帰ります。',
-              'うちに帰りますに五時。'
+              'A大学で話します。',
+              '学校で話します。',
+              'カフェで話します。',
+              'マクドナルドで話します。'
             ]
           },
-
+          
           {
-            question : mary + '晩ご飯を食べますか。',
+            question : 'メアリーさんはマクドナルドで<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。',
             answers : [
-              'A六時半に晩ご飯を食べます。',
-              '六時半に朝ご飯を食べます。',
-              '六時半に昼ご飯を食べます。'
-            ]
-          },
-
-          {
-            question : mary + 'テレビを見ますか。',
-            answers : [
-              'A七時にテレビを見ます。',
-              '七時半にテレビを見ます。',
-              'テレビを見ますに七時。'
-            ]
-          },
-
-          {
-            question : mary + '勉強しますか。',
-            answers : [
-              'A八時に勉強します。',
-              '八時半に勉強します。',
-              '勉強しますに八時。'
-            ]
-          },
-
-          {
-            question : mary + '寝ますか。',
-            answers : [
-              'A十一時半に寝ます。',
-              '十一時に寝ます。',
-              '寝ますに十一時。'
+              'Aハンバーガーを食べます。',
+              'アイスクリームを食べます。',
+              'フライドポテトを食べます。',
+              'カレーを食べます。'
             ]
           }
-        ]
-      });
-    }());</script>
+        ],
+        
+        
+        // WRITTEN
+        '<table class="table center">'+
+          '<tr style="font-weight:bold">'+
+            '<td>Place</td>'+
+            '<td>Object</td>'+
+            '<td>Action</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>マクドナルド</td>'+
+            '<td>ハンバーガー</td>'+
+            '<td><ruby>食<rt>た</rt></ruby>べる</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>うち</td>'+
+            '<td><ruby>音楽<rt>おんがく</rt></ruby></td>'+
+            '<td><ruby>聞<rt>き</rt></ruby>く</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>カフェ</td>'+
+            '<td>コーヒー</td>'+
+            '<td><ruby>飲<rt>の</rt></ruby>む</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td><ruby>大学<rt>だいがく</rt></ruby></td>'+
+            '<td><ruby>日本語<rt>にほんご</rt></ruby></td>'+
+            '<td><ruby>話<rt>はな</rt></ruby>す</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td><ruby>図書館<rt>としょかん</rt></ruby></td>'+
+            '<td><ruby>雑誌<rt>ざっし</rt></ruby></td>'+
+            '<td><ruby>読<rt>よ</rt></ruby>む</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td>うち</td>'+
+            '<td>テレビ</td>'+
+            '<td><ruby>見<rt>み</rt></ruby>る</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td><ruby>学校<rt>がっこう</rt></ruby></td>'+
+            '<td>テニス</td>'+
+            '<td>する</td>'+
+          '</tr>'+
+
+          '<tr>'+
+            '<td><ruby>図書館<rt>としょかん</rt></ruby></td>'+
+            '<td><ruby>日本語<rt>にほんご</rt></ruby></td>'+
+            '<td><ruby>勉強<rt>べんきょう</rt></ruby>する</td>'+
+          '</tr>'+
+        '</table><br>'+
+        
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              'メアリーさんは<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>雑誌<rt>ざっし</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みますか。<br>'+
+              'はい、{読みます|よみます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'メアリーさんはうちでコーヒーを<ruby>飲<rt>の</rt></ruby>みますか。<br>'+
+              'いいえ、{家|うち|answer}で{飲みません|のみません|answer}。{カフェ}で{飲みます|のみます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'メアリーさんはどこでテニスをしますか。<br>'+
+              '{学校|がっこう|answer}で{します}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'メアリーさんはカフェで<ruby>何<rt>なに</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みますか。<br>'+
+              '{コーヒー}を{飲みます|のみます|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'メアリーさんはうちでテレビを<ruby>見<rt>み</rt></ruby>ますか。<br>'+
+              '{はい、見ます|はい、みます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'メアリーさんは<ruby>学校<rt>がっこう</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しますか。<br>'+
+              '{いいえ、学校で勉強しません。図書館で勉強します。|いいえ、がっこうでべんきょうしません。としょかんでべんきょうします。|' + Genki.getAlts('いいえ、{学校}で{勉強}しません。{図書館}で{勉強}します。', 'がっこう|べんきょう|としょかん|べんきょう') + 'answer}'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'メアリーさんはどこで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しますか。<br>'+
+              '{大学で話します|だいがくではなします|' + Genki.getAlts('{大学}で{話}します', 'だいがく|はな') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'メアリーさんはマクドナルドで<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。<br>'+
+              '{ハンバーガーを食べます|ハンバーガーをたべます|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
+      ]
+    });</script>
   </body>
 </html>

@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Practice writing the following fourteen kanji.">
-    <meta property="og:description" content="Practice writing the following fourteen kanji.">
+    <title>Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: Kanji Writing Practice - Lesson 4 | Genki Study Resources">
+    <meta name="description" content="Practice drawing the following kanji multiple times.">
+    <meta property="og:description" content="Practice drawing the following kanji multiple times.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, Reading and Writing, page 131, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, Reading and Writing, Kanji stroke order, page 135, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,30 +70,101 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/kanji-canvas.min.js"></script>
+    <script src="../../../resources/javascript/ref-patterns/kanji.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'writing',
-      info : 'Practice writing the following fourteen kanji.',
+      type : 'drawing',
+      info : Genki.lang.std_drawing,
       
-      columns : 9,
-      quizlet : {
-        '日' : 'にち／ひ',
-        '本' : 'ほん',
-        '人' : 'じん／ひと',
-        '月' : 'げつ／がつ',
-        '火' : 'か／ひ',
-        '水' : 'すい／みず',
-        '木' : 'もく／き',
-        '金' : 'きん',
-        '土' : 'ど／つち',
-        '曜' : 'よう',
-        '上' : 'うえ',
-        '下' : 'した',
-        '中' : 'なか',
-        '半' : 'はん'
-      }
+      columns : 7,
+      quizlet : [
+        {
+          kanji : '日',
+          strokes : 4,
+          order : '016'
+        },
+        
+        {
+          kanji : '本',
+          strokes : 5,
+          order : '017'
+        },
+        
+        {
+          kanji : '人',
+          strokes : 2,
+          order : '018'
+        },
+        
+        {
+          kanji : '月',
+          strokes : 4,
+          order : '019'
+        },
+        
+        {
+          kanji : '火',
+          strokes : 4,
+          order : '020'
+        },
+        
+        {
+          kanji : '水',
+          strokes : 4,
+          order : '021'
+        },
+        
+        {
+          kanji : '木',
+          strokes : 4,
+          order : '022'
+        },
+        
+        {
+          kanji : '金',
+          strokes : 8,
+          order : '023'
+        },
+        
+        {
+          kanji : '土',
+          strokes : 3,
+          order : '024'
+        },
+        
+        {
+          kanji : '曜',
+          strokes : 18,
+          order : '025'
+        },
+        
+        {
+          kanji : '上',
+          strokes : 3,
+          order : '026'
+        },
+        
+        {
+          kanji : '下',
+          strokes : 3,
+          order : '027'
+        },
+        
+        {
+          kanji : '中',
+          strokes : 4,
+          order : '028'
+        },
+        
+        {
+          kanji : '半',
+          strokes : 5,
+          order : '029'
+        }
+      ]
     });</script>
   </body>
 </html>

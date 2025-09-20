@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Te-forms for Joining Sentences 2 - Lesson 7 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Te-forms for Joining Sentences 2 - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Te-forms for Joining Sentences 2 - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Te-forms for Joining Sentences 2 - Lesson 7 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Looking back on your childhood, make sentences using the given cues.">
-    <meta property="og:description" content="Looking back on your childhood, make sentences using the given cues.">
+    <title>Practice: Adjective/Noun Te-forms 2 - Lesson 7 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Adjective/Noun Te-forms 2 - Lesson 7 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Adjective/Noun Te-forms 2 - Lesson 7 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Adjective/Noun Te-forms 2 - Lesson 7 | Genki Study Resources">
+    <meta name="description" content="Naomi and her friends went on a trip to Tokyo last month. Make sentences describing the city using two adjectives.">
+    <meta property="og:description" content="Naomi and her friends went on a trip to Tokyo last month. Make sentences describing the city using two adjectives.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 180, problem IV-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 180, problem IV-C, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,103 +70,132 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Looking back on your childhood, make sentences using the given cues. {!GRI|Click here|l7-p4} to review Adjective/Noun Te-forms.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Naomi and her friends went on a trip to Tokyo last month. Make sentences describing the city using {!GRI|two adjectives|l7-p4}.',
 
       quizlet : [
-        {
-          question : 'next-door neighbor　ー　tall & kind',
-          answers : [
-            'Aとなりの人は背が高くて、親切でした。',
-            'となりの人は背が高くて、親切かったです。',
-            'となりの人は背が高で、親切でした。',
-            'となりの人は背が高で、親切かったです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>東京<rt>とうきょう</rt></ruby>：big & lively',
+            answers : [
+              'A<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくて、にぎやかでした。',
+              '<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくて、にぎやかです。',
+              '<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいで、にぎやかでした。',
+              '<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいで、にぎやかです。'
+            ]
+          },
+          
+          {
+            question : '<ruby>新幹線<rt>しんかんせん</rt></ruby><small>(Bullet Train)</small>：fast & convenient',
+            answers : [
+              'A<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>速<rt>はや</rt></ruby>くて、<ruby>便利<rt>べんり</rt></ruby>でした。',
+              '<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>速<rt>はや</rt></ruby>くて、<ruby>便利<rt>べんり</rt></ruby>です。',
+              '<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>速<rt>はや</rt></ruby>いで、<ruby>便利<rt>べんり</rt></ruby>でした。',
+              '<ruby>新幹線<rt>しんかんせん</rt></ruby>は<ruby>速<rt>はや</rt></ruby>いで、<ruby>便利<rt>べんり</rt></ruby>です。'
+            ]
+          },
+          
+          {
+            question : 'ホテル：old & not clean',
+            answers : [
+              'Aホテルは<ruby>古<rt>ふる</rt></ruby>くて、きれいじゃなかったです。',
+              'ホテルは<ruby>古<rt>ふる</rt></ruby>くて、きれいじゃないでした。',
+              'ホテルは<ruby>古<rt>ふる</rt></ruby>いで、きれいじゃなかったです。',
+              'ホテルは<ruby>古<rt>ふる</rt></ruby>いで、きれいじゃないでした。'
+            ]
+          },
+          
+          {
+            question : 'ホテルの<ruby>人<rt>ひと</rt></ruby>：kind & good',
+            answers : [
+              'Aホテルの<ruby>人<rt>ひと</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>で、よかったです。',
+              'ホテルの<ruby>人<rt>ひと</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>で、いいでした。',
+              'ホテルの<ruby>人<rt>ひと</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>くて、よかったです。',
+              'ホテルの<ruby>人<rt>ひと</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>くて、いいでした。'
+            ]
+          },
+          
+          {
+            question : 'レストラン：expensive & not delicious',
+            answers : [
+              'Aレストランは<ruby>高<rt>たか</rt></ruby>くて、おいしくなかったです。',
+              'レストランは<ruby>高<rt>たか</rt></ruby>くて、おいしくないでした。',
+              'レストランは<ruby>高<rt>たか</rt></ruby>いで、おいしくなかったです。',
+              'レストランは<ruby>高<rt>たか</rt></ruby>いで、おいしくないでした。'
+            ]
+          },
+          
+          {
+            question : '<ruby>神社<rt>じんじゃ</rt></ruby>：quiet & beautiful',
+            answers : [
+              'A<ruby>神社<rt>じんじゃ</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かで、きれいでした。',
+              '<ruby>神社<rt>じんじゃ</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かで、きれいです。',
+              '<ruby>神社<rt>じんじゃ</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かて、きれいでした。',
+              '<ruby>神社<rt>じんじゃ</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かて、きれいです。'
+            ]
+          },
+          
+          {
+            question : '<ruby>東京<rt>とうきょう</rt></ruby>スカイツリー<small>(Tokyo Skytree)</small>：tall & scary',
+            answers : [
+              'A<ruby>東京<rt>とうきょう</rt></ruby>スカイツリーは<ruby>高<rt>たか</rt></ruby>くて、こわかったです。',
+              '<ruby>東京<rt>とうきょう</rt></ruby>スカイツリーは<ruby>高<rt>たか</rt></ruby>くて、こわいでした。',
+              '<ruby>東京<rt>とうきょう</rt></ruby>スカイツリーは<ruby>高<rt>たか</rt></ruby>いで、こわかったです。',
+              '<ruby>東京<rt>とうきょう</rt></ruby>スカイツリーは<ruby>高<rt>たか</rt></ruby>いで、こわいでした。'
+            ]
+          }
+        ],
         
-        {
-          question : 'father　ー　quiet & good-looking',
-          answers : [
-            'A父は静かで、かっこよかったです。',
-            'お父さんは静かで、かっこよかったです。',
-            '父は静かくて、かっこよかったです。',
-            'お父さんは静かくて、かっこよかったです。'
-          ]
-        },
         
-        {
-          question : 'teacher　ー　big & scary',
-          answers : [
-            'A先生は大きくて、こわかったです。',
-            '先生は大きくて、こわいでした。',
-            '先生は大きで、こわかったです。',
-            '先生は大きで、こわいでした。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem valign-top">'+
+            '<ruby>東京<rt>とうきょう</rt></ruby>：big & lively<br>'+
+            '{東京|とうきょう|answer}は{大き|おおき|answer}くて、{にぎやか}でした。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'house　ー　old & not clean',
-          answers : [
-            'A家は古くて、きれいじゃなかったです。',
-            '家は古くて、きれいくなかったです。',
-            '家は古で、きれいじゃなかったです。',
-            '家は古で、きれいくなかったです。'
-          ]
-        },
-        
-        {
-          question : 'classes　ー　long & not interesting',
-          answers : [
-            'Aクラスは長くて、おもしろくなかったです。',
-            'クラスは長くて、おもしろじゃなかったです。',
-            'クラスは長で、おもしろくなかったです。',
-            'クラスは長で、おもしろじゃなかったです。'
-          ]
-        },
-        
-        {
-          question : 'friends　ー　kind & interesting',
-          answers : [
-            'A友だちは親切で、おもしろかったです。',
-            '友だちは親切で、おもしろいでした。',
-            '友だちは親切くて、おもしろかったです。',
-            '友だちは親切くて、おもしろいでした。'
-          ]
-        },
-        
-        {
-          question : 'school　ー　lively & fun',
-          answers : [
-            'A学校はにぎやかで、楽しかったです。',
-            '学校はにぎやかで、楽しいでした。',
-            '学校はにぎやかくて、楽しかったです。',
-            '学校はにぎやかくて、楽しいでした。'
-          ]
-        },
-        
-        {
-          question : 'homework　ー　difficult & tough',
-          answers : [
-            'A宿題は難しくて、大変でした。',
-            '宿題は難しくて、大変かったです。',
-            '宿題は難しで、大変でした。',
-            '宿題は難しで、大変かったです。'
-          ]
-        },
-        
-        {
-          question : 'myself　ー　small & cute',
-          answers : [
-            'A私は小さくて、かわいかったです。',
-            '私は小さくて、かわいいでした。',
-            '私は小さで、かわいかったです。',
-            '私は小さで、かわいいでした。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>新幹線<rt>しんかんせん</rt></ruby><small>(Bullet Train)</small>：fast & convenient<br>'+
+              '{新幹線は速くて、便利でした|しんかんせんははやくて、べんりでした|' + Genki.getAlts('{新幹線}は{速}くて、{便利}でした', 'しんかんせん|はや|べんり') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'ホテル：old & not clean<br>'+
+              '{ホテルは古くて、きれいじゃなかったです|ホテルはふるくて、きれいじゃなかったです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'ホテルの<ruby>人<rt>ひと</rt></ruby>：kind & good<br>'+
+              '{ホテルの人は親切で、よかったです|ホテルのひとはしんせつで、よかったです|' + Genki.getAlts('ホテルの{人}は{親切}で、{よ}かったです', 'ひと|しんせつ|良') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'レストラン：expensive & not delicious<br>'+
+              '{レストランは高くて、おいしくなかったです|レストランはたかくて、おいしくなかったです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>神社<rt>じんじゃ</rt></ruby>：quiet & beautiful<br>'+
+              '{神社は静かで、きれいでした|じんじゃはしずかで、きれいでした|' + Genki.getAlts('{神社}は{静}かで、{きれい}でした', 'じんじゃ|しず|綺麗') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>東京<rt>とうきょう</rt></ruby>スカイツリー<small>(Tokyo Skytree)</small>：tall & scary<br>'+
+              '{東京スカイツリーは高くて、こわかったです|とうきょうスカイツリーはたかくて、こわかったです|' + Genki.getAlts('{東京}スカイツリーは{高}くて、{こわ}かったです', 'とうきょう|たか|怖') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

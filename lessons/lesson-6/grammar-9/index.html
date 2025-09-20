@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: ～ましょうか - Lesson 6 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: ～ましょうか - Lesson 6 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: ～ましょうか - Lesson 6 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: ～ましょうか - Lesson 6 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Problems 1-9: Propose to do the following things, using ましょうか. Problems 10-16: Make a proposal in the following situations.">
-    <meta property="og:description" content="Problems 1-9: Propose to do the following things, using ましょうか. Problems 10-16: Make a proposal in the following situations.">
+    <title>Practice: ～てはいけません 2 - Lesson 6 | Genki Study Resources</title>
+    <meta name="title" content="Practice: ～てはいけません 2 - Lesson 6 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: ～てはいけません 2 - Lesson 6 | Genki Study Resources">
+    <meta property="og:title" content="Practice: ～てはいけません 2 - Lesson 6 | Genki Study Resources">
+    <meta name="description" content="Your friend is asking you if it is all right to do the following things. Since you are strict, tell them that they must not do these activities.">
+    <meta property="og:description" content="Your friend is asking you if it is all right to do the following things. Since you are strict, tell them that they must not do these activities.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 162, page 163, problem VI-A, problem VI-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 161, problem V-B, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,159 +70,132 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Problems 1-9: Propose to do the following things, using {!GRI|ましょうか|l6-p7}.<br>Problems 10-16: Make a proposal in the following situations.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Your friend is asking you if it is all right to do the following things. Since you are strict, tell them that they {!GRI|must not do|l6-p5} these activities.',
 
       quizlet : [
-        // VI-A
-        {
-          question : 'Turn off the TV',
-          answers : [
-            'Aテレビを消しましょうか。',
-            'テレビを消しましょう。',
-            'テレビを消します。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>電話<rt>でんわ</rt></ruby>してもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>電話<rt>でんわ</rt></ruby>してはいけません。',
+              'いいえ、<ruby>電話<rt>でんわ</rt></ruby>していけません。',
+              'いいえ、<ruby>電話<rt>でんわ</rt></ruby>してはいけます。',
+              'いいえ、<ruby>電話<rt>でんわ</rt></ruby>していけます。'
+            ]
+          },
+
+          {
+            question : '<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>話<rt>はな</rt></ruby>してもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>話<rt>はな</rt></ruby>してはいけません。',
+              'いいえ、<ruby>話<rt>はな</rt></ruby>していけません。',
+              'いいえ、<ruby>話<rt>はな</rt></ruby>すてはいけません。',
+              'いいえ、<ruby>話<rt>はな</rt></ruby>すていけません。'
+            ]
+          },
+
+          {
+            question : '<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>昼ご飯<rt>ひるごはん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>食<rt>た</rt></ruby>べてはいけません。',
+              'いいえ、<ruby>食<rt>た</rt></ruby>べていけません。',
+              'いいえ、<ruby>食<rt>た</rt></ruby>べってはいけません。',
+              'いいえ、<ruby>食<rt>た</rt></ruby>べっていけません。'
+            ]
+          },
+
+          {
+            question : '<ruby>図書館<rt>としょかん</rt></ruby>でコーヒーを<ruby>飲<rt>の</rt></ruby>んでもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>飲<rt>の</rt></ruby>んではいけません。',
+              'いいえ、<ruby>飲<rt>の</rt></ruby>んでいけません。',
+              'いいえ、<ruby>飲<rt>の</rt></ruby>いではいけません。',
+              'いいえ、<ruby>飲<rt>の</rt></ruby>いでいけません。'
+            ]
+          },
+
+          {
+            question : '<ruby>図書館<rt>としょかん</rt></ruby>でパソコンを<ruby>使<rt>つか</rt></ruby>ってもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>使<rt>つか</rt></ruby>ってはいけません。',
+              'いいえ、<ruby>使<rt>つか</rt></ruby>っていけません。',
+              'いいえ、<ruby>使<rt>つか</rt></ruby>てはいけません。',
+              'いいえ、<ruby>使<rt>つか</rt></ruby>ていけません。'
+            ]
+          },
+
+          {
+            question : 'あなたの<ruby>国<rt>くに</rt></ruby>で<ruby>十八歳<rt>じゅうはっさい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はたばこを<ruby>吸<rt>す</rt></ruby>ってもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>吸<rt>す</rt></ruby>ってはいけません。',
+              'いいえ、<ruby>吸<rt>す</rt></ruby>ってはいけます。',
+              'いいえ、<ruby>吸<rt>す</rt></ruby>っていけません。',
+              'いいえ、<ruby>吸<rt>す</rt></ruby>っていけます。'
+            ]
+          },
+
+          {
+            question : 'あなたの<ruby>国<rt>くに</rt></ruby>で<ruby>十八歳<rt>じゅうはっさい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでもいいですか。',
+            answers : [
+              'Aいいえ、<ruby>飲<rt>の</rt></ruby>んではいけません。',
+              'いいえ、<ruby>飲<rt>の</rt></ruby>んでいけません。',
+              'いいえ、<ruby>飲<rt>の</rt></ruby>いではいけません。',
+              'いいえ、<ruby>飲<rt>の</rt></ruby>いでいけません。'
+            ]
+          }
+        ],
         
-        {
-          question : 'Open the window',
-          answers : [
-            'A窓を開けましょうか。',
-            '窓を閉めましょうか。',
-            '窓を開けましょう。'
-          ]
-        },
         
-        {
-          question : 'Help with dishes',
-          answers : [
-            'A手伝いましょうか。',
-            '手伝いましょう。',
-            '手伝います。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            '<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>電話<rt>でんわ</rt></ruby>してもいいですか。<br>'+
+            'いいえ、{電話|でんわ|answer}してはいけません。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'Make a phone call',
-          answers : [
-            'A電話をかけましょうか。',
-            '電話をかけましょう。',
-            '電話をかけました。'
-          ]
-        },
-        
-        {
-          question : 'Carry bags',
-          answers : [
-            'A荷物を持ちましょうか。',
-            '荷物を持ちましょう。',
-            '荷物を持ちました。'
-          ]
-        },
-        
-        {
-          question : 'Get drinks',
-          answers : [
-            'A飲み物を持ってきましょうか。',
-            '食べ物を持ってきましょうか。',
-            '飲み物を連れてきましょうか。'
-          ]
-        },
-        
-        {
-          question : 'Turn on the light',
-          answers : [
-            'A電気をつけましょうか。',
-            '電気をつけりましょうか。',
-            '電気をつけましょう。'
-          ]
-        },
-        
-        {
-          question : 'Take a picture',
-          answers : [
-            'A写真を撮りましょうか。',
-            '写真を撮ましょうか。',
-            '写真を撮りましょう。'
-          ]
-        },
-        
-        {
-          question : 'Close the window',
-          answers : [
-            'A窓を閉めましょうか。',
-            '窓を開けましょうか。',
-            '窓を閉めましょう。'
-          ]
-        },
-        
-        // VI-B
-        {
-          question : 'You and your friend are in a room. Your friend looks hot.',
-          answers : [
-            'A窓を開けましょうか。',
-            '窓を閉めましょうか。',
-            '窓を消しましょうか。'
-          ]
-        },
-        
-        {
-          question : 'You and your friend are in a room. Your friend looks cold.',
-          answers : [
-            'A窓を閉めましょうか。',
-            '窓を開けましょうか。',
-            '窓を消しましょうか。'
-          ]
-        },
-        
-        {
-          question : 'Your friend is going to have a party.',
-          answers : [
-            'A食べ物を持ってきましょうか。',
-            '食べ物を持ってきましょう。',
-            '食べ物を持ってきます。'
-          ]
-        },
-        
-        {
-          question : 'Your friend has trouble with Japanese homework.',
-          answers : [
-            'A手伝いましょうか。',
-            '手伝いましょう。',
-            '手伝いました。'
-          ]
-        },
-        
-        {
-          question : 'You are talking with a Japanese friend in English, but he does not seem to understand English.',
-          answers : [
-            'A日本語を話しましょうか。',
-            '日本語を読みましょうか。',
-            '日本語を聞きましょうか。'
-          ]
-        },
-        
-        {
-          question : 'You enter a room. The room is dark and your friend is studying in there.',
-          answers : [
-            'A電気をつけましょうか。',
-            '電気をつけましょう。',
-            '電気をつけます。'
-          ]
-        },
-        
-        {
-          question : 'Your friend forgot to bring their glasses and cannot read the menu on the wall of the restaurant.',
-          answers : [
-            'Aメニューを読みましょうか。',
-            'メニューを話しましょうか。',
-            'メニューを飲みましょうか。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>話<rt>はな</rt></ruby>してもいいですか。<br>'+
+              '{いいえ、話してはいけません|いいえ、はなしてはいけません|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>昼ご飯<rt>ひるごはん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてもいいですか。<br>'+
+              '{いいえ、食べてはいけません|いいえ、たべてはいけません|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>図書館<rt>としょかん</rt></ruby>でコーヒーを<ruby>飲<rt>の</rt></ruby>んでもいいですか。<br>'+
+              '{いいえ、飲んではいけません|いいえ、のんではいけません|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>図書館<rt>としょかん</rt></ruby>でパソコンを<ruby>使<rt>つか</rt></ruby>ってもいいですか。<br>'+
+              '{いいえ、使ってはいけません|いいえ、つかってはいけません|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'あなたの<ruby>国<rt>くに</rt></ruby>で<ruby>十八歳<rt>じゅうはっさい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はたばこを<ruby>吸<rt>す</rt></ruby>ってもいいですか。<br>'+
+              '{いいえ、吸ってはいけません|いいえ、すってはいけません|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'あなたの<ruby>国<rt>くに</rt></ruby>で<ruby>十八歳<rt>じゅうはっさい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでもいいですか。<br>'+
+              '{いいえ、飲んではいけません|いいえ、のんではいけません|answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

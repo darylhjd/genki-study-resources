@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Hiragana | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Hiragana | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Hiragana | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Hiragana | Genki Study Resources - 2nd Edition">
+    <title>Hiragana - Lesson 0 | Genki Study Resources</title>
+    <meta name="title" content="Hiragana - Lesson 0 | Genki Study Resources">
+    <meta name="twitter:title" content="Hiragana - Lesson 0 | Genki Study Resources">
+    <meta property="og:title" content="Hiragana - Lesson 0 | Genki Study Resources">
     <meta name="description" content="Drag the Kana to the matching Romaji.">
     <meta property="og:description" content="Drag the Kana to the matching Romaji.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 24, page 25, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 20, page 21, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,13 +70,15 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'kana',
-      info : Genki.lang.std_kana,
+      format : 'kana',
+      type : ['kana', 'multi', 'fill', 'writing'],
+      info : [Genki.lang.std_kana, Genki.lang.kana_multi, Genki.lang.kana_fill, Genki.lang.kana_writing],
       
+      // drag and drop quizlet
       quizlet : [
         {
           'あ' : 'a',
@@ -153,7 +155,98 @@
           'を' : 'wo',
           'ん' : 'n'
         }
-      ]
+      ],
+      
+      // fill in the chart quizlet
+      chart : '<table class="table large-width center">'+
+        '<tr>'+
+          '<td>あ<br>{a}</td>'+
+          '<td>い<br>{i}</td>'+
+          '<td>う<br>{u}</td>'+
+          '<td>え<br>{e}</td>'+
+          '<td>お<br>{o}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>か<br>{ka}</td>'+
+          '<td>き<br>{ki}</td>'+
+          '<td>く<br>{ku}</td>'+
+          '<td>け<br>{ke}</td>'+
+          '<td>こ<br>{ko}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>さ<br>{sa}</td>'+
+          '<td>し<br>{shi}</td>'+
+          '<td>す<br>{su}</td>'+
+          '<td>せ<br>{se}</td>'+
+          '<td>そ<br>{so}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>た<br>{ta}</td>'+
+          '<td>ち<br>{chi}</td>'+
+          '<td>つ<br>{tsu}</td>'+
+          '<td>て<br>{te}</td>'+
+          '<td>と<br>{to}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>な<br>{na}</td>'+
+          '<td>に<br>{ni}</td>'+
+          '<td>ぬ<br>{nu}</td>'+
+          '<td>ね<br>{ne}</td>'+
+          '<td>の<br>{no}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>は<br>{ha}</td>'+
+          '<td>ひ<br>{hi}</td>'+
+          '<td>ふ<br>{fu}</td>'+
+          '<td>へ<br>{he}</td>'+
+          '<td>ほ<br>{ho}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>ま<br>{ma}</td>'+
+          '<td>み<br>{mi}</td>'+
+          '<td>む<br>{mu}</td>'+
+          '<td>め<br>{me}</td>'+
+          '<td>も<br>{mo}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>や<br>{ya}</td>'+
+          '<td></td>'+
+          '<td>ゆ<br>{yu}</td>'+
+          '<td></td>'+
+          '<td>よ<br>{yo}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>ら<br>{ra}</td>'+
+          '<td>り<br>{ri}</td>'+
+          '<td>る<br>{ru}</td>'+
+          '<td>れ<br>{re}</td>'+
+          '<td>ろ<br>{ro}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>わ<br>{wa}</td>'+
+          '<td></td>'+
+          '<td></td>'+
+          '<td></td>'+
+          '<td>を<br>{wo|o|answer}</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td>ん<br>{n}</td>'+
+          '<td></td>'+
+          '<td></td>'+
+          '<td></td>'+
+          '<td></td>'+
+        '</tr>'+
+      '</table>'
     });</script>
   </body>
 </html>

@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Particles を and で - Lesson 3 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Particles を and で - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Particles を and で - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Particles を and で - Lesson 3 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Create sentences with the given cues. Problems 1-7: add the appropriate verbs to the direct objects. Problems 8-14: add the place to the sentences.">
-    <meta property="og:description" content="Create sentences with the given cues. Problems 1-7: add the appropriate verbs to the direct objects. Problems 8-14: add the place to the sentences.">
+    <title>Practice: を Particle - Lesson 3 | Genki Study Resources</title>
+    <meta name="title" content="Practice: を Particle - Lesson 3 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: を Particle - Lesson 3 | Genki Study Resources">
+    <meta property="og:title" content="Practice: を Particle - Lesson 3 | Genki Study Resources">
+    <meta name="description" content="Make sentences with the cues using the framework Noun を Verb.">
+    <meta property="og:description" content="Make sentences with the cues using the framework Noun を Verb.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 95, page 96, problem I-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 95, problem II-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,149 +70,148 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
-    <script>(function () {
-      var wo = 'Create a sentence with the object/verb: ',
-          de1 = 'Finish the sentence「',
-          de2 = '」by adding the place: ';
-        
-      Genki.generateQuiz({
-        type : 'multi',
-        info : 'Create sentences with the given cues. {!GRI|Click here|l3-p3} to review Particles.<br>Problems 1-7: add the appropriate verbs to the direct objects.<br>Problems 8-14: add the place to the sentences.',
+    <script>Genki.generateQuiz({
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Make sentences with the cues using the framework {!GRI|NounをVerb|l3-p3}.',
 
-        quizlet : [
-          // (a) add the appropriate verbs to the following direct objects.
+      quizlet : [
+        [
+          // MULTIPLE CHOICE
           {
-            question : wo + '雑誌／読む', // object/verb
-            answers : [
-              'A雑誌を読みます。',
-              '雑誌を読むます。',
-              '読みますを雑誌。'
-            ]
-          },
-
-          {
-            question : wo + '音楽／聞く',
-            answers : [
-              'A音楽を聞きます。',
-              '音楽を聞くます。',
-              '聞きますを音楽。'
-            ]
-          },
-
-          {
-            question : wo + 'テニス／する',
-            answers : [
-              'Aテニスをします。',
-              'テニスをするます。',
-              'しますをテニス。'
-            ]
-          },
-
-          {
-            question : wo + 'ハンバーガー／食べる',
+            question : 'ハンバーガー／<ruby>食<rt>た</rt></ruby>べる',
             answers : [
               'Aハンバーガーを食べます。',
-              'ハンバーガーを食べるます。',
+              'ハンバーガーを食べります。',
+              '食べりますをハンバーガー。',
               '食べますをハンバーガー。'
             ]
           },
 
           {
-            question : wo + 'コーヒー／飲む',
+            question : '<ruby>音楽<rt>おんがく</rt></ruby>／<ruby>聞<rt>き</rt></ruby>く',
+            answers : [
+              'A音楽を聞きます。',
+              '音楽を聞くます。',
+              '聞くますを音楽。',
+              '聞きますを音楽。'
+            ]
+          },
+
+          {
+            question : 'コーヒー／<ruby>飲<rt>の</rt></ruby>む',
             answers : [
               'Aコーヒーを飲みます。',
-              'コーヒーを飲むます。',
-              '飲みますをコーヒー。'
+              'コーヒーを飲ます。',
+              '飲みますをコーヒー。',
+              '飲ますをコーヒー。'
             ]
           },
 
           {
-            question : wo + 'テレビ／見る',
-            answers : [
-              'Aテレビを見ます。',
-              'テレビを見るます。',
-              '見ますをテレビ。'
-            ]
-          },
-
-          {
-            question : wo + '日本語／話す',
+            question : '<ruby>日本語<rt>にほんご</rt></ruby>／<ruby>話<rt>はな</rt></ruby>す',
             answers : [
               'A日本語を話します。',
-              '日本語を話すます。',
-              '話しますを日本語。'
-            ]
-          },
-
-
-          // (b) add the place to the above sentences.
-          {
-            question : de1 + '雑誌を読みます' + de2 + '図書館（としょかん）',
-            answers : [
-              'A図書館で雑誌を読みます。',
-              '雑誌を読みますで図書館。',
-              '図書館雑誌を読みます。'
+              '日本語を話ます。',
+              '話しますを日本語。',
+              '話ますを日本語。'
             ]
           },
 
           {
-            question : de1 + '音楽を聞きます' + de2 + 'うち',
+            question : '<ruby>雑誌<rt>ざっし</rt></ruby>／<ruby>読<rt>よ</rt></ruby>む',
             answers : [
-              'Aうちで音楽を聞きます。',
-              '音楽を聞きますでうち。',
-              'うち音楽を聞きます。'
+              'A雑誌を読みます。',
+              '雑誌を読むます。',
+              '読みますを雑誌。',
+              '読むますを雑誌。'
             ]
           },
 
           {
-            question : de1 + 'テニスをします' + de2 + '学校',
+            question : 'テレビ／<ruby>見<rt>み</rt></ruby>る',
             answers : [
-              'A学校でテニスをします。',
-              'テニスをしますで学校。',
-              '学校テニスをします。'
+              'Aテレビを見ます。',
+              'テレビを見ります。',
+              '見ますをテレビ。',
+              '見りますをテレビ。'
             ]
           },
 
           {
-            question : de1 + 'ハンバーガーを食べます' + de2 + 'マクドナルド（McDonald\'s）',
+            question : 'テニス／する',
             answers : [
-              'Aマクドナルドでハンバーガーを食べます。',
-              'ハンバーガーを食べますでマクドナルド。',
-              'マクドナルドハンバーガーを食べます。'
+              'Aテニスをします。',
+              'テニスをすります。',
+              'しますをテニス。',
+              'すりますをテニス。'
             ]
           },
 
           {
-            question : de1 + 'コーヒーを飲みます' + de2 + '喫茶店（きっさてん）',
+            question : '<ruby>日本語<rt>にほんご</rt></ruby>／<ruby>勉強<rt>べんきょう</rt></ruby>する',
             answers : [
-              'A喫茶店でコーヒーを飲みます。',
-              'コーヒーを飲みますで喫茶店。',
-              '喫茶店コーヒーを飲みます。'
-            ]
-          },
-
-          {
-            question : de1 + 'テレビを見ます' + de2 + 'うち',
-            answers : [
-              'Aうちでテレビを見ます。',
-              'テレビを見ますでうち。',
-              'うちテレビを見ます。'
-            ]
-          },
-
-          {
-            question : de1 + '日本語を話します' + de2 + '大学（だいがく）',
-            answers : [
-              'A大学で日本語を話します。',
-              '日本語を話しますで大学。',
-              '大学日本語を話します。'
+              'A日本語を勉強します。',
+              '日本語を勉強すります',
+              '勉強しますを日本語。',
+              '勉強すりますを日本語。'
             ]
           }
-        ]
-      });
-    }());</script>
+        ],
+        
+        
+        // WRITTEN
+        '<div class="example-problem">'+
+          '<div class="inner-problem">'+
+            'ハンバーガー／<ruby>食<rt>た</rt></ruby>べる<br>'+
+            '{ハンバーガー|noun|width:98}を{食べます|たべます|answer;hint:verb}。'+
+          '</div>'+
+        '</div>'+
+        
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>音楽<rt>おんがく</rt></ruby>／<ruby>聞<rt>き</rt></ruby>く<br>'+
+              '{音楽を聞きます|おんがくをききます|' + Genki.getAlts('{音楽}を{聞}きます', 'おんがく|き') + 'answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'コーヒー／<ruby>飲<rt>の</rt></ruby>む<br>'+
+              '{コーヒーを飲みます|コーヒーをのみます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>日本語<rt>にほんご</rt></ruby>／<ruby>話<rt>はな</rt></ruby>す<br>'+
+              '{日本語を話します|にほんごをはなします|' + Genki.getAlts('{日本語}を{話}します', 'にほんご|はな') + 'answer}。'+
+            '</div>'+
+        
+            '<div class="problem">'+
+              '<ruby>雑誌<rt>ざっし</rt></ruby>／<ruby>読<rt>よ</rt></ruby>む<br>'+
+              '{雑誌を読みます|ざっしをよみます|' + Genki.getAlts('{雑誌}を{読}みます', 'ざっし|よ') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              'テレビ／<ruby>見<rt>み</rt></ruby>る<br>'+
+              '{テレビを見ます|テレビをみます|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'テニス／する<br>'+
+              '{テニスをします}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>日本語<rt>にほんご</rt></ruby>／<ruby>勉強<rt>べんきょう</rt></ruby>する<br>'+
+              '{日本語を勉強します|にほんごをべんきょうします|' + Genki.getAlts('{日本語}を{勉強}します', 'にほんご|べんきょう') + 'answer}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
+      ]
+    });</script>
   </body>
 </html>

@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Quotations (～と思います) 2 - Lesson 8 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Quotations (～と思います) 2 - Lesson 8 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Quotations (～と思います) 2 - Lesson 8 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Quotations (～と思います) 2 - Lesson 8 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Make a guess about the person or place in the image below and answer the following questions. Problems 1-12 are based on Picture A and Problems 13-20 are based on Picture B.">
-    <meta property="og:description" content="Make a guess about the person or place in the image below and answer the following questions. Problems 1-12 are based on Picture A and Problems 13-20 are based on Picture B.">
+    <title>Practice: Quotations (～と言っていました) - Lesson 8 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Quotations (～と言っていました) - Lesson 8 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Quotations (～と言っていました) - Lesson 8 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Quotations (～と言っていました) - Lesson 8 | Genki Study Resources">
+    <meta name="description" content="Report what the following people said, using ～と言っていました.">
+    <meta property="og:description" content="Report what the following people said, using ～と言っていました.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 199, page 200, problem III-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 201, problem IV-A, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -50,10 +50,6 @@
       <div id="exercise" class="content-block">
         <div id="quiz-result"></div>
         <div id="quiz-zone" class="clear"></div>
-        <div class="text-block multi-quiz-image center">
-          <a href="../../../resources/images/lesson-images/l8-g7-1.png" target="_blank"><img src="../../../resources/images/lesson-images/l8-g7-1.png" alt="A and B"></a>
-          <div><small>(Click Image to See Full Size)</small></div>
-        </div>
         <div id="quiz-timer" class="center"></div>
       </div>
     </div>
@@ -74,215 +70,236 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Make a guess about the person or place in the image below using {!GRI|～と思います|l8-p3} and answer the following questions.<br>Problems 1-12 are based on Picture A and Problems 13-20 are based on Picture B.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Report what the following people said, using {!GRI|～と言っていました|l8-p4}.',
 
       quizlet : [
-        // Picture A
-        {
-          question : 'この人は日本人ですか。',
-          answers : [
-            'Aええ、日本人だと思います。',
-            'ええ、日本人と思います。',
-            'Aいいえ、日本人じゃないと思います。',
-            'いいえ、日本人くないと思います。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'ナオミさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいです。」',
+            answers : [
+              'A<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいと<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいだと<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいと<ruby>言<rt>い</rt></ruby>いました。',
+              '<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいだと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ナオミさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「<ruby>来月<rt>らいげつ</rt></ruby>もひまじゃないです。」',
+            answers : [
+              'A<ruby>来月<rt>らいげつ</rt></ruby>もひまじゃないと<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>来月<rt>らいげつ</rt></ruby>もひまくないと<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>来月<rt>らいげつ</rt></ruby>もひまじゃないと<ruby>言<rt>い</rt></ruby>いました。',
+              '<ruby>来月<rt>らいげつ</rt></ruby>もひまくないと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ナオミさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「あしたは<ruby>買い物<rt>かいもの</rt></ruby>をします。」',
+            answers : [
+              'Aあしたは<ruby>買い物<rt>かいもの</rt></ruby>をすると<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたは<ruby>買い物<rt>かいもの</rt></ruby>をしていると<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたは<ruby>買い物<rt>かいもの</rt></ruby>をすると<ruby>言<rt>い</rt></ruby>いました。',
+              'あしたは<ruby>買い物<rt>かいもの</rt></ruby>をしていると<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ナオミさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。」',
+            answers : [
+              'A<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>していると<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>すると<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>していると<ruby>言<rt>い</rt></ruby>いました。',
+              '<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>すると<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ロバートさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「ホームステイをしています。」',
+            answers : [
+              'Aホームステイをしていると<ruby>言<rt>い</rt></ruby>っていました。',
+              'ホームステイをしてと<ruby>言<rt>い</rt></ruby>っていました。',
+              'ホームステイをしていると<ruby>言<rt>い</rt></ruby>いました。',
+              'ホームステイをしてと<ruby>言<rt>い</rt></ruby>いました。',
+            ]
+          },
+
+          {
+            question : 'ロバートさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「お<ruby>父<rt>とう</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>です。」',
+            answers : [
+              'Aお<ruby>父<rt>とう</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていました。',
+              'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていました。',
+              'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いました。',
+              'お<ruby>父<rt>とう</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>と<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ロバートさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>です。」',
+            answers : [
+              'Aお<ruby>母<rt>かあ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていました。',
+              'お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていました。',
+              'お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いました。',
+              'お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>と<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ロバートさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「お<ruby>兄<rt>にい</rt></ruby>さんは<ruby>会社員<rt>かいしゃいん</rt></ruby>です。」',
+            answers : [
+              'Aお<ruby>兄<rt>にい</rt></ruby>さんは<ruby>会社員<rt>かいしゃいん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていました。',
+              'お<ruby>兄<rt>にい</rt></ruby>さんは<ruby>会社員<rt>かいしゃいん</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていました。',
+              'お<ruby>兄<rt>にい</rt></ruby>さんは<ruby>会社員<rt>かいしゃいん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いました。',
+              'お<ruby>兄<rt>にい</rt></ruby>さんは<ruby>会社員<rt>かいしゃいん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : 'ロバートさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「<ruby>家族<rt>かぞく</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しません。」',
+            answers : [
+              'A<ruby>家族<rt>かぞく</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>さないと<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>家族<rt>かぞく</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しないと<ruby>言<rt>い</rt></ruby>っていました。',
+              '<ruby>家族<rt>かぞく</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>さないと<ruby>言<rt>い</rt></ruby>いました。',
+              '<ruby>家族<rt>かぞく</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しないと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : '<ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「あしたは<ruby>晴<rt>は</rt></ruby>れです。」',
+            answers : [
+              'Aあしたは<ruby>晴<rt>は</rt></ruby>れだと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたは<ruby>晴<rt>は</rt></ruby>れと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたは<ruby>晴<rt>は</rt></ruby>れだと<ruby>言<rt>い</rt></ruby>いました。',
+              'あしたは<ruby>晴<rt>は</rt></ruby>れと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : '<ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「あしたは<ruby>寒<rt>さむ</rt></ruby>くないです。」',
+            answers : [
+              'Aあしたは<ruby>寒<rt>さむ</rt></ruby>くないと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたは<ruby>寒<rt>さむ</rt></ruby>いじゃないと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたは<ruby>寒<rt>さむ</rt></ruby>くないと<ruby>言<rt>い</rt></ruby>いました。',
+              'あしたは<ruby>寒<rt>さむ</rt></ruby>いじゃないと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : '<ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「あしたの<ruby>気温<rt>きおん</rt></ruby>は<ruby>八度<rt>はちど</rt></ruby>です。」',
+            answers : [
+              'Aあしたの<ruby>気温<rt>きおん</rt></ruby>は<ruby>八度<rt>はちど</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたの<ruby>気温<rt>きおん</rt></ruby>は<ruby>八度<rt>はちど</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていました。',
+              'あしたの<ruby>気温<rt>きおん</rt></ruby>は<ruby>八度<rt>はちど</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いました。',
+              'あしたの<ruby>気温<rt>きおん</rt></ruby>は<ruby>八度<rt>はちど</rt></ruby>と<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+
+          {
+            question : '<ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「あさっては<ruby>曇<rt>くも</rt></ruby>りです。」',
+            answers : [
+              'Aあさっては<ruby>曇<rt>くも</rt></ruby>りだと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あさっては<ruby>曇<rt>くも</rt></ruby>りと<ruby>言<rt>い</rt></ruby>っていました。',
+              'あさっては<ruby>曇<rt>くも</rt></ruby>りだと<ruby>言<rt>い</rt></ruby>いました。',
+              'あさっては<ruby>曇<rt>くも</rt></ruby>りと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          },
+          
+          {
+            question : '<ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。<br>「ときどきは<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ります。」',
+            answers : [
+              'Aときどきは<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ると<ruby>言<rt>い</rt></ruby>っていました。',
+              'ときどきは<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るだと<ruby>言<rt>い</rt></ruby>っていました。',
+              'ときどきは<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ると<ruby>言<rt>い</rt></ruby>いました。',
+              'ときどきは<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るだと<ruby>言<rt>い</rt></ruby>いました。'
+            ]
+          }
+        ],
         
-        {
-          question : '山下先生はいい先生ですか。',
-          answers : [
-            'Aええ、いい先生だと思います。',
-            'ええ、いい先生と思います。',
-            'Aいいえ、いい先生じゃないと思います。',
-            'いいえ、いい先生じゃないだと思います。'
-          ]
-        },
         
-        {
-          question : '有名ですか。',
-          answers : [
-            'Aええ、有名だと思います。',
-            'ええ、有名と思います。',
-            'Aいいえ、有名じゃないと思います。',
-            'いいえ、有名くないと思います。'
-          ]
-        },
+        // WRITTEN
+        '<p class="section-desc">ナオミさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。</p>'+
+        '<div class="example-problem">'+
+          '<div class="inner-problem valign-top">'+
+            '「<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいです。」<br>'+
+            '{今月|こんげつ|answer}は{忙しい|いそがしい|answer}と<ruby>言<rt>い</rt></ruby>っていました。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'ひまですか。',
-          answers : [
-            'Aええ、ひまだと思います。',
-            'ええ、ひまと思います。',
-            'Aいいえ、ひまじゃないと思います。',
-            'いいえ、ひまくないと思います。'
-          ]
-        },
+        '<div class="count-problems">'+
+          '<div class="problem">'+
+            '「<ruby>来月<rt>らいげつ</rt></ruby>もひまじゃないです。」<br>'+
+            '{来月もひまじゃないと言っていました|らいげつもひまじゃないといっていました|' + Genki.getAlts('{来月}も{暇}じゃないと{言}っていました', 'らいげつ|ひま|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「あしたは<ruby>買い物<rt>かいもの</rt></ruby>をします。」<br>'+
+            '{あしたは買い物をすると言っていました|あしたはかいものをするといっていました|' + Genki.getAlts('{明日}は{買い物}をすると{言}っていました', 'あした|かいもの|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。」<br>'+
+            '{毎日漢字を勉強していると言っていました|まいにちかんじをべんきょうしているといっていました|' + Genki.getAlts('{毎日}{漢字}を{勉強}していると{言}っていました', 'まいにち|かんじ|べんきょう|い') + 'answer}。'+
+          '</div>'+
         
-        {
-          question : '頭がいいですか。',
-          answers : [
-            'Aええ、頭がいいと思います。',
-            'ええ、頭がいいだと思います。',
-            'Aいいえ、頭がよくないと思います。',
-            'いいえ、頭がいいじゃないと思います。'
-          ]
-        },
+          '<p class="section-desc">ロバートさんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。</p>'+
+          '<div class="problem">'+
+            '「ホームステイをしています。」<br>'+
+            '{ホームステイをしていると言っていました|ホームステイをしているといっていました|answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「お<ruby>父<rt>とう</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>です。」<br>'+
+            '{お父さんは親切だと言っていました|おとうさんはしんせつだといっていました|' + Genki.getAlts('お{父}さんは{親切}だと{言}っていました', 'とう|しんせつ|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>です。」<br>'+
+            '{お母さんは料理が上手だと言っていました|おかあさんはりょうりがじょうずだといっていました|' + Genki.getAlts('お{母}さんは{料理}が{上手}だと{言}っていました', 'かあ|りょうり|じょうず|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「お<ruby>兄<rt>にい</rt></ruby>さんは<ruby>会社員<rt>かいしゃいん</rt></ruby>です。」<br>'+
+            '{お兄さんは会社員だと言っていました|おにいさんはかいしゃいんだといっていました|' + Genki.getAlts('お{兄}さんは{会社員}だと{言}っていました', 'にい|かいしゃいん|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「<ruby>家族<rt>かぞく</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しません。」<br>'+
+            '{家族は英語を話さないと言っていました|かぞくはえいごをはなさないといっていました|' + Genki.getAlts('{家族}は{英語}を{話}さないと{言}っていました', 'かぞく|えいご|はな|い') + 'answer}。'+
+          '</div>'+
         
-        {
-          question : '背が高いですか。',
-          answers : [
-            'Aええ、背が高いと思います。',
-            'ええ、背が高いだと思います。',
-            'Aいいえ、背が高くないと思います。',
-            'いいえ、背が高いじゃないと思います。'
-          ]
-        },
-        
-        {
-          question : '忙しいですか。',
-          answers : [
-            'Aええ、忙しいと思います。',
-            'ええ、忙しいだと思います。',
-            'Aいいえ、忙しくないと思います。',
-            'いいえ、忙しいじゃないと思います。'
-          ]
-        },
-        
-        {
-          question : '結婚していますか。',
-          answers : [
-            'Aええ、結婚していると思います。',
-            'ええ、結婚していますと思います。',
-            'Aいいえ、結婚していないと思います。',
-            'いいえ、結婚していませんと思います。'
-          ]
-        },
-        
-        {
-          question : 'お金をたくさん持っていますか。',
-          answers : [
-            'Aええ、お金をたくさん持っていると思います。',
-            'ええ、お金をたくさん持っていますと思います。',
-            'Aいいえ、お金をたくさん持っていないと思います。',
-            'いいえ、お金をたくさん持っていませんと思います。'
-          ]
-        },
-        
-        {
-          question : 'よく食べますか。',
-          answers : [
-            'Aええ、よく食べると思います。',
-            'ええ、食べると思います。',
-            'Aいいえ、あまり食べないと思います。',
-            'いいえ、よく食べないと思います。'
-          ]
-        },
-        
-        {
-          question : 'よくスポーツをしますか。',
-          answers : [
-            'Aええ、よくスポーツをすると思います。',
-            'ええ、よくスポーツをしてと思います。',
-            'Aいいえ、あまりスポーツをしないと思います。',
-            'いいえ、よくスポーツをすないと思います。'
-          ]
-        },
-        
-        {
-          question : 'フランス語を話しますか。',
-          answers : [
-            'Aええ、フランス語を話すと思います。',
-            'ええ、フランス語を話すだと思います。',
-            'Aいいえ、フランス語を話さないと思います。',
-            'いいえ、フランス語を話しないと思います。'
-          ]
-        },
-        
-        // Picture B
-        {
-          question : 'ここは日本ですか。',
-          answers : [
-            'Aええ、ここは日本だと思います。',
-            'ええ、ここは日本と思います。',
-            'Aいいえ、ここは日本じゃないと思います。',
-            'いいえ、ここは日本くないと思います。'
-          ]
-        },
-        
-        {
-          question : '有名な所ですか。',
-          answers : [
-            'Aええ、有名な所だと思います。',
-            'ええ、有名な所と思います。',
-            'Aいいえ、有名な所じゃないと思います。',
-            'いいえ、有名な所くないと思います。'
-          ]
-        },
-        
-        {
-          question : '空気はきれいですか。',
-          answers : [
-            'Aええ、空気はきれいだと思います。',
-            'ええ、空気はきれいと思います。',
-            'Aいいえ、空気はきれいじゃないと思います。',
-            'いいえ、空気はきれくないと思います。'
-          ]
-        },
-        
-        {
-          question : '暑いですか。',
-          answers : [
-            'Aええ、暑いと思います。',
-            'ええ、暑いだと思います。',
-            'Aいいえ、暑くないと思います。',
-            'いいえ、暑いじゃないと思います。'
-          ]
-        },
-        
-        {
-          question : '冬は寒いですか。',
-          answers : [
-            'Aええ、冬は寒いと思います。',
-            'ええ、冬は寒いだと思います。',
-            'Aいいえ、冬は寒くないと思います。',
-            'いいえ、冬は寒いじゃないと思います。'
-          ]
-        },
-        
-        {
-          question : '人がたくさん住んでいますか。',
-          answers : [
-            'Aええ、人がたくさん住んでいると思います。',
-            'ええ、人がたくさん住んでいますと思います。',
-            'Aいいえ、人がたくさん住んでいないと思います。',
-            'いいえ、人がたくさん住んでいませんと思います。'
-          ]
-        },
-        
-        {
-          question : 'ここの人は、よく泳ぎますか。',
-          answers : [
-            'Aええ、ここの人はよく泳ぐと思います。',
-            'ええ、ここの人はよく泳ぐだと思います。',
-            'Aいいえ、ここの人はあまり泳がないと思います。',
-            'いいえ、ここの人はあまり泳ぎないと思います。'
-          ]
-        },
-        
-        {
-          question : '夏によく雨が降りますか。',
-          answers : [
-            'Aええ、夏によく雨が降ると思います。',
-            'ええ、夏によく雨が降るだと思います。',
-            'Aいいえ、夏にあまり雨が降らないと思います。',
-            'いいえ、夏にあまり雨が降ないと思います。'
-          ]
-        }
+          '<p class="section-desc"><ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。</p>'+
+          '<div class="problem">'+
+            '「あしたは<ruby>晴<rt>は</rt></ruby>れです。」<br>'+
+            '{あしたは晴れだと言っていました|あしたははれだといっていました|' + Genki.getAlts('{明日}は{晴}れだと{言}っていました', 'あした|は|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「あしたは<ruby>寒<rt>さむ</rt></ruby>くないです。」<br>'+
+            '{あしたは寒くないと言っていました|あしたはさむくないといっていました|' + Genki.getAlts('{明日}は{寒}くないと{言}っていました', 'あした|さむ|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「あしたの<ruby>気温<rt>きおん</rt></ruby>は<ruby>八度<rt>はちど</rt></ruby>です。」<br>'+
+            '{あしたの気温は八度だと言っていました|あしたのきおんははちどだといっていました|' + Genki.getAlts('{明日}の{気温}は{八度}だと{言}っていました', 'あした|きおん|はちど|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「あさっては<ruby>曇<rt>くも</rt></ruby>りです。」<br>'+
+            '{あさっては曇りだと言っていました|あさってはくもりだといっていました|' + Genki.getAlts('{明後日}は{曇}りだと{言}っていました', 'あさって|くも|い') + 'answer}。'+
+          '</div>'+
+          
+          '<div class="problem">'+
+            '「ときどきは<ruby>雪<rt>ゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ります。」<br>'+
+            '{ときどきは雪が降ると言っていました|ときどきはゆきがふるといっていました|' + Genki.getAlts('{時々}は{雪}が{降}ると{言}っていました', 'ときどき|ゆき|ふ|い') + 'answer}。'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

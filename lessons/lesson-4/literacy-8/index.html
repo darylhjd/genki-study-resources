@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Kanji Practice: Location Words - Lesson 4 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Kanji Practice: Location Words - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Kanji Practice: Location Words - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Kanji Practice: Location Words - Lesson 4 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Read the information provided and choose the appropriate kanji for the blanks.">
-    <meta property="og:description" content="Read the information provided and choose the appropriate kanji for the blanks.">
+    <title>Kanji Vocabulary: 下, 中, and 半 - Lesson 4 | Genki Study Resources</title>
+    <meta name="title" content="Kanji Vocabulary: 下, 中, and 半 - Lesson 4 | Genki Study Resources">
+    <meta name="twitter:title" content="Kanji Vocabulary: 下, 中, and 半 - Lesson 4 | Genki Study Resources">
+    <meta property="og:title" content="Kanji Vocabulary: 下, 中, and 半 - Lesson 4 | Genki Study Resources">
+    <meta name="description" content="Drag the English expression to the Japanese expression that has the same meaning.">
+    <meta property="og:description" content="Drag the English expression to the Japanese expression that has the same meaning.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, Reading and Writing, page 304, problem I-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, Reading and Writing, page 309, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,22 +70,31 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'fill',
-      info : 'Read the information provided and choose the appropriate kanji for the blanks.',
+      format : 'vocab',
+      type : ['drag', 'multi', 'writing', 'fill'],
+      info : [Genki.lang.std_drag, Genki.lang.vocab_multi, Genki.lang.vocab_writing, Genki.lang.vocab_fill],
       
-      quizlet : 
-        '<p class="sub-section">3rd Floor: Japanese School<br>2nd Floor: Restaurant<br>1st Floor: Super Market<br>Available Kanji: 上 (うえ), 下 (した), 中 (なか)</p>'+
-        '<br>'+
-        '<div class="count-problems">'+
-          '<div class="problem">レストランはビル<span class="define">[Building]</span>の{中|なか|1}です。</div>'+
-          '<div class="problem">日本語学校はレストランの{上|うえ|1}です。</div>'+
-          '<div class="problem">スーパーはレストランの{下|した|1}です。</div>'+
-        '</div>'
-        
+      quizlet : {
+        // 下
+        '下|した' : 'under',
+        '地下鉄|ちかてつ' : 'subway',
+        '下手な|へたな' : 'poor at',
+        '下さい|ください' : 'Please give/do...',
+        // 中
+        '中|なか' : 'inside',
+        '中国|ちゅうごく' : 'China',
+        '中学|ちゅうがく' : 'junior high school',
+        '一年中|いちねんじゅう' : 'all year round',
+        // 半
+        '三時半|さんじはん' : 'half past three',
+        '半分|はんぶん' : 'half',
+        '半年|はんとし' : 'half a year',
+        '半額|はんがく' : 'half price'
+      }
     });</script>
   </body>
 </html>

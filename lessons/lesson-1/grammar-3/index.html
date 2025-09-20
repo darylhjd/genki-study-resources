@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Question Sentences 1 - Lesson 1 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Question Sentences 1 - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Question Sentences 1 - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Question Sentences 1 - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Look at the table below, then create answers and questions using the given cues.">
-    <meta property="og:description" content="Look at the table below, then create answers and questions using the given cues.">
+    <title>Practice: XはYです 3 (Age) - Lesson 1 | Genki Study Resources</title>
+    <meta name="title" content="Practice: XはYです 3 (Age) - Lesson 1 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: XはYです 3 (Age) - Lesson 1 | Genki Study Resources">
+    <meta property="og:title" content="Practice: XはYです 3 (Age) - Lesson 1 | Genki Study Resources">
+    <meta name="description" content="Look at the table below and tell how old each person is.">
+    <meta property="og:description" content="Look at the table below and tell how old each person is.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 52, page 53, problem V-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 47, problem I-C, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,308 +70,169 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
-    <script>(function() {
-      var q = 'Create a Question:<br>',
-          a = 'Create an Answer:<br>';
+    <script>Genki.generateQuiz({
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Look at the table below and tell how old each person is using {!GRI|XはYです|l1-p1}.<br><br>'+
+      '<table class="center">'+
+        '<tr style="font-weight:bold">'+
+          '<td></td>'+
+          '<td>メアリー・ハート<br><small>Hart, Mary</small></td>'+
+          '<td>きむら　たけし<br><small>Kimura Takeshi</small></td>'+
+          '<td>ソラ・キム<br><small>Kim, Sora</small></td>'+
+          '<td>ロバート・スミス<br><small>Smith, Robert</small></td>'+
+          '<td>やましたせんせい<br><small>Yamashita sensei</small></td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td style="font-weight:bold">Nationality</td>'+
+          '<td>American</td>'+
+          '<td>Japanese</td>'+
+          '<td>Korean<br>(かんこくじん)</td>'+
+          '<td>British<br>(イギリスじん)</td>'+
+          '<td>Japanese</td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td style="font-weight:bold">Year</td>'+
+          '<td>2nd year</td>'+
+          '<td>4th year</td>'+
+          '<td>3rd year</td>'+
+          '<td>4th year</td>'+
+          '<td></td>'+
+        '</tr>'+
+        
+        '<tr>'+
+          '<td style="font-weight:bold">Age</td>'+
+          '<td>19</td>'+
+          '<td>22</td>'+
+          '<td>20</td>'+
+          '<td>22</td>'+
+          '<td>47</td>'+
+        '</tr>'+
+      '</table>', 'Look at the table below and tell how old each person is using {!GRI|XはYです|l1-p1}.'],
 
-      Genki.generateQuiz({
-        type : 'multi',
-        info : 'Look at the table below, then create answers and questions using the given cues. {!GRI|Click here|l1-p2} to review Question Sentences.<br><br>'+
-        '<table class="center">'+
-          '<tr style="font-weight:bold">'+
-            '<td></td>'+
-            '<td>Hart, Mary</td>'+
-            '<td>きむら　たけし</td>'+
-            '<td>Kim, Sue</td>'+
-            '<td>Smith, Robert</td>'+
-            '<td>やましたせんせい</td>'+
-          '</tr>'+
-
-          '<tr>'+
-            '<td style="font-weight:bold">Nationality</td>'+
-            '<td>American</td>'+
-            '<td>Japanese</td>'+
-            '<td>かんこくじん (Korean)</td>'+
-            '<td>イギリスじん (British)</td>'+
-            '<td>Japanese</td>'+
-          '</tr>'+
-
-          '<tr>'+
-            '<td style="font-weight:bold">Year</td>'+
-            '<td>2nd year</td>'+
-            '<td>4th year</td>'+
-            '<td>3rd year</td>'+
-            '<td>4th year</td>'+
-            '<td></td>'+
-          '</tr>'+
-
-          '<tr>'+
-            '<td style="font-weight:bold">Age</td>'+
-            '<td>19</td>'+
-            '<td>22</td>'+
-            '<td>20</td>'+
-            '<td>22</td>'+
-            '<td>47</td>'+
-          '</tr>'+
-
-          '<tr>'+
-            '<td style="font-weight:bold">School</td>'+
-            '<td>Arizona University</td>'+
-            '<td>Sakura University</td>'+
-            '<td>Seoul University</td>'+
-            '<td>London University</td>'+
-            '<td>Sakura University</td>'+
-          '</tr>'+
-
-          '<tr>'+
-            '<td style="font-weight:bold">Major</td>'+
-            '<td>Japanese</td>'+
-            '<td>れきし (history)</td>'+
-            '<td>コンピューター (computer)</td>'+
-            '<td>ビジネス (business)</td>'+
-            '<td>(Japanese teacher)</td>'+
-          '</tr>'+
-        '</table>',
-
-        quizlet : [
+      quizlet : [
+        [
+          // MULTIPLE CHOICE
           {
-            question : q + 'メアリーさん／アメリカじん',
+            question : 'How old is Mary?',
             answers : [
-              'Aメアリーさんはアメリカじんですか。',
-              'メアリーさんのアメリカじんですか。',
-              'メアリーさんはアメリカじんです。'
+              'Aメアリーさんはじゅうきゅうさいです。',
+              'メアリーさんはじゅうきゅうです。',
+              'メアリーさんじゅうきゅうさいです。'
             ]
           },
 
           {
-            question : a + 'メアリーさん／アメリカじん',
+            question : 'How old is Takeshi?',
             answers : [
-              'Aええ、そうです。',
-              'いいえ、にほんじんです。',
-              'いいえ、かんこくじんです。'
+              'Aたけしさんはにじゅうにさいです。',
+              'たけしさんはにじゅうにです。',
+              'たけしさんにじゅうにさいです。'
             ]
           },
 
           {
-            question : q + 'メアリーさん／アリゾナだいがくのがくせい',
+            question : 'How old is Sora?',
             answers : [
-              'Aメアリーさんはアリゾナだいがくのがくせいですか。',
-              'メアリーさんはがくせいのアリゾナだいがくですか。',
-              'メアリーさんはアリゾナだいがくのがくせいです。'
+              'Aソラさんははたちです。',
+              'ソラさんはにじゅうさいです。',
+              'ソラさんにじゅうさいです。'
             ]
           },
 
           {
-            question : a + 'メアリーさん／アリゾナだいがくのがくせい',
+            question : 'How old is Robert?',
             answers : [
-              'Aええ、そうです。',
-              'いいえ、さくらだいがくのがくせいです。',
-              'いいえ、ハワイだいがくのがくせいです。'
+              'Aロバートさんはにじゅうにさいです。',
+              'ロバートさんはにじゅうにです。',
+              'ロバートさんにじゅうにさいです。'
             ]
           },
 
           {
-            question : q + 'メアリーさん／いちねんせい',
+            question : 'How old is Professor Yamashita?',
             answers : [
-              'Aメアリーさんはいちねんせいですか。',
-              'メアリーさんのいちねんせいですか。',
-              'メアリーさんはいちねんせいです。'
-            ]
-          },
-
-          {
-            question : a + 'メアリーさん／いちねんせい',
-            answers : [
-              'Aいいえ、にねんせいです。',
-              'ええ、そうです。',
-              'いいえ、よねんせいです。'
-            ]
-          },
-
-          {
-            question : q + 'たけしさん／にほんじん',
-            answers : [
-              'Aたけしさんはにほんじんですか。',
-              'たけしさんのにほんじんですか。',
-              'たけしさんはにほんじんです。'
-            ]
-          },
-
-          {
-            question : a + 'たけしさん／にほんじん',
-            answers : [
-              'Aええ、そうです。',
-              'いいえ、アメリカじんです。',
-              'いいえ、ちゅうごくじんです。'
-            ]
-          },
-
-          {
-            question : q + 'たけしさん／にほんだいがくのがくせい',
-            answers : [
-              'Aたけしさんはにほんだいがくのがくせいですか。',
-              'たけしさんはがくせいのにほんだいがくですか。',
-              'たけしさんはにほんだいがくのがくせいです。'
-            ]
-          },
-
-          {
-            question : a + 'たけしさん／にほんだいがくのがくせい',
-            answers : [
-              'Aいいえ、さくらだいがくのがくせいです。',
-              'ええ、そうです。',
-              'いいえ、がくせいのさくらだいがくです。'
-            ]
-          },
-
-          {
-            question : q + 'たけしさん／じゅうきゅうさい',
-            answers : [
-              'Aたけしさんはじゅうきゅうさいですか。',
-              'たけしさんのじゅうきゅうさいですか。',
-              'たけしさんはじゅうきゅうさいです。'
-            ]
-          },
-
-          {
-            question : a + 'たけしさん／じゅうきゅうさい',
-            answers : [
-              'Aいいえ、にじゅうにさいです。',
-              'ええ、そうです。',
-              'いいえ、にじゅうさいです。'
-            ]
-          },
-
-          {
-            question : q + 'スーさん／スウェーデンじん',
-            answers : [
-              'Aスーさんはスウェーデンじんですか。',
-              'スーさんのスウェーデンじんですか。',
-              'スーさんはスウェーデンじんです。'
-            ]
-          },
-
-          {
-            question : a + 'スーさん／スウェーデンじん',
-            answers : [
-              'Aいいえ、かんこくじんです。',
-              'ええ、そうです。',
-              'いいえ、ちゅうごくじんです。'
-            ]
-          },
-
-          {
-            question : q + 'スーさんのせんこう／けいざい',
-            answers : [
-              'Aスーさんのせんこうはけいざいですか。',
-              'スーさんのけいざいはせんこうですか',
-              'スーさんのせんこうはけいざいです。'
-            ]
-          },
-
-          {
-            question : a + 'スーさんのせんこう／けいざい',
-            answers : [
-              'Aいいえ、コンピューターです。',
-              'ええ、そうです。',
-              'いいえ、べんごしです。'
-            ]
-          },
-
-          {
-            question : q + 'ロバートさんのせんこう／ビジネス',
-            answers : [
-              'Aロバートさんのせんこうはビジネスですか。',
-              'ロバートさんのビジネスはせんこうですか。',
-              'ロバートさんのせんこうはビジネスです。'
-            ]
-          },
-
-          {
-            question : a + 'ロバートさんのせんこう／ビジネス',
-            answers : [
-              'Aええ、そうです。',
-              'いいえ、れきしです。',
-              'いいえ、コンピューターです。'
-            ]
-          },
-
-          {
-            question : q + 'ロバートさん／よねんせい',
-            answers : [
-              'Aロバートさんはよねんせいですか。',
-              'ロバートさんのよねんせいですか。',
-              'ロバートさんはよねんせいです。'
-            ]
-          },
-
-          {
-            question : a + 'ロバートさん／よねんせい',
-            answers : [
-              'Aええ、そうです。',
-              'いいえ、にねんせいです。',
-              'いいえ、さんねんせいです。'
-            ]
-          },
-
-          {
-            question : q + 'ロバートさん／にじゅういっさい',
-            answers : [
-              'Aロバートさんはにじゅういっさいですか。',
-              'ロバートさんのにじゅういっさいですか。',
-              'ロバートさんはにじゅういっさいです。'
-            ]
-          },
-
-          {
-            question : a + 'ロバートさん／にじゅういっさい',
-            answers : [
-              'Aいいえ、にじゅうにさいです。',
-              'ええ、そうです。',
-              'いいえ、にじゅうさいです。'
-            ]
-          },
-
-          {
-            question : q + 'やましたせんせい／にほんじん',
-            answers : [
-              'Aやましたせんせいはにほんじんですか。',
-              'やましたせんせいのにほんじんですか。',
-              'やましたせんせいはにほんじんです。'
-            ]
-          },
-
-          {
-            question : a + 'やましたせんせい／にほんじん',
-            answers : [
-              'Aええ、そうです。',
-              'いいえ、かんこくじんです。',
-              'いいえ、ちゅうごくじんです。'
-            ]
-          },
-
-          {
-            question : q + 'やましたせんせい／ハワイだいがくのせんせい',
-            answers : [
-              'Aやましたせんせいはハワイだいがくのせんせいですか。',
-              'やましたせんせいはせんせいのハワイだいがくですか。',
-              'やましたせんせいはハワイだいがくのせんせいです。'
-            ]
-          },
-
-          {
-            question : a + 'やましたせんせい／ハワイだいがくのせんせい',
-            answers : [
-              'Aいいえ、さくらだいがくのせんせいです。',
-              'ええ、そうです。',
-              'いいえ、さくらだいがくのがくせいです。'
+              'Aやましたせんせいはよんじゅうななさいです。',
+              'やましたせんせいはよんじゅうななです。',
+              'やましたせんせいよんじゅうななさいです。'
             ]
           }
-        ]
-      });
-    }());</script>
+        ],
+        
+        
+        // WRITTEN
+        '<div class="count-problems">'+
+          '<table class="table center">'+
+            '<tr style="font-weight:bold">'+
+              '<td></td>'+
+              '<td>メアリー・ハート<br><small>Hart, Mary</small></td>'+
+              '<td>きむら　たけし<br><small>Kimura Takeshi</small></td>'+
+              '<td>ソラ・キム<br><small>Kim, Sora</small></td>'+
+              '<td>ロバート・スミス<br><small>Smith, Robert</small></td>'+
+              '<td>やましたせんせい<br><small>Yamashita sensei</small></td>'+
+            '</tr>'+
+
+            '<tr>'+
+              '<td style="font-weight:bold">Nationality</td>'+
+              '<td>American</td>'+
+              '<td>Japanese</td>'+
+              '<td>Korean<br>(かんこくじん)</td>'+
+              '<td>British<br>(イギリスじん)</td>'+
+              '<td>Japanese</td>'+
+            '</tr>'+
+
+            '<tr>'+
+              '<td style="font-weight:bold">Year</td>'+
+              '<td>2nd year</td>'+
+              '<td>4th year</td>'+
+              '<td>3rd year</td>'+
+              '<td>4th year</td>'+
+              '<td></td>'+
+            '</tr>'+
+
+            '<tr>'+
+              '<td style="font-weight:bold">Age</td>'+
+              '<td>19</td>'+
+              '<td>22</td>'+
+              '<td>20</td>'+
+              '<td>22</td>'+
+              '<td>47</td>'+
+            '</tr>'+
+          '</table><br>'+
+
+          '<div class="example-problem">'+
+            '<div class="inner-problem">'+
+              'How old is Mary?<br>'+
+              '{メアリーさん}は{じゅうきゅう|十九|answer}さいです。'+
+            '</div>'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'How old is Takeshi?<br>'+
+            '{たけしさんはにじゅうにさいです|たけしさんは二十二歳です|answer}。'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'How old is Sora?<br>'+
+            '{ソラさんは%(はたち/にじゅっさい/にじっさい)です|ソラさんは二十歳です|answer}。'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'How old is Robert?<br>'+
+            '{ロバートさんはにじゅうにさいです|ロバートさんは二十二歳です|answer}。'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'How old is Professor Yamashita?<br>'+
+            '{やましたせんせいはよんじゅうななさいです|山下先生は四十七歳です|' + Genki.getAlts('{山下}{先生}は{四十七歳}です', 'やました|せんせい|よんじゅうななさい') + 'answer}。'+
+          '</div>'+
+        '</div>'
+      ]
+    });</script>
   </body>
 </html>

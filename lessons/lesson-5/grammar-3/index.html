@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Create sentences with the given cues. If you are unclear about how the い-adjectives/な-adjectives conjugate, read Grammar 1 (Genki I: p.132-133) once again.">
-    <meta property="og:description" content="Create sentences with the given cues. If you are unclear about how the い-adjectives/な-adjectives conjugate, read Grammar 1 (Genki I: p.132-133) once again.">
+    <title>Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources</title>
+    <meta name="title" content="Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources">
+    <meta property="og:title" content="Practice: Adjectives (Present Tense) 1 - Lesson 5 | Genki Study Resources">
+    <meta name="description" content="Answer the following questions in the affirmative or negative.">
+    <meta property="og:description" content="Answer the following questions in the affirmative or negative.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 137, page 138, problem I-C, conjugation, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 139, problem I-C, い-adjective, な-adjective, conjugation, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,153 +70,166 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Create sentences with the given cues.<br>If you are unclear about how the い-adjectives/な-adjectives conjugate, read {!GRI|Grammar 1|l5-p1} (Genki I: p.132-133) once again.',
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : 'Answer the following questions in the {!GRI|affirmative or negative|l5-p1}.',
 
       quizlet : [
-        {
-          question : 'This watch (￥100,000) is expensive.',
-          answers : [
-            'Aこの時計は高いです。',
-            'Aこの時計は安くないです。',
-            'この時計は安いです。',
-            'この時計は高くないです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : '<ruby>日本語<rt>にほんご</rt></ruby>のクラスは<ruby>難<rt>むずか</rt></ruby>しいですか。',
+            answers : [
+              'Aええ、<ruby>難<rt>むずか</rt></ruby>しいです。',
+              'Aいいえ、<ruby>難<rt>むずか</rt></ruby>しくないです。',
+              'ええ、<ruby>難<rt>むずか</rt></ruby>しです。',
+              'いいえ、<ruby>難<rt>むずか</rt></ruby>しいじゃないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>今日<rt>きょう</rt></ruby>はひまですか。',
+            answers : [
+              'Aええ、ひまです。',
+              'Aいいえ、ひまじゃないです。',
+              'ええ、ひまなです。',
+              'いいえ、ひまなくないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>先生<rt>せんせい</rt></ruby>はやさしいですか。',
+            answers : [
+              'Aええ、やさしいです。',
+              'Aいいえ、やさしくないです。',
+              'ええ、やさしなです。',
+              'いいえ、やさしいじゃないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>学校<rt>がっこう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいですか。',
+            answers : [
+              'Aええ、<ruby>大<rt>おお</rt></ruby>きいです。',
+              'Aいいえ、<ruby>大<rt>おお</rt></ruby>きくないです。',
+              'ええ、<ruby>大<rt>おお</rt></ruby>きいなです。',
+              'いいえ、<ruby>大<rt>おお</rt></ruby>きいないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>部屋<rt>へや</rt></ruby>はきれいですか。',
+            answers : [
+              'Aええ、きれいです。',
+              'Aいいえ、きれいじゃないです。',
+              'ええ、きれいなです。',
+              'いいえ、きれくないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>日本<rt>にほん</rt></ruby>の<ruby>食べ物<rt>たべもの</rt></ruby>はおいしいですか。',
+            answers : [
+              'Aええ、おいしいです。',
+              'Aいいえ、おいしくないです。',
+              'ええ、おいしいなです。',
+              'いいえ、おいしいじゃないです。'
+            ]
+          },
+
+          {
+            question : 'クラスはおもしろいですか。',
+            answers : [
+              'Aええ、おもしろいです。',
+              'Aいいえ、おもしろくないです。',
+              'ええ、おもしろです。',
+              'いいえ、おもしろいないです。'
+            ]
+          },
+
+          {
+            question : '<ruby>宿題<rt>しゅくだい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいですか。',
+            answers : [
+              'Aええ、<ruby>難<rt>むずか</rt></ruby>しいです。',
+              'Aいいえ、<ruby>難<rt>むずか</rt></ruby>しくないです。',
+              'ええ、<ruby>難<rt>むずか</rt></ruby>しです。',
+              'いいえ、<ruby>難<rt>むずか</rt></ruby>しいくないです。'
+            ]
+          },
+
+          {
+            question : 'あなたの<ruby>町<rt>まち</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かですか。',
+            answers : [
+              'Aええ、<ruby>静<rt>しず</rt></ruby>かです。',
+              'Aいいえ、<ruby>静<rt>しず</rt></ruby>かじゃないです。',
+              'ええ、<ruby>静<rt>しず</rt></ruby>かなです。',
+              'いいえ、<ruby>静<rt>しず</rt></ruby>かないです。'
+            ]
+          }
+        ],
         
-        {
-          question : 'This Watch (￥480) is cheap.',
-          answers : [
-            'Aこの時計は安いです。',
-            'Aこの時計は高くないです。',
-            'この時計は安くです。',
-            'この時計は高いないです。'
-          ]
-        },
         
-        {
-          question : 'It\'s hot. (weather)',
-          answers : [
-            'A暑いです。',
-            '暑くです。',
-            '熱いです。',
-            '熱くです。'
-          ]
-        },
+        // WRITTEN
+        '<div class="example-problem inline-columns">'+
+          '<div>'+
+            '<ruby>日本語<rt>にほんご</rt></ruby>のクラスは<ruby>難<rt>むずか</rt></ruby>しいですか。<br>'+
+            '<strong>Affirmative:</strong> ええ、{難しい|むずかしい|answer}です。'+
+          '</div>'+
+          
+          '<div>'+
+            '<strong>Negative:</strong> いいえ、{難し|むずかし|answer}くないです。'+
+          '</div>'+
+        '</div>'+
         
-        {
-          question : 'It\'s cold. (weather)',
-          answers : [
-            'A寒いです。',
-            '寒くです。',
-            '寒いないです。',
-            '寒くないです。'
-          ]
-        },
-        
-        {
-          question : 'This TV show is funny.',
-          answers : [
-            'Aこのテレビはおもしろいです。',
-            'このテレビはおもしろくです。',
-            'このテレビはおもしろいないです。',
-            'このテレビはおもしろくないです。'
-          ]
-        },
-        
-        {
-          question : 'This TV show is boring.',
-          answers : [
-            'Aこのテレビはつまらないです。',
-            'Aこのテレビはおもしろくないです。',
-            'このテレビはつまらなくないです。',
-            'このテレビはおもしろいです。'
-          ]
-        },
-        
-        {
-          question : 'Mary is busy.',
-          answers : [
-            'Aメアリーさんは忙しいです。',
-            'Aメアリーさんはひまじゃないです。',
-            'メアリーさんは忙しくないです。',
-            'メアリーさんはひまです。'
-          ]
-        },
-        
-        {
-          question : 'Mary is not busy.',
-          answers : [
-            'Aメアリーさんはひまです。',
-            'Aメアリーさんは忙しくないです。',
-            'メアリーさんはひまなです。',
-            'メアリーさんは忙しいないです。'
-          ]
-        },
-        
-        {
-          question : 'This town is quiet.',
-          answers : [
-            'Aこの町は静かです。',
-            'Aこの町はにぎやかじゃないです。',
-            'この町は静かなです。',
-            'この町はにぎやかないです。'
-          ]
-        },
-        
-        {
-          question : 'This town is lively.',
-          answers : [
-            'Aこの町はにぎやかです。',
-            'Aこの町は静かじゃないです。',
-            'この町はにぎやかなです。',
-            'この町は静かないです。'
-          ]
-        },
-        
-        {
-          question : 'This room is clean.',
-          answers : [
-            'Aこの部屋はきれいです。',
-            'この部屋はきれいなです。',
-            'この部屋はきれいじゃないです。',
-            'この部屋はきれくないです。'
-          ]
-        },
-        
-        {
-          question : 'This room is not clean.',
-          answers : [
-            'Aこの部屋はきれいじゃないです。',
-            'この部屋はきれくないです。',
-            'この部屋はきれいないです。',
-            'この部屋はきれくじゃないです。'
-          ]
-        },
-        
-        {
-          question : 'This test is good. (Score: 100/100)',
-          answers : [
-            'Aこのテストはいいです。',
-            'このテストはよくです。',
-            'このテストはよくないです。',
-            'このテストはいいないです。'
-          ]
-        },
-        
-        {
-          question : 'This test is not good. (Score: 0/100)',
-          answers : [
-            'Aこのテストはよくないです。',
-            'このテストはいいないです。',
-            'このテストはいいじゃないです。',
-            'このテストはよくじゃないです。'
-          ]
-        }
+        '<div class="count-problems columns-2 clear">'+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>今日<rt>きょう</rt></ruby>はひまですか。<br>'+
+              '{ええ、ひまです|いいえ、ひまじゃないです|ええ、暇です|いいえ、暇じゃないです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>先生<rt>せんせい</rt></ruby>はやさしいですか。<br>'+
+              '{ええ、やさしいです|いいえ、やさしくないです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>学校<rt>がっこう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいですか。<br>'+
+              '{ええ、大きいです|いいえ、大きくないです|ええ、おおきいです|いいえ、おおきくないです|answer;width:182}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>部屋<rt>へや</rt></ruby>はきれいですか。<br>'+
+              '{ええ、きれいです|いいえ、きれいじゃないです|ええ、綺麗です|いいえ、綺麗じゃないです|answer}。'+
+            '</div>'+
+          '</div>'+
+
+          '<div>'+
+            '<div class="problem">'+
+              '<ruby>日本<rt>にほん</rt></ruby>の<ruby>食べ物<rt>たべもの</rt></ruby>はおいしいですか。<br>'+
+              '{ええ、おいしいです|いいえ、おいしくないです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'クラスはおもしろいですか。<br>'+
+              '{ええ、おもしろいです|いいえ、おもしろくないです|ええ、面白いです|いいえ、面白くないです|answer}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              '<ruby>宿題<rt>しゅくだい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいですか。<br>'+
+              '{ええ、難しいです|いいえ、難しくないです|ええ、むずかしいです|いいえ、むずかしくないです|answer;width:196}。'+
+            '</div>'+
+            
+            '<div class="problem">'+
+              'あなたの<ruby>町<rt>まち</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かですか。<br>'+
+              '{ええ、静かです|いいえ、静かじゃないです|ええ、しずかです|いいえ、しずかじゃないです|answer;width:196}。'+
+            '</div>'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>

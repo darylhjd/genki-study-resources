@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Workbook: Numbers - Lesson 1 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Workbook: Numbers - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Workbook: Numbers - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Workbook: Numbers - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Write the following numbers in Arabic numerals.">
-    <meta property="og:description" content="Write the following numbers in Arabic numerals.">
+    <title>Workbook: XはYです - Lesson 1 | Genki Study Resources</title>
+    <meta name="title" content="Workbook: XはYです - Lesson 1 | Genki Study Resources">
+    <meta name="twitter:title" content="Workbook: XはYです - Lesson 1 | Genki Study Resources">
+    <meta property="og:title" content="Workbook: XはYです - Lesson 1 | Genki Study Resources">
+    <meta name="description" content="Solve the problems using the framework &quot;XはYです.&quot;">
+    <meta property="og:description" content="Solve the problems using the framework &quot;XはYです.&quot;">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I Workbook, page 13, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I Workbook, page 16, problem I, problem II, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,39 +70,55 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
       type : 'fill',
-      info : 'Write the following numbers in Arabic numerals (e.g. 3, 12, 20..).',
-      
+      info : 'Solve the problems using the framework "{!GRI|XはYです|l1-p1}."',
+
       quizlet : 
-      '<div class="columns-2 count-problems small-margin clear">'+
-        '<div>'+
-          '<div class="problem">ご　　　{5}</div>'+
-          '<div class="problem">ぜろ　　{0}</div>'+
-          '<div class="problem">きゅう　{9}</div>'+
-          '<div class="problem">さん　　{3}</div>'+
-          '<div class="problem">なな　　{7}</div>'+
-          '<div class="problem">に　　　{2}</div>'+
-          '<div class="problem">ろく　　{6}</div>'+
-          '<div class="problem">いち　　{1}</div>'+
-          '<div class="problem">はち　　{8}</div>'+
-          '<div class="problem">よん　　{4}</div>'+
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">I</span>Look at Takeshi\'s profile and describe him in Japanese.</p>'+
+      '<div class="columns-2 clear">'+
+        '<div class="count-problems">'+
+          '<div class="problem">たけしさんは{にじゅうにさいです|二十二歳です|answer;width:200;hint:(age)}。</div>'+
+          '<div class="problem">たけしさんは{にほんじんです|日本人です|answer;width:200;hint:(nationality)}。</div>'+
+          '<div class="problem">たけしさんは{よねんせいです|四年生です|answer;width:200;hint:(year in school)}。</div>'+
         '</div>'+
+
+        '<div class="center">'+
+          '{!IMG|3rd-takeshi.png|たけし}<br>'+
+          'Takeshi, 22 years old<br>'+
+          'Japanese<br>'+
+          '4th-year student'+
+        '</div>'+
+      '</div>'+
         
-        '<div>'+
-          '<div class="problem">じゅうろく　　　　　　{16}</div>'+
-          '<div class="problem">よんじゅう　　　　　　{40}</div>'+
-          '<div class="problem">にじゅういち　　　　　{21}</div>'+
-          '<div class="problem">ひゃくろくじゅうよん　{164}</div>'+
-          '<div class="problem">きゅうじゅうに　　　　{92}</div>'+
-          '<div class="problem">さんじゅうご　　　　　{35}</div>'+
-          '<div class="problem">ななじゅうろく　　　　{76}</div>'+
-          '<div class="problem">じゅうはち　　　　　　{18}</div>'+
-          '<div class="problem">ひゃくごじゅうなな　　{157}</div>'+
-          '<div class="problem">ひゃくいち　　　　　　{101}</div>'+
+      '<p class="sectionDesc3rd"><span class="sectionNumber3rd">II</span>Using the framework "XはYです," translate the following sentences into Japanese.</p>'+
+      '<div class="count-problems">'+
+        '<div class="problem">'+
+          'Ms. Ogawa is Japanese.<br>'+
+          '{おがわさん}は{にほんじん|日本人|answer}です。'+
+        '</div>'+
+
+        '<div class="problem">'+
+          'Mr. Takeda is a teacher.<br>'+
+          '{たけださんはせんせいです|たけださんは先生です|answer}。'+
+        '</div>'+
+
+        '<div class="problem">'+
+          'I am an international student.<br>'+
+          '{わたしはりゅうがくせいです|私は留学生です|' + Genki.getAlts('{私}は{留学生}です', 'わたし|りゅうがくせい') + 'answer}。'+
+        '</div>'+
+
+        '<div class="problem">'+
+          'Haruna is a first-year student.<br>'+
+          '{はるなさんはいちねんせいです|はるなさんは一年生です|answer}。'+
+        '</div>'+
+
+        '<div class="problem">'+
+          'Ms. Yamamoto is 25 years old.<br>'+
+          '{やまもとさんはにじゅうごさいです|やまもとさんは二十五歳です|answer}。'+
         '</div>'+
       '</div>'
       

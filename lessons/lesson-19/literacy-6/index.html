@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Kanji Practice: Write the Readings - Lesson 19 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Kanji Practice: Write the Readings - Lesson 19 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Kanji Practice: Write the Readings - Lesson 19 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Kanji Practice: Write the Readings - Lesson 19 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="次の漢字の読み方を書きましょう。(Write the readings of the following kanji.)">
-    <meta property="og:description" content="次の漢字の読み方を書きましょう。(Write the readings of the following kanji.)">
+    <title>Kanji Vocabulary: 姉, 兄, 漢, and 卒 - Lesson 19 | Genki Study Resources</title>
+    <meta name="title" content="Kanji Vocabulary: 姉, 兄, 漢, and 卒 - Lesson 19 | Genki Study Resources">
+    <meta name="twitter:title" content="Kanji Vocabulary: 姉, 兄, 漢, and 卒 - Lesson 19 | Genki Study Resources">
+    <meta property="og:title" content="Kanji Vocabulary: 姉, 兄, 漢, and 卒 - Lesson 19 | Genki Study Resources">
+    <meta name="description" content="Drag the English expression to the Japanese expression that has the same meaning.">
+    <meta property="og:description" content="Drag the English expression to the Japanese expression that has the same meaning.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki II, Reading and Writing, page 317, problem I-A, problem I-B, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki II, Reading and Writing, page 313, page 314, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,38 +70,33 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'fill',
-      info : '次の漢字の読み方を書きましょう。(Write the readings of the following kanji.)',
+      format : 'vocab',
+      type : ['drag', 'multi', 'writing', 'fill'],
+      info : [Genki.lang.std_drag, Genki.lang.vocab_multi, Genki.lang.vocab_writing, Genki.lang.vocab_fill],
       
-      quizlet : 
-      '<div class="columns-2 count-problems small-margin clear">'+
-        '<div>'+
-          '<div class="problem">世話　　　{せわ}</div>'+
-          '<div class="problem">大切　　　{たいせつ}</div>'+
-          '<div class="problem">不安　　　{ふあん}</div>'+
-          '<div class="problem">友人　　　{ゆうじん}</div>'+
-          '<div class="problem">思い出す　{おもいだす}</div>'+
-          '<div class="problem">大学院　　{だいがくいん}</div>'+
-          '<div class="problem">手紙　　　{てがみ}</div>'+
-          '<div class="problem">さむい日　{さむいひ}</div>'+
-        '</div>'+
-        
-        '<div>'+
-          '<div class="problem">出る　　{でる}</div>'+
-          '<div class="problem">上手　　{じょうず}</div>'+
-          '<div class="problem">教える　{おしえる}</div>'+
-          '<div class="problem">本当に　{ほんとうに}</div>'+
-          '<div class="problem">来年　　{らいねん}</div>'+
-          '<div class="problem">その時　{そのとき}</div>'+
-          '<div class="problem">十日　　{とおか}</div>'+
-          '<div class="problem">特に　　{とくに}</div>'+
-        '</div>'+
-      '</div>'
-        
+      quizlet : {
+        // 姉
+        '姉|あね' : 'older sister',
+        'お姉さん|おねえさん' : 'older sister (honorific)',
+        '姉妹|しまい' : 'sisters',
+        '姉妹都市|しまいとし' : 'sister city',
+        // 兄
+        '兄|あに' : 'older brother',
+        'お兄さん|おにいさん' : 'older brother (honorific)',
+        '兄弟|きょうだい' : 'brothers',
+        // 漢
+        '漢字|かんじ' : 'Chinese character',
+        '漢方薬|かんぽうやく' : 'Chinese herbal medicine',
+        '漢和辞典|かんわじてん' : 'Kanji dictionary',
+        // 卒
+        '卒業する|そつぎょうする' : 'to graduate',
+        '卒業式|そつぎょうしき' : 'graduation ceremony',
+        '大卒|だいそつ' : 'university graduate'
+      }
     });</script>
   </body>
 </html>

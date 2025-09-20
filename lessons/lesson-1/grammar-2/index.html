@@ -2,15 +2,15 @@
 <html lang="en" prefix="og: http://ogp.me/ns#" class="lang-en">
   <head>
     <meta charset="UTF-8">
-    <title>Practice: XはYです 1 - Lesson 1 | Genki Study Resources - 2nd Edition</title>
-    <meta name="title" content="Practice: XはYです 1 - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="twitter:title" content="Practice: XはYです 1 - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta property="og:title" content="Practice: XはYです 1 - Lesson 1 | Genki Study Resources - 2nd Edition">
-    <meta name="description" content="Look at the table below, then read the questions and choose the correct descriptions for each person.">
-    <meta property="og:description" content="Look at the table below, then read the questions and choose the correct descriptions for each person.">
+    <title>Practice: XはYです 2 (Year in School) - Lesson 1 | Genki Study Resources</title>
+    <meta name="title" content="Practice: XはYです 2 (Year in School) - Lesson 1 | Genki Study Resources">
+    <meta name="twitter:title" content="Practice: XはYです 2 (Year in School) - Lesson 1 | Genki Study Resources">
+    <meta property="og:title" content="Practice: XはYです 2 (Year in School) - Lesson 1 | Genki Study Resources">
+    <meta name="description" content="Look at the table below and tell which year of university each person is in.">
+    <meta property="og:description" content="Look at the table below and tell which year of university each person is in.">
     <link rel="shortcut icon" type="image/x-icon" href="../../../resources/images/genkico.ico">
 
-    <meta name="keywords" content="Genki I, page 51, page 52, problem V-A, japanese, quizzes, exercises, 2nd Edition" lang="en">
+    <meta name="keywords" content="Genki I, page 46, problem I-B, japanese, quizzes, exercises, 3rd Edition" lang="en">
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,7 +29,7 @@
   <body>
     
     <header>
-      <h1><a href="../../../" id="home-link" class="edition-icon second-ed">Genki Study Resources</a></h1>
+      <h1><a href="../../../" id="home-link" class="edition-icon">Genki Study Resources</a></h1>
       <a id="fork-me" href="https://github.com/SethClydesdale/genki-study-resources">Fork Me</a>
     </header>
     
@@ -70,28 +70,29 @@
     
     <script src="../../../resources/javascript/dragula.min.js"></script>
     <script src="../../../resources/javascript/easytimer.min.js"></script>
-    <script src="../../../resources/javascript/exercises/2nd-ed.min.js"></script>
+    <script src="../../../resources/javascript/exercises/3rd-ed.min.js"></script>
     <script src="../../../resources/javascript/genki.min.js"></script>
     <script src="../../../resources/javascript/all.min.js"></script>
     <script>Genki.generateQuiz({
-      type : 'multi',
-      info : 'Look at the table below, then read the questions and choose the correct descriptions for each person using {!GRI|XはYです|l1-p1}.<br><br>'+
+      format : 'practice',
+      type : ['multi', 'fill'],
+      info : ['Look at the table below and tell which year of university each person is in using {!GRI|XはYです|l1-p1}.<br><br>'+
       '<table class="center">'+
         '<tr style="font-weight:bold">'+
           '<td></td>'+
-          '<td>Hart, Mary</td>'+
-          '<td>きむら　たけし</td>'+
-          '<td>Kim, Sue</td>'+
-          '<td>Smith, Robert</td>'+
-          '<td>やましたせんせい</td>'+
+          '<td>メアリー・ハート<br><small>Hart, Mary</small></td>'+
+          '<td>きむら　たけし<br><small>Kimura Takeshi</small></td>'+
+          '<td>ソラ・キム<br><small>Kim, Sora</small></td>'+
+          '<td>ロバート・スミス<br><small>Smith, Robert</small></td>'+
+          '<td>やましたせんせい<br><small>Yamashita sensei</small></td>'+
         '</tr>'+
         
         '<tr>'+
           '<td style="font-weight:bold">Nationality</td>'+
           '<td>American</td>'+
           '<td>Japanese</td>'+
-          '<td>かんこくじん (Korean)</td>'+
-          '<td>イギリスじん (British)</td>'+
+          '<td>Korean<br>(かんこくじん)</td>'+
+          '<td>British<br>(イギリスじん)</td>'+
           '<td>Japanese</td>'+
         '</tr>'+
         
@@ -112,233 +113,111 @@
           '<td>22</td>'+
           '<td>47</td>'+
         '</tr>'+
-        
-        '<tr>'+
-          '<td style="font-weight:bold">School</td>'+
-          '<td>Arizona University</td>'+
-          '<td>Sakura University</td>'+
-          '<td>Seoul University</td>'+
-          '<td>London University</td>'+
-          '<td>Sakura University</td>'+
-        '</tr>'+
-        
-        '<tr>'+
-          '<td style="font-weight:bold">Major</td>'+
-          '<td>Japanese</td>'+
-          '<td>れきし (history)</td>'+
-          '<td>コンピューター (computer)</td>'+
-          '<td>ビジネス (business)</td>'+
-          '<td>(Japanese teacher)</td>'+
-        '</tr>'+
-      '</table>',
+      '</table>', 'Look at the table below and tell which year of university each person is in using {!GRI|XはYです|l1-p1}.'],
 
       quizlet : [
-        {
-          question : 'What is Mary\'s Nationality?',
-          answers : [
-            'Aメアリーさんはアメリカじんです。',
-            'メアリーさんはアメリカです。',
-            'メアリーさんアメリカじんです。'
-          ]
-        },
+        [
+          // MULTIPLE CHOICE
+          {
+            question : 'What year of university is Mary in?',
+            answers : [
+              'Aメアリーさんはにねんせいです。',
+              'メアリーさんはよねんせいです。',
+              'メアリーさんにねんせいです。'
+            ]
+          },
+
+          {
+            question : 'What year of university is Takeshi in?',
+            answers : [
+              'Aたけしさんはよねんせいです。',
+              'たけしさんはにねんせいです。',
+              'たけしさんよねんせいです。'
+            ]
+          },
+
+          {
+            question : 'What year of university is Sora in?',
+            answers : [
+              'Aソラさんはさんねんせいです。',
+              'ソラさんはいちねんせいです。',
+              'ソラさんさんねんせいです。'
+            ]
+          },
+
+          {
+            question : 'What year of university is Robert in?',
+            answers : [
+              'Aロバートさんはよねんせいです。',
+              'ロバートさんはにねんせいです。',
+              'ロバートさんよねんせいです。'
+            ]
+          }
+        ],
         
-        {
-          question : 'What is Takeshi\'s Nationality?',
-          answers : [
-            'Aたけしさんはにほんじんです。',
-            'たけしさんはにほんです。',
-            'たけしさんにほんじんです。'
-          ]
-        },
         
-        {
-          question : 'What is Sue\'s Nationality?',
-          answers : [
-            'Aスーさんはかんこくじんです。',
-            'スーさんはかんこくです。',
-            'スーさんかんこくじんです。'
-          ]
-        },
-        
-        {
-          question : 'What is Robert\'s Nationality?',
-          answers : [
-            'Aロバートさんはイギリスじんです。',
-            'ロバートさんはイギリスです。',
-            'ロバートさんイギリスじんです。'
-          ]
-        },
-        
-        {
-          question : 'What is Professor Yamashita\'s Nationality?',
-          answers : [
-            'Aやましたせんせいはにほんじんです。',
-            'やましたせんせいはにほんです。',
-            'やましたせんせいにほんじんです。'
-          ]
-        },
-        
-        {
-          question : 'What year of university is Mary in?',
-          answers : [
-            'Aメアリーさんはにねんせいです。',
-            'メアリーさんはよねんせいです。',
-            'メアリーさんにねんせいです。'
-          ]
-        },
-        
-        {
-          question : 'What year of university is Takeshi in?',
-          answers : [
-            'Aたけしさんはよねんせいです。',
-            'たけしさんはにねんせいです。',
-            'たけしさんよねんせいです。'
-          ]
-        },
-        
-        {
-          question : 'What year of university is Sue in?',
-          answers : [
-            'Aスーさんはさんねんせいです。',
-            'スーさんはいちねんせいです。',
-            'スーさんさんねんせいです。'
-          ]
-        },
-        
-        {
-          question : 'What year of university is Robert in?',
-          answers : [
-            'Aロバートさんはよねんせいです。',
-            'ロバートさんはにねんせいです。',
-            'ロバートさんよねんせいです。'
-          ]
-        },
-        
-        {
-          question : 'How old is Mary?',
-          answers : [
-            'Aメアリーさんはじゅうきゅうさいです。',
-            'メアリーさんはじゅうきゅうです。',
-            'メアリーさんじゅうきゅうさいです。'
-          ]
-        },
-        
-        {
-          question : 'How old is Takeshi?',
-          answers : [
-            'Aたけしさんはにじゅうにさいです。',
-            'たけしさんはにじゅうにです。',
-            'たけしさんにじゅうにさいです。'
-          ]
-        },
-        
-        {
-          question : 'How old is Sue?',
-          answers : [
-            'Aスーさんははたちです。',
-            'Aスーさんはにじゅっさいです。',
-            'スーさんはにじゅうさいです。'
-          ]
-        },
-        
-        {
-          question : 'How old is Robert?',
-          answers : [
-            'Aロバートさんはにじゅうにさいです。',
-            'ロバートさんはにじゅうにです。',
-            'ロバートさんにじゅうにさいです。'
-          ]
-        },
-        
-        {
-          question : 'How old is Professor Yamashita?',
-          answers : [
-            'Aやましたせんせいはよんじゅうななさいです。',
-            'やましたせんせいはよんじゅうななです。',
-            'やましたせんせいよんじゅうななさいです。'
-          ]
-        },
-        
-        {
-          question : 'What university is Mary a student of?',
-          answers : [
-            'Aメアリーさんはアリゾナだいがくのがくせいです。',
-            'メアリーさんはがくせいのアリゾナだいがくです。',
-            'メアリーさんのアリゾナだいがくはがくせいです。'
-          ]
-        },
-        
-        {
-          question : 'What university is Takeshi a student of?',
-          answers : [
-            'Aたけしさんはさくらだいがくのがくせいです。',
-            'たけしさんはがくせいのさくらだいがくです。',
-            'たけしさんのさくらだいがくはがくせいです。'
-          ]
-        },
-        
-        {
-          question : 'What university is Sue a student of?',
-          answers : [
-            'Aスーさんはソウルだいがくのがくせいです。',
-            'スーさんはがくせいのソウルだいがくです。',
-            'スーさんのソウルだいがくはがくせいです。'
-          ]
-        },
-        
-        {
-          question : 'What university is Robert a student of?',
-          answers : [
-            'Aロバートさんはロンドンだいがくのがくせいです。',
-            'ロバートさんはがくせいのロンドンだいがくです。',
-            'ロバートさんのロンドンだいがくはがくせいです。'
-          ]
-        },
-        
-        {
-          question : 'What university is Professor Yamashita a teacher of?',
-          answers : [
-            'Aやましたせんせいはさくらだいがくのせんせいです。',
-            'やましたせんせいはせんせいのさくらだいがくです。',
-            'やましたせんせいのさくらだいがくはせんせいです。'
-          ]
-        },
-        
-        {
-          question : 'What is Mary\'s major?',
-          answers : [
-            'Aメアリーさんのせんこうはにほんごです。',
-            'メアリーさんのにほんごはせんこうです。',
-            'メアリーさんはせんこうのにほんごです。'
-          ]
-        },
-        
-        {
-          question : 'What is Takeshi\'s major?',
-          answers : [
-            'Aたけしさんのせんこうはれきしです。',
-            'たけしさんのれきしはせんこうです。',
-            'たけしさんはせんこうのれきしです。'
-          ]
-        },
-        
-        {
-          question : 'What is Sue\'s major?',
-          answers : [
-            'Aスーさんのせんこうはコンピューターです。',
-            'スーさんのコンピューターはせんこうです。',
-            'スーさんはせんこうのコンピューターです。'
-          ]
-        },
-        
-        {
-          question : 'What is Robert\'s major?',
-          answers : [
-            'Aロバートさんのせんこうはビジネスです。',
-            'ロバートさんのビジネスはせんこうです。',
-            'ロバートさんはせんこうのビジネスです。'
-          ]
-        }
+        // WRITTEN
+        '<div class="count-problems">'+
+          '<table class="table center">'+
+            '<tr style="font-weight:bold">'+
+              '<td></td>'+
+              '<td>メアリー・ハート<br><small>Hart, Mary</small></td>'+
+              '<td>きむら　たけし<br><small>Kimura Takeshi</small></td>'+
+              '<td>ソラ・キム<br><small>Kim, Sora</small></td>'+
+              '<td>ロバート・スミス<br><small>Smith, Robert</small></td>'+
+              '<td>やましたせんせい<br><small>Yamashita sensei</small></td>'+
+            '</tr>'+
+
+            '<tr>'+
+              '<td style="font-weight:bold">Nationality</td>'+
+              '<td>American</td>'+
+              '<td>Japanese</td>'+
+              '<td>Korean<br>(かんこくじん)</td>'+
+              '<td>British<br>(イギリスじん)</td>'+
+              '<td>Japanese</td>'+
+            '</tr>'+
+
+            '<tr>'+
+              '<td style="font-weight:bold">Year</td>'+
+              '<td>2nd year</td>'+
+              '<td>4th year</td>'+
+              '<td>3rd year</td>'+
+              '<td>4th year</td>'+
+              '<td></td>'+
+            '</tr>'+
+
+            '<tr>'+
+              '<td style="font-weight:bold">Age</td>'+
+              '<td>19</td>'+
+              '<td>22</td>'+
+              '<td>20</td>'+
+              '<td>22</td>'+
+              '<td>47</td>'+
+            '</tr>'+
+          '</table><br>'+
+
+          '<div class="example-problem">'+
+            '<div class="inner-problem">'+
+              'What year of university is Mary in?<br>'+
+              '{メアリーさん}は{に|二|answer}ねんせいです。'+
+            '</div>'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'What year of university is Takeshi in?<br>'+
+            '{たけしさんはよねんせいです|たけしさんは四年生です|answer}。'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'What year of university is Sora in?<br>'+
+            '{ソラさんはさんねんせいです|ソラさんは三年生です|answer}。'+
+          '</div>'+
+
+          '<div class="problem">'+
+            'What year of university is Robert in?<br>'+
+            '{ロバートさんはよねんせいです|ロバートさんは四年生です|answer}。'+
+          '</div>'+
+        '</div>'
       ]
     });</script>
   </body>
